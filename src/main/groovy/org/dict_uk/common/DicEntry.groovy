@@ -37,7 +37,7 @@ class DicEntry {
 	  }
 		
 	  def parts = line.split()
-	  assert parts.size() == 3
+	  assert parts.size() == 3, "Expected 3 parts in $line"
 	  	
 
 	  return new DicEntry(parts[0], parts[1], parts[2]) //, comment_)

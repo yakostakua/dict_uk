@@ -1,270 +1,270 @@
 # Іменникові займенники
-я я noun:anim:s:v_naz:&pron:pers:1
-мене я noun:anim:s:v_rod/v_zna:&pron:pers:1
-мені я noun:anim:s:v_dav/v_mis:&pron:pers:1
-мною я noun:anim:s:v_oru:&pron:pers:1
+я я noun:anim:g1s:v_naz:&pron:pers
+мене я noun:anim:g1s:v_rod/v_zna:&pron:pers
+мені я noun:anim:g1s:v_dav/v_mis:&pron:pers
+мною я noun:anim:g1s:v_oru:&pron:pers
 
-ти ти noun:anim:s:v_naz/v_kly:&pron:pers:2
-тебе ти noun:anim:s:v_rod/v_zna:&pron:pers:2
-тобі ти noun:anim:s:v_dav/v_mis:&pron:pers:2
-тобою ти noun:anim:s:v_oru:&pron:pers:2
+ти ти noun:anim:g2s:v_naz/v_kly:&pron:pers
+тебе ти noun:anim:g2s:v_rod/v_zna:&pron:pers
+тобі ти noun:anim:g2s:v_dav/v_mis:&pron:pers
+тобою ти noun:anim:g2s:v_oru:&pron:pers
 
-він він noun:m:v_naz:&pron:pers:3
-його він noun:m:v_rod/v_zna:&pron:pers:3
-нього він noun:m:v_rod/v_zna:&pron:pers:3
-йому він noun:m:v_dav:&pron:pers:3
-ньому він noun:m:v_mis:&pron:pers:3
-ним він noun:m:v_oru:&pron:pers:3
-нім він noun:m:v_mis:&pron:pers:3
+він він noun:gms:v_naz:&pron:pers:g3s
+його він noun:gms:v_rod/v_zna:&pron:pers:g3s
+нього він noun:gms:v_rod/v_zna:&pron:pers:g3s
+йому він noun:gms:v_dav:&pron:pers:g3s
+ньому він noun:gms:v_mis:&pron:pers:g3s
+ним він noun:gms:v_oru:&pron:pers:g3s
+нім він noun:gms:v_mis:&pron:pers:g3s
 
-вона вона noun:f:v_naz:&pron:pers:3
-її вона noun:f:v_rod/v_zna:&pron:pers:3
-неї вона noun:f:v_rod/v_zna:&pron:pers:3
-їй вона noun:f:v_dav:&pron:pers:3
-нею вона noun:f:v_oru:&pron:pers:3
-ній вона noun:f:v_mis:&pron:pers:3
+вона вона noun:gfs:v_naz:&pron:pers:g3s
+її вона noun:gfs:v_rod/v_zna:&pron:pers:g3s
+неї вона noun:gfs:v_rod/v_zna:&pron:pers:g3s
+їй вона noun:gfs:v_dav:&pron:pers:g3s
+нею вона noun:gfs:v_oru:&pron:pers:g3s
+ній вона noun:gfs:v_mis:&pron:pers:g3s
 
-воно воно noun:n:v_naz:&pron:pers:3
-його воно noun:n:v_rod/v_zna:&pron:pers:3
-нього воно noun:n:v_rod/v_zna:&pron:pers:3
-йому воно noun:n:v_dav:&pron:pers:3
-ньому воно noun:n:v_mis:&pron:pers:3
-ним воно noun:n:v_oru:&pron:pers:3
+воно воно noun:gns:v_naz:&pron:pers:g3s
+його воно noun:gns:v_rod/v_zna:&pron:pers:g3s
+нього воно noun:gns:v_rod/v_zna:&pron:pers:g3s
+йому воно noun:gns:v_dav:&pron:pers:g3s
+ньому воно noun:gns:v_mis:&pron:pers:g3s
+ним воно noun:gns:v_oru:&pron:pers:g3s
 
-ми ми noun:p:v_naz:&pron:pers:1
-нас ми noun:p:v_rod/v_zna/v_mis:&pron:pers:1
-нам ми noun:p:v_dav:&pron:pers:1
-нами ми noun:p:v_oru:&pron:pers:1
+вони вони noun:g3p:v_naz:&pron:pers
+їх вони noun:g3p:v_rod/v_zna:&pron:pers
+них вони noun:g3p:v_rod/v_zna/v_mis:&pron:pers
+їм вони noun:g3p:v_dav:&pron:pers
+ними вони noun:g3p:v_oru:&pron:pers
 
-ви ви noun:p:v_naz/v_kly:&pron:pers:2
-вас ви noun:p:v_rod/v_zna/v_mis:&pron:pers:2
-вам ви noun:p:v_dav:&pron:pers:2
-вами ви noun:p:v_oru:&pron:pers:2
+ми ми noun:anim:g1p:v_naz:&pron:pers
+нас ми noun:anim:g1p:v_rod/v_zna/v_mis:&pron:pers
+нам ми noun:anim:g1p:v_dav:&pron:pers
+нами ми noun:anim:g1p:v_oru:&pron:pers
 
-вони вони noun:p:v_naz:&pron:pers:3
-їх вони noun:p:v_rod/v_zna:&pron:pers:3
-них вони noun:p:v_rod/v_zna/v_mis:&pron:pers:3
-їм вони noun:p:v_dav:&pron:pers:3
-ними вони noun:p:v_oru:&pron:pers:3
+ви ви noun:anim:g2p:v_naz/v_kly:&pron:pers
+вас ви noun:anim:g2p:v_rod/v_zna/v_mis:&pron:pers
+вам ви noun:anim:g2p:v_dav:&pron:pers
+вами ви noun:anim:g2p:v_oru:&pron:pers
 
 хто хто conj:subord
-хто хто noun:anim:m:v_naz:&pron:int:rel
-кого хто noun:anim:m:v_rod/v_zna:&pron:int:rel
-кому хто noun:anim:m:v_dav/v_mis:&pron:int:rel
-ким хто noun:anim:m:v_oru:&pron:int:rel
-кім хто noun:anim:m:v_mis:&pron:int:rel
+хто хто noun:anim:gms:v_naz:&pron:int:rel
+кого хто noun:anim:gms:v_rod/v_zna:&pron:int:rel
+кому хто noun:anim:gms:v_dav/v_mis:&pron:int:rel
+ким хто noun:anim:gms:v_oru:&pron:int:rel
+кім хто noun:anim:gms:v_mis:&pron:int:rel
 
 що що conj:subord
-що що noun:inanim:n:v_naz/v_zna:&pron:int:rel
-віщо що noun:inanim:n:v_zna:&pron:int:rel
-чого що noun:inanim:n:v_rod:&pron:int:rel
-чому що noun:inanim:n:v_dav/v_mis:&pron:int:rel
-чим що noun:inanim:n:v_oru:&pron:int:rel
-чім що noun:inanim:n:v_mis:&pron:int:rel
+що що noun:inanim:gns:v_naz/v_zna:&pron:int:rel
+віщо що noun:inanim:gns:v_zna:&pron:int:rel
+чого що noun:inanim:gns:v_rod:&pron:int:rel
+чому що noun:inanim:gns:v_dav/v_mis:&pron:int:rel
+чим що noun:inanim:gns:v_oru:&pron:int:rel
+чім що noun:inanim:gns:v_mis:&pron:int:rel
 
-абихто абихто noun:anim:m:v_naz:&pron:ind
-абикого абихто noun:anim:m:v_rod/v_zna:&pron:ind
-абикому абихто noun:anim:m:v_dav/v_mis:&pron:ind
-абиким абихто noun:anim:m:v_oru:&pron:ind
-абикім абихто noun:anim:m:v_mis:&pron:ind
+абихто абихто noun:anim:gms:v_naz:&pron:ind
+абикого абихто noun:anim:gms:v_rod/v_zna:&pron:ind
+абикому абихто noun:anim:gms:v_dav/v_mis:&pron:ind
+абиким абихто noun:anim:gms:v_oru:&pron:ind
+абикім абихто noun:anim:gms:v_mis:&pron:ind
 
-абищо абищо noun:inanim:n:v_naz/v_zna:&pron:ind
-абичого абищо noun:inanim:n:v_rod:&pron:ind
-абичому абищо noun:inanim:n:v_dav/v_mis:&pron:ind
-абичим абищо noun:inanim:n:v_oru:&pron:ind
-абичім абищо noun:inanim:n:v_mis:&pron:ind
+абищо абищо noun:inanim:gns:v_naz/v_zna:&pron:ind
+абичого абищо noun:inanim:gns:v_rod:&pron:ind
+абичому абищо noun:inanim:gns:v_dav/v_mis:&pron:ind
+абичим абищо noun:inanim:gns:v_oru:&pron:ind
+абичім абищо noun:inanim:gns:v_mis:&pron:ind
 
-аніхто аніхто noun:anim:m:v_naz:&pron:neg
-анікого аніхто noun:anim:m:v_rod/v_zna:&pron:neg
-анікому аніхто noun:anim:m:v_dav/v_mis:&pron:neg
-аніким аніхто noun:anim:m:v_oru:&pron:neg
-анікім аніхто noun:anim:m:v_mis:&pron:neg
+аніхто аніхто noun:anim:gms:v_naz:&pron:neg
+анікого аніхто noun:anim:gms:v_rod/v_zna:&pron:neg
+анікому аніхто noun:anim:gms:v_dav/v_mis:&pron:neg
+аніким аніхто noun:anim:gms:v_oru:&pron:neg
+анікім аніхто noun:anim:gms:v_mis:&pron:neg
 
-аніщо аніщо noun:inanim:n:v_naz/v_zna:&pron:neg
-анічого аніщо noun:inanim:n:v_rod/v_zna:&pron:neg
-анічому аніщо noun:inanim:n:v_dav/v_mis:&pron:neg
-анічим аніщо noun:inanim:n:v_oru:&pron:neg
-анічім аніщо noun:inanim:n:v_mis:&pron:neg
+аніщо аніщо noun:inanim:gns:v_naz/v_zna:&pron:neg
+анічого аніщо noun:inanim:gns:v_rod/v_zna:&pron:neg
+анічому аніщо noun:inanim:gns:v_dav/v_mis:&pron:neg
+анічим аніщо noun:inanim:gns:v_oru:&pron:neg
+анічім аніщо noun:inanim:gns:v_mis:&pron:neg
 
-небагато-хто небагато-хто noun:anim:m:v_naz:&pron:ind
-небагато-кого небагато-хто noun:anim:m:v_rod/v_zna:&pron:ind
-небагато-кому небагато-хто noun:anim:m:v_dav/v_mis:&pron:ind
-небагато-ким небагато-хто noun:anim:m:v_oru:&pron:ind
-небагато-кім небагато-хто noun:anim:m:v_mis:&pron:ind
+небагато-хто небагато-хто noun:anim:gms:v_naz:&pron:ind
+небагато-кого небагато-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+небагато-кому небагато-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+небагато-ким небагато-хто noun:anim:gms:v_oru:&pron:ind
+небагато-кім небагато-хто noun:anim:gms:v_mis:&pron:ind
 
-невість-хто невість-хто noun:anim:m:v_naz:&pron:ind
-невість-кого невість-хто noun:anim:m:v_rod/v_zna:&pron:ind
-невість-кому невість-хто noun:anim:m:v_dav/v_mis:&pron:ind
-невість-ким невість-хто noun:anim:m:v_oru:&pron:ind
-невість-кім невість-хто noun:anim:m:v_mis:&pron:ind
+невість-хто невість-хто noun:anim:gms:v_naz:&pron:ind
+невість-кого невість-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+невість-кому невість-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+невість-ким невість-хто noun:anim:gms:v_oru:&pron:ind
+невість-кім невість-хто noun:anim:gms:v_mis:&pron:ind
 
-невіть-хто невіть-хто noun:anim:m:v_naz:&pron:ind
-невіть-кого невіть-хто noun:anim:m:v_rod/v_zna:&pron:ind
-невіть-кому невіть-хто noun:anim:m:v_dav/v_mis:&pron:ind
-невіть-ким невіть-хто noun:anim:m:v_oru:&pron:ind
-невіть-кім невіть-хто noun:anim:m:v_mis:&pron:ind
+невіть-хто невіть-хто noun:anim:gms:v_naz:&pron:ind
+невіть-кого невіть-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+невіть-кому невіть-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+невіть-ким невіть-хто noun:anim:gms:v_oru:&pron:ind
+невіть-кім невіть-хто noun:anim:gms:v_mis:&pron:ind
 
-будь-хто будь-хто noun:anim:m:v_naz:&pron:ind
-будь-кого будь-хто noun:anim:m:v_rod/v_zna:&pron:ind
-будь-кому будь-хто noun:anim:m:v_dav/v_mis:&pron:ind
-будь-ким будь-хто noun:anim:m:v_oru:&pron:ind
-будь-кім будь-хто noun:anim:m:v_mis:&pron:ind
+будь-хто будь-хто noun:anim:gms:v_naz:&pron:ind
+будь-кого будь-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+будь-кому будь-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+будь-ким будь-хто noun:anim:gms:v_oru:&pron:ind
+будь-кім будь-хто noun:anim:gms:v_mis:&pron:ind
 
 будь-що будь-що adv:&pron:ind
-будь-що будь-що noun:inanim:n:v_naz/v_zna:&pron:ind
-будь-чого будь-що noun:inanim:n:v_rod:&pron:ind
-будь-чому будь-що noun:inanim:n:v_dav/v_mis:&pron:ind
-будь-чим будь-що noun:inanim:n:v_oru:&pron:ind
-будь-чім будь-що noun:inanim:n:v_mis:&pron:ind
+будь-що будь-що noun:inanim:gns:v_naz/v_zna:&pron:ind
+будь-чого будь-що noun:inanim:gns:v_rod:&pron:ind
+будь-чому будь-що noun:inanim:gns:v_dav/v_mis:&pron:ind
+будь-чим будь-що noun:inanim:gns:v_oru:&pron:ind
+будь-чім будь-що noun:inanim:gns:v_mis:&pron:ind
 
-будлі-хто будлі-хто noun:anim:m:v_naz:&pron:ind:rare
-будлі-кого будлі-хто noun:anim:m:v_rod/v_zna:&pron:ind:rare
-будлі-кому будлі-хто noun:anim:m:v_dav/v_mis:&pron:ind:rare
-будлі-ким будлі-хто noun:anim:m:v_oru:&pron:ind:rare
-будлі-кім будлі-хто noun:anim:m:v_mis:&pron:ind:rare
+будлі-хто будлі-хто noun:anim:gms:v_naz:&pron:ind:rare
+будлі-кого будлі-хто noun:anim:gms:v_rod/v_zna:&pron:ind:rare
+будлі-кому будлі-хто noun:anim:gms:v_dav/v_mis:&pron:ind:rare
+будлі-ким будлі-хто noun:anim:gms:v_oru:&pron:ind:rare
+будлі-кім будлі-хто noun:anim:gms:v_mis:&pron:ind:rare
 
 будлі-що будлі-що adv:&pron:ind:rare
-будлі-що будлі-що noun:inanim:n:v_naz/v_zna:&pron:ind:rare
-будлі-чого будлі-що noun:inanim:n:v_rod:&pron:ind:rare
-будлі-чому будлі-що noun:inanim:n:v_dav/v_mis:&pron:ind:rare
-будлі-чим будлі-що noun:inanim:n:v_oru:&pron:ind:rare
-будлі-чім будлі-що noun:inanim:n:v_mis:&pron:ind:rare
+будлі-що будлі-що noun:inanim:gns:v_naz/v_zna:&pron:ind:rare
+будлі-чого будлі-що noun:inanim:gns:v_rod:&pron:ind:rare
+будлі-чому будлі-що noun:inanim:gns:v_dav/v_mis:&pron:ind:rare
+будлі-чим будлі-що noun:inanim:gns:v_oru:&pron:ind:rare
+будлі-чім будлі-що noun:inanim:gns:v_mis:&pron:ind:rare
 
-бозна-хто бозна-хто noun:anim:m:v_naz:&pron:ind
-бозна-кого бозна-хто noun:anim:m:v_rod/v_zna:&pron:ind
-бозна-кому бозна-хто noun:anim:m:v_dav/v_mis:&pron:ind
-бозна-ким бозна-хто noun:anim:m:v_oru:&pron:ind
-бозна-кім бозна-хто noun:anim:m:v_mis:&pron:ind
+бозна-хто бозна-хто noun:anim:gms:v_naz:&pron:ind
+бозна-кого бозна-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+бозна-кому бозна-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+бозна-ким бозна-хто noun:anim:gms:v_oru:&pron:ind
+бозна-кім бозна-хто noun:anim:gms:v_mis:&pron:ind
 
-бозна-що бозна-що noun:inanim:n:v_naz/v_zna:&pron:ind
-бозна-чого бозна-що noun:inanim:n:v_rod:&pron:ind
-бозна-чому бозна-що noun:inanim:n:v_dav/v_mis:&pron:ind
-бозна-чим бозна-що noun:inanim:n:v_oru:&pron:ind
-бозна-чім бозна-що noun:inanim:n:v_mis:&pron:ind
+бозна-що бозна-що noun:inanim:gns:v_naz/v_zna:&pron:ind
+бозна-чого бозна-що noun:inanim:gns:v_rod:&pron:ind
+бозна-чому бозна-що noun:inanim:gns:v_dav/v_mis:&pron:ind
+бозна-чим бозна-що noun:inanim:gns:v_oru:&pron:ind
+бозна-чім бозна-що noun:inanim:gns:v_mis:&pron:ind
 
-чортзна-хто чортзна-хто noun:anim:m:v_naz:&pron:ind:coll
-чортзна-кого чортзна-хто noun:anim:m:v_rod/v_zna:&pron:ind:coll
-чортзна-кому чортзна-хто noun:anim:m:v_dav/v_mis:&pron:ind:coll
-чортзна-ким чортзна-хто noun:anim:m:v_oru:&pron:ind:coll
-чортзна-кім чортзна-хто noun:anim:m:v_mis:&pron:ind:coll
+чортзна-хто чортзна-хто noun:anim:gms:v_naz:&pron:ind:coll
+чортзна-кого чортзна-хто noun:anim:gms:v_rod/v_zna:&pron:ind:coll
+чортзна-кому чортзна-хто noun:anim:gms:v_dav/v_mis:&pron:ind:coll
+чортзна-ким чортзна-хто noun:anim:gms:v_oru:&pron:ind:coll
+чортзна-кім чортзна-хто noun:anim:gms:v_mis:&pron:ind:coll
 
-чортзна-що чортзна-що noun:inanim:n:v_naz/v_zna:&pron:ind:coll
-чортзна-чого чортзна-що noun:inanim:n:v_rod:&pron:ind:coll
-чортзна-чому чортзна-що noun:inanim:n:v_dav/v_mis:&pron:ind:coll
-чортзна-чим чортзна-що noun:inanim:n:v_oru:&pron:ind:coll
-чортзна-чім чортзна-що noun:inanim:n:v_mis:&pron:ind:coll
+чортзна-що чортзна-що noun:inanim:gns:v_naz/v_zna:&pron:ind:coll
+чортзна-чого чортзна-що noun:inanim:gns:v_rod:&pron:ind:coll
+чортзна-чому чортзна-що noun:inanim:gns:v_dav/v_mis:&pron:ind:coll
+чортзна-чим чортзна-що noun:inanim:gns:v_oru:&pron:ind:coll
+чортзна-чім чортзна-що noun:inanim:gns:v_mis:&pron:ind:coll
 
-хтозна-що хтозна-що noun:inanim:n:v_naz/v_zna:&pron:ind:coll
-хтозна-чого хтозна-що noun:inanim:n:v_rod:&pron:ind:coll
-хтозна-чому хтозна-що noun:inanim:n:v_dav/v_mis:&pron:ind:coll
-хтозна-чим хтозна-що noun:inanim:n:v_oru:&pron:ind:coll
-хтозна-чім хтозна-що noun:inanim:n:v_mis:&pron:ind:coll
+хтозна-що хтозна-що noun:inanim:gns:v_naz/v_zna:&pron:ind:coll
+хтозна-чого хтозна-що noun:inanim:gns:v_rod:&pron:ind:coll
+хтозна-чому хтозна-що noun:inanim:gns:v_dav/v_mis:&pron:ind:coll
+хтозна-чим хтозна-що noun:inanim:gns:v_oru:&pron:ind:coll
+хтозна-чім хтозна-що noun:inanim:gns:v_mis:&pron:ind:coll
 
-хтозна-хто хтозна-хто noun:anim:m:v_naz:&pron:ind:coll
-хтозна-кого хтозна-хто noun:anim:m:v_rod/v_zna:&pron:ind:coll
-хтозна-кому хтозна-хто noun:anim:m:v_dav/v_mis:&pron:ind:coll
-хтозна-ким хтозна-хто noun:anim:m:v_oru:&pron:ind:coll
-хтозна-кім хтозна-хто noun:anim:m:v_mis:&pron:ind:coll
+хтозна-хто хтозна-хто noun:anim:gms:v_naz:&pron:ind:coll
+хтозна-кого хтозна-хто noun:anim:gms:v_rod/v_zna:&pron:ind:coll
+хтозна-кому хтозна-хто noun:anim:gms:v_dav/v_mis:&pron:ind:coll
+хтозна-ким хтозна-хто noun:anim:gms:v_oru:&pron:ind:coll
+хтозна-кім хтозна-хто noun:anim:gms:v_mis:&pron:ind:coll
 
-невідь-що невідь-що noun:inanim:n:v_naz/v_zna:&pron:ind
-невідь-чого невідь-що noun:inanim:n:v_rod:&pron:ind
-невідь-чому невідь-що noun:inanim:n:v_dav/v_mis:&pron:ind
-невідь-чим невідь-що noun:inanim:n:v_oru:&pron:ind
-невідь-чім невідь-що noun:inanim:n:v_mis:&pron:ind
+невідь-що невідь-що noun:inanim:gns:v_naz/v_zna:&pron:ind
+невідь-чого невідь-що noun:inanim:gns:v_rod:&pron:ind
+невідь-чому невідь-що noun:inanim:gns:v_dav/v_mis:&pron:ind
+невідь-чим невідь-що noun:inanim:gns:v_oru:&pron:ind
+невідь-чім невідь-що noun:inanim:gns:v_mis:&pron:ind
 
-невідь-хто невідь-хто noun:anim:m:v_naz:&pron:ind
-невідь-кого невідь-хто noun:anim:m:v_rod/v_zna:&pron:ind
-невідь-кому невідь-хто noun:anim:m:v_dav/v_mis:&pron:ind
-невідь-ким невідь-хто noun:anim:m:v_oru:&pron:ind
-невідь-кім невідь-хто noun:anim:m:v_mis:&pron:ind
+невідь-хто невідь-хто noun:anim:gms:v_naz:&pron:ind
+невідь-кого невідь-хто noun:anim:gms:v_rod/v_zna:&pron:ind
+невідь-кому невідь-хто noun:anim:gms:v_dav/v_mis:&pron:ind
+невідь-ким невідь-хто noun:anim:gms:v_oru:&pron:ind
+невідь-кім невідь-хто noun:anim:gms:v_mis:&pron:ind
 
-казна-що казна-що noun:inanim:n:v_naz/v_zna:&pron:ind:coll
-казна-чого казна-що noun:inanim:n:v_rod:&pron:ind:coll
-казна-чому казна-що noun:inanim:n:v_dav/v_mis:&pron:ind:coll
-казна-чим казна-що noun:inanim:n:v_oru:&pron:ind:coll
-казна-чім казна-що noun:inanim:n:v_mis:&pron:ind:coll
+казна-що казна-що noun:inanim:gns:v_naz/v_zna:&pron:ind:coll
+казна-чого казна-що noun:inanim:gns:v_rod:&pron:ind:coll
+казна-чому казна-що noun:inanim:gns:v_dav/v_mis:&pron:ind:coll
+казна-чим казна-що noun:inanim:gns:v_oru:&pron:ind:coll
+казна-чім казна-що noun:inanim:gns:v_mis:&pron:ind:coll
 
-казна-хто казна-хто noun:anim:m:v_naz:&pron:ind:coll
-казна-кого казна-хто noun:anim:m:v_rod/v_zna:&pron:ind:coll
-казна-кому казна-хто noun:anim:m:v_dav/v_mis:&pron:ind:coll
-казна-ким казна-хто noun:anim:m:v_oru:&pron:ind:coll
-казна-кім казна-хто noun:anim:m:v_mis:&pron:ind:coll
+казна-хто казна-хто noun:anim:gms:v_naz:&pron:ind:coll
+казна-кого казна-хто noun:anim:gms:v_rod/v_zna:&pron:ind:coll
+казна-кому казна-хто noun:anim:gms:v_dav/v_mis:&pron:ind:coll
+казна-ким казна-хто noun:anim:gms:v_oru:&pron:ind:coll
+казна-кім казна-хто noun:anim:gms:v_mis:&pron:ind:coll
 
-хтось хтось noun:anim:m:v_naz:&pron:ind
-когось хтось noun:anim:m:v_rod/v_zna:&pron:ind
-комусь хтось noun:anim:m:v_dav/v_mis:&pron:ind
-кимось хтось noun:anim:m:v_oru:&pron:ind
-кимсь хтось noun:anim:m:v_oru:&pron:ind
-кімсь хтось noun:anim:m:v_mis:&pron:ind
-кімось хтось noun:anim:m:v_mis:&pron:ind
+хтось хтось noun:anim:gms:v_naz:&pron:ind
+когось хтось noun:anim:gms:v_rod/v_zna:&pron:ind
+комусь хтось noun:anim:gms:v_dav/v_mis:&pron:ind
+кимось хтось noun:anim:gms:v_oru:&pron:ind
+кимсь хтось noun:anim:gms:v_oru:&pron:ind
+кімсь хтось noun:anim:gms:v_mis:&pron:ind
+кімось хтось noun:anim:gms:v_mis:&pron:ind
 
-щось щось noun:inanim:n:v_naz/v_zna:&pron:ind
-чогось щось noun:inanim:n:v_rod/v_zna:&pron:ind
-віщось щось noun:inanim:n:v_zna:&pron:ind
-чомусь щось noun:inanim:n:v_dav/v_mis:&pron:ind
-чимось щось noun:inanim:n:v_oru:&pron:ind
-чимсь щось noun:inanim:n:v_oru:&pron:ind
-чімсь щось noun:inanim:n:v_mis:&pron:ind
-чімось щось noun:inanim:n:v_mis:&pron:ind
+щось щось noun:inanim:gns:v_naz/v_zna:&pron:ind
+чогось щось noun:inanim:gns:v_rod/v_zna:&pron:ind
+віщось щось noun:inanim:gns:v_zna:&pron:ind
+чомусь щось noun:inanim:gns:v_dav/v_mis:&pron:ind
+чимось щось noun:inanim:gns:v_oru:&pron:ind
+чимсь щось noun:inanim:gns:v_oru:&pron:ind
+чімсь щось noun:inanim:gns:v_mis:&pron:ind
+чімось щось noun:inanim:gns:v_mis:&pron:ind
 
-неабищо неабищо noun:inanim:n:v_naz:&pron:neg
-неабичого неабищо noun:inanim:n:v_rod/v_zna:&pron:neg
-неабичому неабищо noun:inanim:n:v_dav/v_mis:&pron:neg
-неабичим неабищо noun:inanim:n:v_oru:&pron:neg
-неабичім неабищо noun:inanim:n:v_mis:&pron:neg
+неабищо неабищо noun:inanim:gns:v_naz:&pron:neg
+неабичого неабищо noun:inanim:gns:v_rod/v_zna:&pron:neg
+неабичому неабищо noun:inanim:gns:v_dav/v_mis:&pron:neg
+неабичим неабищо noun:inanim:gns:v_oru:&pron:neg
+неабичім неабищо noun:inanim:gns:v_mis:&pron:neg
 
-хто-небудь хто-небудь noun:anim:m:v_naz:&pron:ind
-кого-небудь хто-небудь noun:anim:m:v_rod/v_zna:&pron:ind
-кому-небудь хто-небудь noun:anim:m:v_dav/v_mis:&pron:ind
-ким-небудь хто-небудь noun:anim:m:v_oru:&pron:ind
-кім-небудь хто-небудь noun:anim:m:v_mis:&pron:ind
+хто-небудь хто-небудь noun:anim:gms:v_naz:&pron:ind
+кого-небудь хто-небудь noun:anim:gms:v_rod/v_zna:&pron:ind
+кому-небудь хто-небудь noun:anim:gms:v_dav/v_mis:&pron:ind
+ким-небудь хто-небудь noun:anim:gms:v_oru:&pron:ind
+кім-небудь хто-небудь noun:anim:gms:v_mis:&pron:ind
 
-що-небудь що-небудь noun:inanim:n:v_naz/v_zna:&pron:ind
-чого-небудь що-небудь noun:inanim:n:v_rod/v_zna:&pron:ind
-віщо-небудь що-небудь noun:inanim:n:v_zna:&pron:ind
-чому-небудь що-небудь noun:inanim:n:v_dav/v_mis:&pron:ind
-чим-небудь що-небудь noun:inanim:n:v_oru:&pron:ind
-чім-небудь що-небудь noun:inanim:n:v_mis:&pron:ind
+що-небудь що-небудь noun:inanim:gns:v_naz/v_zna:&pron:ind
+чого-небудь що-небудь noun:inanim:gns:v_rod/v_zna:&pron:ind
+віщо-небудь що-небудь noun:inanim:gns:v_zna:&pron:ind
+чому-небудь що-небудь noun:inanim:gns:v_dav/v_mis:&pron:ind
+чим-небудь що-небудь noun:inanim:gns:v_oru:&pron:ind
+чім-небудь що-небудь noun:inanim:gns:v_mis:&pron:ind
 
-ніхто ніхто noun:anim:m:v_naz:&pron:neg
-нікого ніхто noun:anim:m:v_rod/v_zna:&pron:neg
-нікому ніхто noun:anim:m:v_dav/v_mis:&pron:neg
-ніким ніхто noun:anim:m:v_oru:&pron:neg
-нікім ніхто noun:anim:m:v_mis:&pron:neg
+ніхто ніхто noun:anim:gms:v_naz:&pron:neg
+нікого ніхто noun:anim:gms:v_rod/v_zna:&pron:neg
+нікому ніхто noun:anim:gms:v_dav/v_mis:&pron:neg
+ніким ніхто noun:anim:gms:v_oru:&pron:neg
+нікім ніхто noun:anim:gms:v_mis:&pron:neg
 
 нічого нічого adv
 
-нікого нікого noun:anim:m:v_rod/v_zna:&pron:emph        # rv_inf   # ні́кого
-нікому нікого noun:anim:m:v_dav/v_mis:&pron:emph
-ніким нікого noun:anim:m:v_oru:&pron:emph
+нікого нікого noun:anim:gms:v_rod/v_zna:&pron:emph        # rv_inf   # ні́кого
+нікому нікого noun:anim:gms:v_dav/v_mis:&pron:emph
+ніким нікого noun:anim:gms:v_oru:&pron:emph
 
-ніщо ніщо noun:inanim:n:v_naz/v_zna:&pron:neg
-нічого ніщо noun:inanim:n:v_rod/v_zna:&pron:neg:&predic
-нічому ніщо noun:inanim:n:v_dav/v_mis:&pron:neg
-нічим ніщо noun:inanim:n:v_oru:&pron:neg
-нічім ніщо noun:inanim:n:v_mis:&pron:neg
+ніщо ніщо noun:inanim:gns:v_naz/v_zna:&pron:neg
+нічого ніщо noun:inanim:gns:v_rod/v_zna:&pron:neg:&predic
+нічому ніщо noun:inanim:gns:v_dav/v_mis:&pron:neg
+нічим ніщо noun:inanim:gns:v_oru:&pron:neg
+нічім ніщо noun:inanim:gns:v_mis:&pron:neg
 
-нічого нічого noun:inanim:n:v_rod/v_zna:&pron:emph:&predic      # rv_inf   # ні́чого
-нічому нічого noun:inanim:n:v_dav:&pron:emph
-нічим нічого noun:inanim:n:v_oru:&pron:emph
+нічого нічого noun:inanim:gns:v_rod/v_zna:&pron:emph:&predic      # rv_inf   # ні́чого
+нічому нічого noun:inanim:gns:v_dav:&pron:emph
+нічим нічого noun:inanim:gns:v_oru:&pron:emph
 
-дехто дехто noun:anim:m:v_naz:&pron:ind
-декого дехто noun:anim:m:v_rod/v_zna:&pron:ind
-декому дехто noun:anim:m:v_dav/v_mis:&pron:ind
-деким дехто noun:anim:m:v_oru:&pron:ind
-декім дехто noun:anim:m:v_mis:&pron:ind
+дехто дехто noun:anim:gms:v_naz:&pron:ind
+декого дехто noun:anim:gms:v_rod/v_zna:&pron:ind
+декому дехто noun:anim:gms:v_dav/v_mis:&pron:ind
+деким дехто noun:anim:gms:v_oru:&pron:ind
+декім дехто noun:anim:gms:v_mis:&pron:ind
 
 дещо дещо adv:&pron:ind
-дещо дещо noun:inanim:n:v_naz/v_zna:&pron:ind
-дечого дещо noun:inanim:n:v_rod:&pron:ind
-дечому дещо noun:inanim:n:v_dav/v_mis:&pron:ind
-дечим дещо noun:inanim:n:v_oru:&pron:ind
-дечім дещо noun:inanim:n:v_mis:&pron:ind
+дещо дещо noun:inanim:gns:v_naz/v_zna:&pron:ind
+дечого дещо noun:inanim:gns:v_rod:&pron:ind
+дечому дещо noun:inanim:gns:v_dav/v_mis:&pron:ind
+дечим дещо noun:inanim:gns:v_oru:&pron:ind
+дечім дещо noun:inanim:gns:v_mis:&pron:ind
 
-нікогісінько нікогісінько noun:anim:m:v_rod:&pron:neg
-анікогісінько анікогісінько noun:anim:m:v_rod:&pron:neg
-нічогісінько нічогісінько noun:inanim:n:v_rod:&pron:neg
-анічогісінько анічогісінько noun:inanim:n:v_rod:&pron:neg
+нікогісінько нікогісінько noun:anim:gms:v_rod:&pron:neg
+анікогісінько анікогісінько noun:anim:gms:v_rod:&pron:neg
+нічогісінько нічогісінько noun:inanim:gns:v_rod:&pron:neg
+анічогісінько анічогісінько noun:inanim:gns:v_rod:&pron:neg
 
 себе себе noun:v_rod/v_zna:&pron:refl
 собі себе noun:v_dav/v_mis:&pron:refl
@@ -298,51 +298,51 @@
 все adv:v-u|conj:coord:v-u|part:v-u
 усе adv:v-u|conj:coord:v-u|part:v-u
 
-все все noun:inanim:n:v_naz:&pron:gen:v-u
-всього все noun:inanim:n:v_rod:&pron:gen:v-u
-всьому все noun:inanim:n:v_dav:&pron:gen:v-u
-все все noun:inanim:n:v_zna:&pron:gen:v-u
-всім все noun:inanim:n:v_oru:&pron:gen:v-u
-всім все noun:inanim:n:v_mis:&pron:gen:v-u
-всьому все noun:inanim:n:v_mis:&pron:gen:v-u
+все все noun:inanim:gns:v_naz:&pron:gen:v-u
+всього все noun:inanim:gns:v_rod:&pron:gen:v-u
+всьому все noun:inanim:gns:v_dav:&pron:gen:v-u
+все все noun:inanim:gns:v_zna:&pron:gen:v-u
+всім все noun:inanim:gns:v_oru:&pron:gen:v-u
+всім все noun:inanim:gns:v_mis:&pron:gen:v-u
+всьому все noun:inanim:gns:v_mis:&pron:gen:v-u
 
-усе усе noun:inanim:n:v_naz:&pron:gen:v-u
-усього усе noun:inanim:n:v_rod:&pron:gen:v-u
-усьому усе noun:inanim:n:v_dav:&pron:gen:v-u
-усе усе noun:inanim:n:v_zna:&pron:gen:v-u
-усім усе noun:inanim:n:v_oru:&pron:gen:v-u
-усім усе noun:inanim:n:v_mis:&pron:gen:v-u
-усьому усе noun:inanim:n:v_mis:&pron:gen:v-u
+усе усе noun:inanim:gns:v_naz:&pron:gen:v-u
+усього усе noun:inanim:gns:v_rod:&pron:gen:v-u
+усьому усе noun:inanim:gns:v_dav:&pron:gen:v-u
+усе усе noun:inanim:gns:v_zna:&pron:gen:v-u
+усім усе noun:inanim:gns:v_oru:&pron:gen:v-u
+усім усе noun:inanim:gns:v_mis:&pron:gen:v-u
+усьому усе noun:inanim:gns:v_mis:&pron:gen:v-u
 
-всі всі noun:anim:p:v_naz:&pron:gen:v-u
-всіх всі noun:anim:p:v_rod:&pron:gen:v-u
-всім всі noun:anim:p:v_dav:&pron:gen:v-u
-всіх всі noun:anim:p:v_zna:&pron:gen:v-u
-всіма всі noun:anim:p:v_oru:&pron:gen:v-u
-всіх всі noun:anim:p:v_mis:&pron:gen:v-u
+всі всі noun:anim:gop:v_naz:&pron:gen:v-u
+всіх всі noun:anim:gop:v_rod:&pron:gen:v-u
+всім всі noun:anim:gop:v_dav:&pron:gen:v-u
+всіх всі noun:anim:gop:v_zna:&pron:gen:v-u
+всіма всі noun:anim:gop:v_oru:&pron:gen:v-u
+всіх всі noun:anim:gop:v_mis:&pron:gen:v-u
 
-усі усі noun:anim:p:v_naz:&pron:gen:v-u
-усіх усі noun:anim:p:v_rod:&pron:gen:v-u
-усім усі noun:anim:p:v_dav:&pron:gen:v-u
-усіх усі noun:anim:p:v_zna:&pron:gen:v-u
-усіма усі noun:anim:p:v_oru:&pron:gen:v-u
-усіх усі noun:anim:p:v_mis:&pron:gen:v-u
+усі усі noun:anim:gop:v_naz:&pron:gen:v-u
+усіх усі noun:anim:gop:v_rod:&pron:gen:v-u
+усім усі noun:anim:gop:v_dav:&pron:gen:v-u
+усіх усі noun:anim:gop:v_zna:&pron:gen:v-u
+усіма усі noun:anim:gop:v_oru:&pron:gen:v-u
+усіх усі noun:anim:gop:v_mis:&pron:gen:v-u
 
-це це noun:inanim:n:v_naz:&pron:dem
-цього це noun:inanim:n:v_rod:&pron:dem
-цьому це noun:inanim:n:v_dav:&pron:dem
-це це noun:inanim:n:v_zna:&pron:dem
-цим це noun:inanim:n:v_oru:&pron:dem
-цім це noun:inanim:n:v_mis:&pron:dem
-цьому це noun:inanim:n:v_mis:&pron:dem
+це це noun:inanim:gns:v_naz:&pron:dem
+цього це noun:inanim:gns:v_rod:&pron:dem
+цьому це noun:inanim:gns:v_dav:&pron:dem
+це це noun:inanim:gns:v_zna:&pron:dem
+цим це noun:inanim:gns:v_oru:&pron:dem
+цім це noun:inanim:gns:v_mis:&pron:dem
+цьому це noun:inanim:gns:v_mis:&pron:dem
 
-те те noun:inanim:n:v_naz:&pron:dem
-того те noun:inanim:n:v_rod:&pron:dem
-тому те noun:inanim:n:v_dav:&pron:dem
-те те noun:inanim:n:v_zna:&pron:dem
-тим те noun:inanim:n:v_oru:&pron:dem
-тім те noun:inanim:n:v_mis:&pron:dem
-тому те noun:inanim:n:v_mis:&pron:dem
+те те noun:inanim:gns:v_naz:&pron:dem
+того те noun:inanim:gns:v_rod:&pron:dem
+тому те noun:inanim:gns:v_dav:&pron:dem
+те те noun:inanim:gns:v_zna:&pron:dem
+тим те noun:inanim:gns:v_oru:&pron:dem
+тім те noun:inanim:gns:v_mis:&pron:dem
+тому те noun:inanim:gns:v_mis:&pron:dem
 
 інше /n2adj1 :&pron:def
 інший /adj :&pron:def
@@ -422,75 +422,75 @@
 всяк adv:rare:v-u
 усяк adv:rare:v-u
 
-всяк всякий adj:m:v_naz/v_zn2:short:&pron:gen:v-u
-усяк усякий adj:m:v_naz/v_zn2:short:&pron:gen:v-u
+всяк всякий adj:gms:v_naz/v_zn2:short:&pron:gen:v-u
+усяк усякий adj:gms:v_naz/v_zn2:short:&pron:gen:v-u
 
 чомусь adv:&pron:ind
 
 # числівникові займенники
 
-небагато небагато numr:p:v_naz/v_zna:&pron:ind
-небагатьох небагато numr:p:v_rod/v_zna/v_mis:&pron:ind
-небагатьом небагато numr:p:v_dav:&pron:ind
-небагатьма небагато numr:p:v_oru:&pron:ind
+небагато небагато numr:gop:v_naz/v_zna:&pron:ind
+небагатьох небагато numr:gop:v_rod/v_zna/v_mis:&pron:ind
+небагатьом небагато numr:gop:v_dav:&pron:ind
+небагатьма небагато numr:gop:v_oru:&pron:ind
 
-багато багато numr:p:v_naz/v_zna:&pron:ind
-багатьох багато numr:p:v_rod/v_zna/v_mis:&pron:ind
-багатьом багато numr:p:v_dav:&pron:ind
-багатьма багато numr:p:v_oru:&pron:ind
+багато багато numr:gop:v_naz/v_zna:&pron:ind
+багатьох багато numr:gop:v_rod/v_zna/v_mis:&pron:ind
+багатьом багато numr:gop:v_dav:&pron:ind
+багатьма багато numr:gop:v_oru:&pron:ind
 
-декілька декілька numr:p:v_naz/v_zna:&pron:ind
-декількох декілька numr:p:v_rod/v_zna/v_mis:&pron:ind
-декільком декілька numr:p:v_dav:&pron:ind
-декількома декілька numr:p:v_oru:&pron:ind
+декілька декілька numr:gop:v_naz/v_zna:&pron:ind
+декількох декілька numr:gop:v_rod/v_zna/v_mis:&pron:ind
+декільком декілька numr:gop:v_dav:&pron:ind
+декількома декілька numr:gop:v_oru:&pron:ind
 
-кілька кілька numr:p:v_naz/v_zna:&pron:ind
-кількох кілька numr:p:v_rod/v_zna/v_mis:&pron:ind
-кільком кілька numr:p:v_dav:&pron:ind
-кількома кілька numr:p:v_oru:&pron:ind
+кілька кілька numr:gop:v_naz/v_zna:&pron:ind
+кількох кілька numr:gop:v_rod/v_zna/v_mis:&pron:ind
+кільком кілька numr:gop:v_dav:&pron:ind
+кількома кілька numr:gop:v_oru:&pron:ind
 
 #скількись adv:&pron:ind            # не вживається як прислівник, а лише як numr&pron:ind
-скількись скількись numr:v_naz/v_zna:&pron:ind
-скількохсь скількись numr:v_rod/v_zna/v_mis:&pron:ind
-скількохось скількись numr:v_rod/v_zna/v_mis:&pron:ind
-скількомсь скількись numr:v_dav:&pron:ind
-скількомось скількись numr:v_dav:&pron:ind
-скількомась скількись numr:v_oru:&pron:ind
+скількись скількись numr:gop:v_naz/v_zna:&pron:ind
+скількохсь скількись numr:gop:v_rod/v_zna/v_mis:&pron:ind
+скількохось скількись numr:gop:v_rod/v_zna/v_mis:&pron:ind
+скількомсь скількись numr:gop:v_dav:&pron:ind
+скількомось скількись numr:gop:v_dav:&pron:ind
+скількомась скількись numr:gop:v_oru:&pron:ind
 
-скільки скільки numr:p:v_naz/v_zna:&pron:int
-скількох скільки numr:p:v_rod/v_zna/v_mis:&pron:int
-скільком скільки numr:p:v_dav:&pron:int
-скількома скільки numr:p:v_oru:&pron:int
+скільки скільки numr:gop:v_naz/v_zna:&pron:int
+скількох скільки numr:gop:v_rod/v_zna/v_mis:&pron:int
+скільком скільки numr:gop:v_dav:&pron:int
+скількома скільки numr:gop:v_oru:&pron:int
 
 ніскільки adv:&pron:neg
-ніскільки ніскільки numr:p:v_naz/v_zna:&pron:neg
-ніскількох ніскільки numr:p:v_rod/v_zna/v_mis:&pron:neg
-ніскільком ніскільки numr:p:v_dav:&pron:neg
-ніскількома ніскільки numr:p:v_oru:&pron:neg
+ніскільки ніскільки numr:gop:v_naz/v_zna:&pron:neg
+ніскількох ніскільки numr:gop:v_rod/v_zna/v_mis:&pron:neg
+ніскільком ніскільки numr:gop:v_dav:&pron:neg
+ніскількома ніскільки numr:gop:v_oru:&pron:neg
 
 аніскільки adv:&pron:neg
-аніскільки аніскільки numr:p:v_naz/v_zn2:&pron:neg
-аніскількох аніскільки numr:p:v_rod/v_zn1/v_mis:&pron:neg
-аніскільком аніскільки numr:p:v_dav:&pron:neg
-аніскількома аніскільки numr:p:v_oru:&pron:neg
+аніскільки аніскільки numr:gop:v_naz/v_zn2:&pron:neg
+аніскількох аніскільки numr:gop:v_rod/v_zn1/v_mis:&pron:neg
+аніскільком аніскільки numr:gop:v_dav:&pron:neg
+аніскількома аніскільки numr:gop:v_oru:&pron:neg
 
 стільки adv:&pron:dem
-стільки стільки numr:p:v_naz/v_zna:&pron:dem
-стількох стільки numr:p:v_rod/v_zna/v_mis:&pron:dem
-стільком стільки numr:p:v_dav:&pron:dem
-стількома стільки numr:p:v_oru:&pron:dem
+стільки стільки numr:gop:v_naz/v_zna:&pron:dem
+стількох стільки numr:gop:v_rod/v_zna/v_mis:&pron:dem
+стільком стільки numr:gop:v_dav:&pron:dem
+стількома стільки numr:gop:v_oru:&pron:dem
 
 стільки-то adv:&pron:dem
-стільки-то стільки-то numr:p:v_naz/v_zna:&pron:dem
-стількох-то стільки-то numr:p:v_rod/v_zna/v_mis:&pron:dem
-стільком-то стільки-то numr:p:v_dav:&pron:dem
-стількома-то стільки-то numr:p:v_oru:&pron:dem
+стільки-то стільки-то numr:gop:v_naz/v_zna:&pron:dem
+стількох-то стільки-то numr:gop:v_rod/v_zna/v_mis:&pron:dem
+стільком-то стільки-то numr:gop:v_dav:&pron:dem
+стількома-то стільки-то numr:gop:v_oru:&pron:dem
 
 скільки-небудь adv:&pron:ind
-скільки-небудь скільки-небудь numr:p:v_naz/v_zna:&pron:ind
-скількох-небудь скільки-небудь numr:p:v_rod/v_zna/v_mis:&pron:ind
-скільком-небудь скільки-небудь numr:p:v_dav:&pron:ind
-скількома-небудь скільки-небудь numr:p:v_oru:&pron:ind
+скільки-небудь скільки-небудь numr:gop:v_naz/v_zna:&pron:ind
+скількох-небудь скільки-небудь numr:gop:v_rod/v_zna/v_mis:&pron:ind
+скільком-небудь скільки-небудь numr:gop:v_dav:&pron:ind
+скількома-небудь скільки-небудь numr:gop:v_oru:&pron:ind
 
 хтозна-скільки adv:&pron:ind
 хтозна-скільки хтозна-скільки numr:v_naz/v_zna:&pron:ind
@@ -499,28 +499,28 @@
 хтозна-скількома хтозна-скільки numr:v_oru:&pron:ind
 
 бозна-скільки adv:&pron:ind
-бозна-скільки бозна-скільки numr:v_naz/v_zna:&pron:ind
-бозна-скількох бозна-скільки numr:v_rod/v_zna/v_mis:&pron:ind
-бозна-скільком бозна-скільки numr:v_dav:&pron:ind
-бозна-скількома бозна-скільки numr:v_oru:&pron:ind
+бозна-скільки бозна-скільки numr:gop:v_naz/v_zna:&pron:ind
+бозна-скількох бозна-скільки numr:gop:v_rod/v_zna/v_mis:&pron:ind
+бозна-скільком бозна-скільки numr:gop:v_dav:&pron:ind
+бозна-скількома бозна-скільки numr:gop:v_oru:&pron:ind
 
 чортзна-скільки adv:&pron:ind
-чортзна-скільки чортзна-скільки numr:v_naz/v_zna:&pron:ind
-чортзна-скількох чортзна-скільки numr:v_rod/v_zna/v_mis:&pron:ind
-чортзна-скільком чортзна-скільки numr:v_dav:&pron:ind
-чортзна-скількома чортзна-скільки numr:v_oru:&pron:ind
+чортзна-скільки чортзна-скільки numr:gop:v_naz/v_zna:&pron:ind
+чортзна-скількох чортзна-скільки numr:gop:v_rod/v_zna/v_mis:&pron:ind
+чортзна-скільком чортзна-скільки numr:gop:v_dav:&pron:ind
+чортзна-скількома чортзна-скільки numr:gop:v_oru:&pron:ind
 
 казна-скільки adv:&pron:ind
-казна-скільки казна-скільки numr:v_naz/v_zna:&pron:ind
-казна-скількох казна-скільки numr:v_rod/v_zna/v_mis:&pron:ind
-казна-скільком казна-скільки numr:v_dav:&pron:ind
-казна-скількома казна-скільки numr:v_oru:&pron:ind
+казна-скільки казна-скільки numr:gop:v_naz/v_zna:&pron:ind
+казна-скількох казна-скільки numr:gop:v_rod/v_zna/v_mis:&pron:ind
+казна-скільком казна-скільки numr:gop:v_dav:&pron:ind
+казна-скількома казна-скільки numr:gop:v_oru:&pron:ind
 
 невідь-скільки adv:&pron:ind
-невідь-скільки невідь-скільки numr:v_naz/v_zna:&pron:ind
-невідь-скількох невідь-скільки numr:v_rod/v_zna/v_mis:&pron:ind
-невідь-скільком невідь-скільки numr:v_dav:&pron:ind
-невідь-скількома невідь-скільки numr:v_oru:&pron:ind
+невідь-скільки невідь-скільки numr:gop:v_naz/v_zna:&pron:ind
+невідь-скількох невідь-скільки numr:gop:v_rod/v_zna/v_mis:&pron:ind
+невідь-скільком невідь-скільки numr:gop:v_dav:&pron:ind
+невідь-скількома невідь-скільки numr:gop:v_oru:&pron:ind
 
 півстільки numr:nv:coll
 
@@ -539,164 +539,164 @@
 один /numr
 один /numr ^adj :&pron:dem:ind
 
-обоє обоє numr:p:v_naz/v_zna
-обох обоє numr:p:v_rod/v_zna/v_mis
-обом обоє numr:p:v_dav
-обома обоє numr:p:v_oru
+обоє обоє numr:gop:v_naz/v_zna
+обох обоє numr:gop:v_rod/v_zna/v_mis
+обом обоє numr:gop:v_dav
+обома обоє numr:gop:v_oru
 
-обидва обидва numr:m:v_naz/v_zna
-обидві обидва numr:f:v_naz/v_zna
-обох обидва numr:p:v_rod/v_zna/v_mis
-обом обидва numr:p:v_dav
-обома обидва numr:p:v_oru
+обидва обидва numr:gms:v_naz/v_zna
+обидві обидва numr:gfs:v_naz/v_zna
+обох обидва numr:gop:v_rod/v_zna/v_mis
+обом обидва numr:gop:v_dav
+обома обидва numr:gop:v_oru
 
-обидвоє обидвоє numr:p:v_naz/v_zna:rare
-обидвох обидвоє numr:p:v_rod/v_zna/v_mis:rare
-обидвом обидвоє numr:p:v_dav:rare
-обидвома обидвоє numr:p:v_oru:rare
+обидвоє обидвоє numr:gop:v_naz/v_zna:rare
+обидвох обидвоє numr:gop:v_rod/v_zna/v_mis:rare
+обидвом обидвоє numr:gop:v_dav:rare
+обидвома обидвоє numr:gop:v_oru:rare
 
-два два numr:m:v_naz/v_zna//n:v_naz/v_zna
-дві два numr:f:v_naz/v_zna
-двох два numr:m:v_rod/v_zna/v_mis//n:v_rod/v_zna/v_mis//f:v_rod/v_zna/v_mis
-двом два numr:m:v_dav//n:v_dav//f:v_dav
-двома два numr:m:v_oru//n:v_oru//f:v_oru
+два два numr:gms:v_naz/v_zna//gns:v_naz/v_zna
+дві два numr:gfs:v_naz/v_zna
+двох два numr:gms:v_rod/v_zna/v_mis//gns:v_rod/v_zna/v_mis//gfs:v_rod/v_zna/v_mis
+двом два numr:gms:v_dav//gns:v_dav//gfs:v_dav
+двома два numr:gms:v_oru//gns:v_oru//gfs:v_oru
 
-двоє двоє numr:p:v_naz/v_zna
-двох двоє numr:p:v_rod/v_zna/v_mis
-двом двоє numr:p:v_dav
-двома двоє numr:p:v_oru
+двоє двоє numr:gop:v_naz/v_zna
+двох двоє numr:gop:v_rod/v_zna/v_mis
+двом двоє numr:gop:v_dav
+двома двоє numr:gop:v_oru
 
-троє троє numr:p:v_naz/v_zna
-трьом троє numr:p:v_dav
-трьох троє numr:p:v_rod/v_zna/v_mis
-трьома троє numr:p:v_oru
+троє троє numr:gop:v_naz/v_zna
+трьом троє numr:gop:v_dav
+трьох троє numr:gop:v_rod/v_zna/v_mis
+трьома троє numr:gop:v_oru
 
-три три numr:p:v_naz/v_zna
-трьом три numr:p:v_dav
-трьох три numr:p:v_rod/v_zna/v_mis
-трьома три numr:p:v_oru
+три три numr:gop:v_naz/v_zna
+трьом три numr:gop:v_dav
+трьох три numr:gop:v_rod/v_zna/v_mis
+трьома три numr:gop:v_oru
 
-чотири чотири numr:p:v_naz/v_zna
-чотирма чотири numr:p:v_oru
-чотирьох чотири numr:p:v_oru/v_zna/v_mis
-чотирьом чотири numr:p:v_dav
-шість шість numr:p:v_naz/v_zna
-шести шість numr:p:v_rod/v_dav/v_mis
-шістьом шість numr:p:v_dav
-шістьох шість numr:p:v_rod/v_zna/v_mis
-шістьма шість numr:p:v_oru
-шістьома шість numr:p:v_oru
-сім сім numr:p:v_naz/v_zna
-семи сім numr:p:v_rod/v_dav/v_mis
-сімох сім numr:p:v_rod/v_zna/v_mis
-сімом сім numr:p:v_dav
-сьома сім numr:p:v_oru
-сімома сім numr:p:v_oru
-вісім вісім numr:p:v_naz/v_zna
-восьми вісім numr:p:v_rod/v_dav/v_mis
-вісьмох вісім numr:p:v_rod/v_zna/v_mis
-вісьмом вісім numr:p:v_dav
-вісьма вісім numr:p:v_oru
-вісьмома вісім numr:p:v_oru
+чотири чотири numr:gop:v_naz/v_zna
+чотирма чотири numr:gop:v_oru
+чотирьох чотири numr:gop:v_oru/v_zna/v_mis
+чотирьом чотири numr:gop:v_dav
+шість шість numr:gop:v_naz/v_zna
+шести шість numr:gop:v_rod/v_dav/v_mis
+шістьом шість numr:gop:v_dav
+шістьох шість numr:gop:v_rod/v_zna/v_mis
+шістьма шість numr:gop:v_oru
+шістьома шість numr:gop:v_oru
+сім сім numr:gop:v_naz/v_zna
+семи сім numr:gop:v_rod/v_dav/v_mis
+сімох сім numr:gop:v_rod/v_zna/v_mis
+сімом сім numr:gop:v_dav
+сьома сім numr:gop:v_oru
+сімома сім numr:gop:v_oru
+вісім вісім numr:gop:v_naz/v_zna
+восьми вісім numr:gop:v_rod/v_dav/v_mis
+вісьмох вісім numr:gop:v_rod/v_zna/v_mis
+вісьмом вісім numr:gop:v_dav
+вісьма вісім numr:gop:v_oru
+вісьмома вісім numr:gop:v_oru
 
-четверо четверо numr:p:v_naz/v_zna
-чотирма четверо numr:p:v_oru
-чотирьох четверо numr:p:v_rod/v_zna/v_mis
-чотирьом четверо numr:p:v_dav
-п'ятеро п'ятеро numr:p:v_naz/v_zna
-шестеро шестеро numr:p:v_naz/v_zna
-семеро семеро numr:p:v_naz/v_zna
-восьмеро восьмеро numr:p:v_naz/v_zna
-дев'ятеро дев'ятеро numr:p:v_naz/v_zna
-десятеро numr:p:v_naz/v_zna
+четверо четверо numr:gop:v_naz/v_zna
+чотирма четверо numr:gop:v_oru
+чотирьох четверо numr:gop:v_rod/v_zna/v_mis
+чотирьом четверо numr:gop:v_dav
+п'ятеро п'ятеро numr:gop:v_naz/v_zna
+шестеро шестеро numr:gop:v_naz/v_zna
+семеро семеро numr:gop:v_naz/v_zna
+восьмеро восьмеро numr:gop:v_naz/v_zna
+дев'ятеро дев'ятеро numr:gop:v_naz/v_zna
+десятеро numr:gop:v_naz/v_zna
 
-одинадцятеро одинадцятеро numr:p:v_naz/v_zna
-дванадцятеро дванадцятеро numr:p:v_naz/v_zna
-тринадцятеро numr:p:v_naz/v_zna
-чотирнадцятеро чотирнадцятеро numr:p:v_naz/v_zna
-п'ятнадцятеро п'ятнадцятеро numr:p:v_naz/v_zna
-шістнадцятеро шістнадцятеро numr:p:v_naz/v_zna
-сімнадцятеро сімнадцятеро numr:p:v_naz/v_zna
-вісімнадцятеро вісімнадцятеро numr:p:v_naz/v_zna
-дев'ятнадцятеро дев'ятнадцятеро numr:p:v_naz/v_zna
-двадцятеро двадцятеро numr:p:v_naz/v_zna
-тридцятеро тридцятеро numr:p:v_naz/v_zna
+одинадцятеро одинадцятеро numr:gop:v_naz/v_zna
+дванадцятеро дванадцятеро numr:gop:v_naz/v_zna
+тринадцятеро numr:gop:v_naz/v_zna
+чотирнадцятеро чотирнадцятеро numr:gop:v_naz/v_zna
+п'ятнадцятеро п'ятнадцятеро numr:gop:v_naz/v_zna
+шістнадцятеро шістнадцятеро numr:gop:v_naz/v_zna
+сімнадцятеро сімнадцятеро numr:gop:v_naz/v_zna
+вісімнадцятеро вісімнадцятеро numr:gop:v_naz/v_zna
+дев'ятнадцятеро дев'ятнадцятеро numr:gop:v_naz/v_zna
+двадцятеро двадцятеро numr:gop:v_naz/v_zna
+тридцятеро тридцятеро numr:gop:v_naz/v_zna
 
-сорок сорок numr:p:v_naz/v_zna
-сорока сорок numr:p:v_rod/v_dav/v_zna/v_oru/v_mis
-дев'яносто дев'яносто numr:p:v_naz/v_zna
-дев'яноста дев'яносто numr:p:v_rod/v_dav/v_oru/v_mis
+сорок сорок numr:gop:v_naz/v_zna
+сорока сорок numr:gop:v_rod/v_dav/v_zna/v_oru/v_mis
+дев'яносто дев'яносто numr:gop:v_naz/v_zna
+дев'яноста дев'яносто numr:gop:v_rod/v_dav/v_oru/v_mis
 
-сто сто numr:p:v_naz/v_zna
-ста сто numr:p:v_rod/v_dav/v_oru/v_mis
-двісті двісті numr:p:v_naz
-двохсот двісті numr:p:v_rod/v_zna
-двомстам двісті numr:p:v_dav
-двомастами двісті numr:p:v_oru
-двохстах двісті numr:p:v_mis
-триста триста numr:p:v_naz/v_zna
-трьохсот триста numr:p:v_rod/v_zna
-трьомстам триста numr:p:v_dav
-трьомастами триста numr:p:v_oru
-трьохстах триста numr:p:v_mis
-чотириста чотириста numr:p:v_naz/v_zna
-чотирьохсот чотириста numr:p:v_rod/v_zna
-чотирьомстам чотириста numr:p:v_dav
-чотирмастами чотириста numr:p:v_oru
-чотирьохстах чотириста numr:p:v_mis
-п'ятсот п'ятсот numr:p:v_naz/v_zna
-п'ятисот п'ятсот numr:p:v_rod
-п'ятистам п'ятсот numr:p:v_dav
-п'ятьмастами п'ятсот numr:p:v_oru
-п'ятьомастами п'ятсот numr:p:v_oru
-п'ятистах п'ятсот numr:p:v_mis
-шістсот шістсот numr:p:v_naz/v_zna
-шестисот шістсот numr:p:v_rod
-шестистам шістсот numr:p:v_dav
-шестистах шістсот numr:p:v_mis
-шістьмастами шістсот numr:p:v_oru
-шістьомастами шістсот numr:p:v_oru
-сімсот сімсот numr:p:v_naz/v_zna
-семисот сімсот numr:p:v_rod
-семистам сімсот numr:p:v_dav
-семистах сімсот numr:p:v_mis
-семистами сімсот numr:p:v_oru:bad
-сьомастами сімсот numr:p:v_oru
-сімомастами сімсот numr:p:v_oru
-вісімсот вісімсот numr:p:v_naz/v_zna
-восьмисот вісімсот numr:p:v_rod
-восьмистам вісімсот numr:p:v_dav
-восьмистах вісімсот numr:p:v_mis
-восьмастами вісімсот numr:p:v_oru:bad
-вісьмастами вісімсот numr:p:v_oru
-вісьмомастами вісімсот numr:p:v_oru
-дев'ятсот дев'ятсот numr:p:v_naz/v_zna
-дев'ятисот дев'ятсот numr:p:v_rod
-дев'ятистам дев'ятсот numr:p:v_dav
-дев'ятьмастами дев'ятсот numr:p:v_oru
-дев'ятьомастами дев'ятсот numr:p:v_oru
-дев'ятистах дев'ятсот numr:p:v_mis
+сто сто numr:gop:v_naz/v_zna
+ста сто numr:gop:v_rod/v_dav/v_oru/v_mis
+двісті двісті numr:gop:v_naz
+двохсот двісті numr:gop:v_rod/v_zna
+двомстам двісті numr:gop:v_dav
+двомастами двісті numr:gop:v_oru
+двохстах двісті numr:gop:v_mis
+триста триста numr:gop:v_naz/v_zna
+трьохсот триста numr:gop:v_rod/v_zna
+трьомстам триста numr:gop:v_dav
+трьомастами триста numr:gop:v_oru
+трьохстах триста numr:gop:v_mis
+чотириста чотириста numr:gop:v_naz/v_zna
+чотирьохсот чотириста numr:gop:v_rod/v_zna
+чотирьомстам чотириста numr:gop:v_dav
+чотирмастами чотириста numr:gop:v_oru
+чотирьохстах чотириста numr:gop:v_mis
+п'ятсот п'ятсот numr:gop:v_naz/v_zna
+п'ятисот п'ятсот numr:gop:v_rod
+п'ятистам п'ятсот numr:gop:v_dav
+п'ятьмастами п'ятсот numr:gop:v_oru
+п'ятьомастами п'ятсот numr:gop:v_oru
+п'ятистах п'ятсот numr:gop:v_mis
+шістсот шістсот numr:gop:v_naz/v_zna
+шестисот шістсот numr:gop:v_rod
+шестистам шістсот numr:gop:v_dav
+шестистах шістсот numr:gop:v_mis
+шістьмастами шістсот numr:gop:v_oru
+шістьомастами шістсот numr:gop:v_oru
+сімсот сімсот numr:gop:v_naz/v_zna
+семисот сімсот numr:gop:v_rod
+семистам сімсот numr:gop:v_dav
+семистах сімсот numr:gop:v_mis
+семистами сімсот numr:gop:v_oru:bad
+сьомастами сімсот numr:gop:v_oru
+сімомастами сімсот numr:gop:v_oru
+вісімсот вісімсот numr:gop:v_naz/v_zna
+восьмисот вісімсот numr:gop:v_rod
+восьмистам вісімсот numr:gop:v_dav
+восьмистах вісімсот numr:gop:v_mis
+восьмастами вісімсот numr:gop:v_oru:bad
+вісьмастами вісімсот numr:gop:v_oru
+вісьмомастами вісімсот numr:gop:v_oru
+дев'ятсот дев'ятсот numr:gop:v_naz/v_zna
+дев'ятисот дев'ятсот numr:gop:v_rod
+дев'ятистам дев'ятсот numr:gop:v_dav
+дев'ятьмастами дев'ятсот numr:gop:v_oru
+дев'ятьомастами дев'ятсот numr:gop:v_oru
+дев'ятистах дев'ятсот numr:gop:v_mis
 
-кількасот кількасот numr:p:v_naz/v_zna
-кількохсот кількасот numr:p:v_rod
-кількомстам кількасот numr:p:v_dav
-кількомастами кількасот numr:p:v_oru
-кількохстах кількасот numr:p:v_mis
+кількасот кількасот numr:gop:v_naz/v_zna
+кількохсот кількасот numr:gop:v_rod
+кількомстам кількасот numr:gop:v_dav
+кількомастами кількасот numr:gop:v_oru
+кількохстах кількасот numr:gop:v_mis
 
 півтора numr:m:nv//n:nv
 півтори numr:f:nv
 півтора-два numr:m:nv//n:nv
 півтори-дві numr:f:nv
 
-півста numr:nv:np:coll
-півтораста numr:p:nv
+півста numr:gop:nv:coll
+півтораста numr:gop:nv
 
-один-два один-два numr:p:v_naz/v_zna
-два-три два-три numr:p:v_naz/v_zna
-дві-три два-три numr:p:v_naz/v_zna
-двома-трьома два-три numr:p:v_oru
-двох-трьох два-три numr:p:v_rod/v_zna/v_mis
-три-чотири три-чотири numr:p:v_naz/v_zna
+один-два один-два numr:gmp:v_naz/v_zna
+два-три два-три numr:gmp:v_naz/v_zna
+дві-три два-три numr:gfp:v_naz/v_zna
+двома-трьома два-три numr:gop:v_oru
+двох-трьох два-три numr:gpp:v_rod/v_zna/v_mis
+три-чотири три-чотири numr:gop:v_naz/v_zna
 
 
 # Прислівники
@@ -931,7 +931,6 @@
 аж-аж part|conj:subord
 аж-аж-аж part|conj:subord
 але conj:coord|intj|part:rare
-амінь part|noun:n:nv:np
 аніж conj:subord
 ані-ні part
 ані conj:coord|part
@@ -1102,9 +1101,9 @@
 тройко numr:p:nv:coll
 четвірко numr:p:nv:coll
 семерко numr:p:nv:coll
-декілько numr:p:v_naz/v_zna:coll
-кількадесятеро numr:p:v_naz/v_zna:coll
-кільканадцятеро numr:p:v_naz/v_zna:coll
+декілько numr:gop:v_naz/v_zna:coll
+кількадесятеро numr:gop:v_naz/v_zna:coll
+кільканадцятеро numr:gop:v_naz/v_zna:coll
 
 доперва adv:rare|part:rare
 суціль adv:rare

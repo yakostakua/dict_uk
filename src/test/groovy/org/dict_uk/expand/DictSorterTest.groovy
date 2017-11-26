@@ -17,7 +17,7 @@ public class DictSorterTest extends GroovyTestCase {
 	
 	@Test
 	void testTagSortKey() {
-		assert dictSorter.tag_sort_key("noun:m:v_dav", "порт") == "noun:0:30"
+		assert dictSorter.tag_sort_key("noun:gms:v_dav", "порт") == "noun:00:30"
 	}
 
 	def linesToSort =

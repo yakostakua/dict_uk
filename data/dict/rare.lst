@@ -115,7 +115,7 @@
 ке intj:&predic
 кете intj:&predic
 кип'ячка /n10
-кілько numr:p:v_naz/v_zna
+кілько numr:gop:v_naz/v_zna
 кількоро adv
 коби conj:subord
 когут /n20.a.p.<>
@@ -128,7 +128,7 @@
 любля noninfl:&predic
 любовник /n20.a.p.<
 любовниця /n10.p1.<
-люде людина noun:anim:p:v_naz
+люде людина noun:anim:gfp:v_naz
 людовий /adj
 мабіть adv:&insert
 магайбі intj
@@ -167,20 +167,20 @@
 неоглядком adv
 неохая /n10.< :+m
 нестямливий /adj
-неякась неякийсь adj:f:v_naz:&pron:neg
-неякесь неякийсь adj:n:v_naz/v_zna:&pron:neg
-неякийсь неякийсь adj:m:v_naz/v_zn2:&pron:neg
-неякимись неякийсь adj:p:v_oru:&pron:neg
-неякимось неякийсь adj:m:v_oru//n:v_oru//p:v_dav:&pron:neg
-неякимсь неякийсь adj:m:v_oru:&pron:neg
-неякихось неякийсь adj:p:v_rod/v_zn1/v_mis:&pron:neg
-неякійсь неякийсь adj:f:v_dav/v_mis:&pron:neg
-неякісь неякийсь adj:p:v_naz/v_zn2:&pron:neg
-неякогось неякийсь adj:m:v_rod/v_zn1//n:v_rod:&pron:neg
-неякоїсь неякийсь adj:f:v_rod:&pron:neg
-неякомусь неякийсь adj:m:v_dav/v_mis//n:v_dav/v_mis:&pron:neg
-неякоюсь неякийсь adj:f:v_oru:&pron:neg
-неякусь неякийсь adj:f:v_zna:&pron:neg
+неякась неякийсь adj:gfs:v_naz:&pron:neg
+неякесь неякийсь adj:gns:v_naz/v_zna:&pron:neg
+неякийсь неякийсь adj:gms:v_naz/v_zn2:&pron:neg
+неякимись неякийсь adj:gop:v_oru:&pron:neg
+неякимось неякийсь adj:gms:v_oru//gns:v_oru//gop:v_dav:&pron:neg
+неякимсь неякийсь adj:gms:v_oru:&pron:neg
+неякихось неякийсь adj:gop:v_rod/v_zn1/v_mis:&pron:neg
+неякійсь неякийсь adj:gfs:v_dav/v_mis:&pron:neg
+неякісь неякийсь adj:gop:v_naz/v_zn2:&pron:neg
+неякогось неякийсь adj:gms:v_rod/v_zn1//gns:v_rod:&pron:neg
+неякоїсь неякийсь adj:gfs:v_rod:&pron:neg
+неякомусь неякийсь adj:gms:v_dav/v_mis//gns:v_dav/v_mis:&pron:neg
+неякоюсь неякийсь adj:gfs:v_oru:&pron:neg
+неякусь неякийсь adj:gfs:v_zna:&pron:neg
 нігде adv:&pron:emph
 нігде adv:&pron:neg
 ніже conj:coord
@@ -190,8 +190,8 @@
 ніт noninfl:&predic
 ніц noun:inanim:v_rod:&pron:neg
 ніц noun:inanim:v_zna:&pron:neg
-оба numr:m:v_naz/v_zna
-обі numr:f:v_naz/v_zna
+оба numr:gmp:v_naz/v_zna
+обі numr:gfp:v_naz/v_zna
 обруч adv
 обсіч adv
 обутритися /vr1 :perf p=3
@@ -218,53 +218,26 @@
 орегано noun:n:nv
 оселець /n22.a.p.<
 осьмий /adj
-отсе отсей adj:n:v_naz/v_zna:&pron:dem
-отсей отсей adj:m:v_naz/v_zn2:&pron:dem
-отсим отсей adj:m:v_oru//n:v_oru//p:v_dav:&pron:dem
-отсими отсей adj:p:v_oru:&pron:dem
-отсих отсей adj:p:v_rod/v_zn1/v_mis:&pron:dem
-отсі отсей adj:p:v_naz/v_zn2/v_mis:&pron:dem
-отсієї отсей adj:f:v_rod:&pron:dem
-отсією отсей adj:f:v_oru:&pron:dem
-отсій отсей adj:f:v_dav/v_mis:&pron:dem
-отсім отсей adj:m:v_mis//n:v_mis:&pron:dem
-отсього отсей adj:m:v_rod/v_zn1//n:v_rod:&pron:dem
-отсьому отсей adj:m:v_dav/v_mis//n:v_dav/v_mis:&pron:dem
-отсю отсей adj:f:v_zna:&pron:dem
-отся отсей adj:f:v_naz:&pron:dem
-отта оттой adj:f:v_naz:&pron:dem
+отсе отсей adj:gns:v_naz/v_zna:&pron:dem
+отсей отсей adj:gms:v_naz/v_zn2:&pron:dem
+отсим отсей adj:gms:v_oru//gns:v_oru//gop:v_dav:&pron:dem
+отсими отсей adj:gop:v_oru:&pron:dem
+отсих отсей adj:gop:v_rod/v_zn1/v_mis:&pron:dem
+отсі отсей adj:gop:v_naz/v_zn2/v_mis:&pron:dem
+отсієї отсей adj:gfs:v_rod:&pron:dem
+отсією отсей adj:gfs:v_oru:&pron:dem
+отсій отсей adj:gfs:v_dav/v_mis:&pron:dem
+отсім отсей adj:gms:v_mis//gns:v_mis:&pron:dem
+отсього отсей adj:gms:v_rod/v_zn1//gns:v_rod:&pron:dem
+отсьому отсей adj:gms:v_dav/v_mis//gns:v_dav/v_mis:&pron:dem
+отсю отсей adj:gfs:v_zna:&pron:dem
+отся отсей adj:gfs:v_naz:&pron:dem
+отта оттой adj:gfs:v_naz:&pron:dem
 оттакий /adj :&pron:dem
-отте оттой adj:n:v_naz/v_zna:&pron:dem
 оттим conj:subord
-оттим оттой adj:m:v_oru//n:v_oru//p:v_dav:&pron:dem
-оттими оттой adj:p:v_oru:&pron:dem
-оттих оттой adj:p:v_rod/v_zn1/v_mis:&pron:dem
-отті оттой adj:p:v_naz/v_zn2:&pron:dem
-оттієї оттой adj:f:v_rod:&pron:dem
-оттією оттой adj:f:v_oru:&pron:dem
-оттій оттой adj:f:v_dav/v_mis:&pron:dem
-оттім оттой adj:m:v_mis//n:v_mis:&pron:dem
-оттого оттой adj:m:v_rod/v_zn1//n:v_rod:&pron:dem
-оттої оттой adj:f:v_rod:&pron:dem
-оттой оттой adj:m:v_naz/v_zn2:&pron:dem
-оттому оттой adj:m:v_dav/v_mis//n:v_dav/v_mis:&pron:dem
-оттою оттой adj:f:v_oru:&pron:dem
-отту оттой adj:f:v_zna:&pron:dem
-отце отцей adj:n:v_naz/v_zna:&pron:dem
+оттой /adj_pron &pron:dem
 отце part
-отцей отцей adj:m:v_naz/v_zn2:&pron:dem
-отцим отцей adj:m:v_oru//n:v_oru//p:v_dav:&pron:dem
-отцими отцей adj:p:v_oru:&pron:dem
-отцих отцей adj:p:v_rod/v_zn1/v_mis:&pron:dem
-отці отцей adj:p:v_naz/v_zn2/v_mis:&pron:dem
-отцієї отцей adj:f:v_rod:&pron:dem
-отцією отцей adj:f:v_oru:&pron:dem
-отцій отцей adj:f:v_dav/v_mis:&pron:dem
-отцім отцей adj:m:v_mis//n:v_mis:&pron:dem
-отцього отцей adj:m:v_rod/v_zn1//n:v_rod:&pron:dem
-отцьому отцей adj:m:v_dav/v_mis//n:v_dav/v_mis:&pron:dem
-отцю отцей adj:f:v_zna:&pron:dem
-отця отцей adj:f:v_naz:&pron:dem
+отцей /adj_pron :&pron:dem
 памка /n10
 пеняти /v2.cf.advp :imperf
 перстінь /n23.p
@@ -323,20 +296,20 @@
 свіжистий /adj
 світач /n20.a.p
 святешний /adj
-се сей adj:n:v_naz/v_zna:&pron:dem
-сей сей adj:m:v_naz/v_zn2:&pron:dem
+се сей adj:gns:v_naz/v_zna:&pron:dem
+сей сей adj:gms:v_naz/v_zn2:&pron:dem
 силяти /v2.cf.advp :imperf
-сим сей adj:m:v_oru//n:v_oru//p:v_dav:&pron:dem
-сими сей adj:p:v_oru:&pron:dem
-сих сей adj:p:v_rod/v_zn1/v_mis:&pron:dem
-сі сей adj:p:v_naz/v_zn2/v_mis:&pron:dem
-сієї сей adj:f:v_rod:&pron:dem
-сією сей adj:f:v_oru:&pron:dem
-сій сей adj:f:v_dav/v_mis:&pron:dem
+сим сей adj:gms:v_oru//gns:v_oru//gop:v_dav:&pron:dem
+сими сей adj:gop:v_oru:&pron:dem
+сих сей adj:gop:v_rod/v_zn1/v_mis:&pron:dem
+сі сей adj:gop:v_naz/v_zn2/v_mis:&pron:dem
+сієї сей adj:gfs:v_rod:&pron:dem
+сією сей adj:gfs:v_oru:&pron:dem
+сій сей adj:gfs:v_dav/v_mis:&pron:dem
 сількось adv:&insert
-сім сей adj:m:v_mis//n:v_mis:&pron:dem
+сім сей adj:gms:v_mis//gns:v_mis:&pron:dem
 скілька numr:nv
-скілько numr:p:v_naz/v_zna
+скілько numr:gop:v_naz/v_zna
 сопух /n20.a
 спечно спечно adv
 споміж prep        # rv_rod
@@ -344,10 +317,10 @@
 стосувати /v1.cf.advp :imperf
 суперека /n10.p1
 сутяжно adv
-сього сей adj:m:v_rod/v_zn1//n:v_rod:&pron:dem
-сьому сей adj:m:v_dav/v_mis//n:v_dav/v_mis:&pron:dem
-сю сей adj:f:v_zna:&pron:dem
-ся сей adj:f:v_naz:&pron:dem
+сього сей adj:gms:v_rod/v_zn1//gns:v_rod:&pron:dem
+сьому сей adj:gms:v_dav/v_mis//gns:v_dav/v_mis:&pron:dem
+сю сей adj:gfs:v_zna:&pron:dem
+ся сей adj:gfs:v_naz:&pron:dem
 ся part
 таж conj:subord|part
 таже conj:subord|part
@@ -355,7 +328,7 @@
 травознай /n20.a.p.<
 трансфлюксор /n20.a.p.ke
 трафунок /n22
-тридесять numr:p:v_naz/v_zna
+тридесять numr:gop:v_naz/v_zna
 трясцяма noninfl:&predic
 угощати /v2.cf.advp :imperf
 удвійці adv:v-u
@@ -396,7 +369,7 @@
 хоть part
 хотя part
 хресійбо intj
-циганів циган noun:anim:p:v_rod/v_zna
+циганів циган noun:anim:gmp:v_rod/v_zna
 цукриця /n10
 цьоця /n10.ku.<
 чортма noninfl:&predic
@@ -409,7 +382,7 @@
 шкварко adv:&predic
 шкло /n2n :np               #> скло
 шкульно adv:&predic
-штири numr:p:v_naz/v_zna
+штири numr:gop:v_naz/v_zna
 штирнадцять numr:nv
 шушон /n20.a.p
 щіль /n32.p

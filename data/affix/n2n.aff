@@ -4,39 +4,39 @@ group n2n
 
 
 # Тверда група на -о
-о   а   о           #  озеро  озера                 @ noun:n:v_rod
-о   у   о           #  озеро  озеру                 @ noun:n:v_dav/v_mis
-о   ом  о           #  озеро  озером                @ noun:n:v_oru
-о   і   [^гкх]о     #  озеро  озері                 @ noun:n:v_mis
-го  зі  [^і]го      #  благо  блазі                 @ noun:n:v_mis
-хо  сі  [^и]хо      #  вухо  вусі                         @ noun:n:v_mis
-ко  ці  [оеіу]ко    #  молоко  молоці                 @ noun:n:v_mis
+о   а   о           #  озеро  озера                 @ noun:gns:v_rod
+о   у   о           #  озеро  озеру                 @ noun:gns:v_dav/v_mis
+о   ом  о           #  озеро  озером                @ noun:gns:v_oru
+о   і   [^гкх]о     #  озеро  озері                 @ noun:gns:v_mis
+го  зі  [^і]го      #  благо  блазі                 @ noun:gns:v_mis
+хо  сі  [^и]хо      #  вухо  вусі                         @ noun:gns:v_mis
+ко  ці  [оеіу]ко    #  молоко  молоці                 @ noun:gns:v_mis
 
 
 # М'яка група на -е крім шиплячих
 [лрц]е:
-е   я     #  море  моря                       @ noun:n:v_rod//p:v_naz
-е   ю     #  море  морю                       @ noun:n:v_dav/v_mis
-е   ем    #  море  морем                      @ noun:n:v_oru
-е   і     #  море  морі                       @ noun:n:v_mis
+е   я     #  море  моря                       @ noun:gns:v_rod//gnp:v_naz
+е   ю     #  море  морю                       @ noun:gns:v_dav/v_mis
+е   ем    #  море  морем                      @ noun:gns:v_oru
+е   і     #  море  морі                       @ noun:gns:v_mis
 
 є:
-є   я     #  Тур'я                       @ noun:n:v_rod
-є   ю     #  Тур'ю                       @ noun:n:v_dav/v_mis
-є   єм    #  Тур'єм                      @ noun:n:v_oru
-є   ї     #  Тур'ї                       @ noun:n:v_mis
+є   я     #  Тур'я                       @ noun:gns:v_rod
+є   ю     #  Тур'ю                       @ noun:gns:v_dav/v_mis
+є   єм    #  Тур'єм                      @ noun:gns:v_oru
+є   ї     #  Тур'ї                       @ noun:gns:v_mis
 
 # Мішана група на шиплячий перед -е
 [жчшщ]е:
-е   а    #  прізвище  прізвища                 @ noun:n:v_rod
-е   у    #  прізвище  прізвищу                 @ noun:n:v_dav/v_mis
-е   ем   #  прізвище  прізвищем                @ noun:n:v_oru
-е   і    #  прізвище  прізвищі                 @ noun:n:v_mis
+е   а    #  прізвище  прізвища                 @ noun:gns:v_rod
+е   у    #  прізвище  прізвищу                 @ noun:gns:v_dav/v_mis
+е   ем   #  прізвище  прізвищем                @ noun:gns:v_oru
+е   і    #  прізвище  прізвищі                 @ noun:gns:v_mis
 
-я   ю   я       #  завдання  завданню                 @ noun:n:v_dav/v_mis
-я   ям  я       #  завдання  завданням                @ noun:n:v_oru
-я   і   [^'ь]я  #  завдання  завданні                 @ noun:n:v_mis
-я   ї   ['ь]я   #  бездощів'я  бездощів'ї               @ noun:n:v_mis
+я   ю   я       #  завдання  завданню                 @ noun:gns:v_dav/v_mis
+я   ям  я       #  завдання  завданням                @ noun:gns:v_oru
+я   і   [^'ь]я  #  завдання  завданні                 @ noun:gns:v_mis
+я   ї   ['ь]я   #  бездощів'я  бездощів'ї               @ noun:gns:v_mis
 
 
 
@@ -44,8 +44,8 @@ group n2n
 
 subgroup n2n.ovi
 
-о    ові    о        #  дитятко   дитяткові                 @ noun:n:v_dav/v_mis
-е    еві    е        #  чудище   чудищеві                   @ noun:n:v_dav
+о    ові    о        #  дитятко   дитяткові                 @ noun:gns:v_dav/v_mis
+е    еві    е        #  чудище   чудищеві                   @ noun:gns:v_dav
 
 
 
@@ -60,62 +60,62 @@ subgroup n2n.p1
 # Закінчення -о
 
 о:
-о   а                    #  озеро  озера                 @ noun:p:v_naz
-о   0                    #  озеро  озер                  @ noun:p:v_rod
-о   ам                   #  озеро  озерам                @ noun:p:v_dav
-о   ами                  #  озеро  озерами               @ noun:p:v_oru
-о   ах                   #  озеро  озерах                @ noun:p:v_mis
+о   а                    #  озеро  озера                 @ noun:gnp:v_naz
+о   0                    #  озеро  озер                  @ noun:gnp:v_rod
+о   ам                   #  озеро  озерам                @ noun:gnp:v_dav
+о   ами                  #  озеро  озерами               @ noun:gnp:v_oru
+о   ах                   #  озеро  озерах                @ noun:gnp:v_mis
 
 
 # Закінчення -е
 
 це:
-е   ь               #  місце  місць                       @ noun:p:v_rod
-е   ям              #  місце  місцям                      @ noun:p:v_dav
-е   ями             #  місце  місцями                     @ noun:p:v_oru
-е   ях              #  місце  місцях                      @ noun:p:v_mis
+е   ь               #  місце  місць                       @ noun:gnp:v_rod
+е   ям              #  місце  місцям                      @ noun:gnp:v_dav
+е   ями             #  місце  місцями                     @ noun:gnp:v_oru
+е   ях              #  місце  місцях                      @ noun:gnp:v_mis
 
 # Мішана група на шиплячий перед -е
 
-е   0   [жчшщ]е          #  прізвище  прізвищ          @ noun:p:v_rod
+е   0   [жчшщ]е          #  прізвище  прізвищ          @ noun:gnp:v_rod
 
 # мн. плече - у винятках
-#0   й   че              #  віче  віч                  @ noun:p:v_rod
+#0   й   че              #  віче  віч                  @ noun:gnp:v_rod
 
-е   а   [жчшщ]е       #  прізвище  прізвища         @ noun:p:v_naz
-е   ам  [жчшщ]е       #  прізвище  прізвищам        @ noun:p:v_dav
-е   ами [жчшщ]е       #  прізвище  прізвищами       @ noun:p:v_oru
-е   ах  [жчшщ]е       #  прізвище  прізвищах        @ noun:p:v_mis
+е   а   [жчшщ]е       #  прізвище  прізвища         @ noun:gnp:v_naz
+е   ам  [жчшщ]е       #  прізвище  прізвищам        @ noun:gnp:v_dav
+е   ами [жчшщ]е       #  прізвище  прізвищами       @ noun:gnp:v_oru
+е   ах  [жчшщ]е       #  прізвище  прізвищах        @ noun:gnp:v_mis
 
 
 # Закінчення -я
 
 # Мішана група
-ня  ь   ння           #  завдання  завдань              @ noun:p:v_rod
-тя  ь   ття           #  заняття  занять                @ noun:p:v_rod
-дя  ь   ддя           #  безвладдя  безвладь            @ noun:p:v_rod
-ля  ь   лля           #  зусилля  зусиль                @ noun:p:v_rod
-ся  ь   сся           #  дрібнолісся  дрібнолісь        @ noun:p:v_rod
-зя  ь   ззя           #  пониззя  понизь                @ noun:p:v_rod
+ня  ь   ння           #  завдання  завдань              @ noun:gnp:v_rod
+тя  ь   ття           #  заняття  занять                @ noun:gnp:v_rod
+дя  ь   ддя           #  безвладдя  безвладь            @ noun:gnp:v_rod
+ля  ь   лля           #  зусилля  зусиль                @ noun:gnp:v_rod
+ся  ь   сся           #  дрібнолісся  дрібнолісь        @ noun:gnp:v_rod
+зя  ь   ззя           #  пониззя  понизь                @ noun:gnp:v_rod
 
-чя  0   ччя           #  десятиріччя  десятиріч         @ noun:p:v_rod
-шя  0   шшя           #  затишшя  затиш                 @ noun:p:v_rod
-жя  0   жжя           #  прибережжя  прибереж           @ noun:p:v_rod
+чя  0   ччя           #  десятиріччя  десятиріч         @ noun:gnp:v_rod
+шя  0   шшя           #  затишшя  затиш                 @ noun:gnp:v_rod
+жя  0   жжя           #  прибережжя  прибереж           @ noun:gnp:v_rod
 
-я   ь   рня           #  терня  тернь                   @ noun:p:v_rod
-я   ь   [^т]тя        #  підпертя  підперть             @ noun:p:v_rod
-я   ь   [^д]дя        #  безглуздя  безглуздь           @ noun:p:v_rod
+я   ь   рня           #  терня  тернь                   @ noun:gnp:v_rod
+я   ь   [^т]тя        #  підпертя  підперть             @ noun:gnp:v_rod
+я   ь   [^д]дя        #  безглуздя  безглуздь           @ noun:gnp:v_rod
 
-я   ям  я             #  завдання  завданням            @ noun:p:v_dav
-я   ями я             #  завдання  завданнями           @ noun:p:v_oru
-я   ях  я             #  завдання  завданнях            @ noun:p:v_mis
+я   ям  я             #  завдання  завданням            @ noun:gnp:v_dav
+я   ями я             #  завдання  завданнями           @ noun:gnp:v_oru
+я   ях  я             #  завдання  завданнях            @ noun:gnp:v_mis
 
 є:
-є   я                #  житія                          @ noun:p:v_naz
-є   й                #  житій                          @ noun:p:v_rod
-є   ям               #  житія                          @ noun:p:v_dav
-є   ями              #  житіям                         @ noun:p:v_oru
-є   ях               #  житіях                         @ noun:p:v_mis
+є   я                #  житія                          @ noun:gnp:v_naz
+є   й                #  житій                          @ noun:gnp:v_rod
+є   ям               #  житія                          @ noun:gnp:v_dav
+є   ями              #  житіям                         @ noun:gnp:v_oru
+є   ях               #  житіях                         @ noun:gnp:v_mis
 
 
 # Множина с.р. другої відміни з чергуванням о->і або з появою о/е, а з закінченням -ів для іменників с.р. на -я
@@ -123,58 +123,58 @@ subgroup n2n.p1
 subgroup n2n.p2
 
 о:
-о    а                  #  слово  слова                 @ noun:p:v_naz
-о    ам                 #  слово  словам                @ noun:p:v_dav
-о    ами                #  слово  словами                @ noun:p:v_oru
-о    ах                 #  слово  словах                @ noun:p:v_mis
+о    а                  #  слово  слова                 @ noun:gnp:v_naz
+о    ам                 #  слово  словам                @ noun:gnp:v_dav
+о    ами                #  слово  словами                @ noun:gnp:v_oru
+о    ах                 #  слово  словах                @ noun:gnp:v_mis
 
 [еіо][влтс]о:
-.(.)о    і\1                #  слово  слів                    @ noun:p:v_rod
+.(.)о    і\1                #  слово  слів                    @ noun:gnp:v_rod
 
-но    ен    [гл]но           #  стегно стеген                @ noun:p:v_rod
-но    он    [кг]но          #  вікно   вікон                @ noun:p:v_rod
-во    ов    гво              #  лігво   лігов                @ noun:p:v_rod
-мо    ом    смо             #  пасмо    пасом                @ noun:p:v_rod
-ло    ол    зло             #  зло   зол                    @ noun:p:v_rod
-ко    ок    [жзлмнртчшь]ко   #  серденько  серденьок                @ noun:p:v_rod
+но    ен    [гл]но           #  стегно стеген                @ noun:gnp:v_rod
+но    он    [кг]но          #  вікно   вікон                @ noun:gnp:v_rod
+во    ов    гво              #  лігво   лігов                @ noun:gnp:v_rod
+мо    ом    смо             #  пасмо    пасом                @ noun:gnp:v_rod
+ло    ол    зло             #  зло   зол                    @ noun:gnp:v_rod
+ко    ок    [жзлмнртчшь]ко   #  серденько  серденьок                @ noun:gnp:v_rod
 
-ло    ел    [бдкпстш]ло     #  житло  жител                    @ noun:p:v_rod
-но    ен    [звдтрс]но      #  зерно  зерен                    @ noun:p:v_rod
-мо    ем    рмо             #  ярмо    ярем                    @ noun:p:v_rod
-ро    ер    [бдт]ро         #  ребро   ребер                @ noun:p:v_rod
+ло    ел    [бдкпстш]ло     #  житло  жител                    @ noun:gnp:v_rod
+но    ен    [звдтрс]но      #  зерно  зерен                    @ noun:gnp:v_rod
+мо    ем    рмо             #  ярмо    ярем                    @ noun:gnp:v_rod
+ро    ер    [бдт]ро         #  ребро   ребер                @ noun:gnp:v_rod
 
 
-це      дець    серце       #  серце  сердець             @ noun:p:v_rod
-це      ець     [^с]ерце    #  озерце  озерець            @ noun:p:v_rod
-це      ець     [^е]рце     #  пірце  пірець          @ noun:p:v_rod
-це      ець     [^йрь]це    #  віконце  віконець          @ noun:p:v_rod
-йце     єць     йце         #  яйце  яєць                 @ noun:p:v_rod
-ьце     ець     ьце         #  бильце  билець             @ noun:p:v_rod
+це      дець    серце       #  серце  сердець             @ noun:gnp:v_rod
+це      ець     [^с]ерце    #  озерце  озерець            @ noun:gnp:v_rod
+це      ець     [^е]рце     #  пірце  пірець          @ noun:gnp:v_rod
+це      ець     [^йрь]це    #  віконце  віконець          @ noun:gnp:v_rod
+йце     єць     йце         #  яйце  яєць                 @ noun:gnp:v_rod
+ьце     ець     ьце         #  бильце  билець             @ noun:gnp:v_rod
 
-оле     іль     оле         #  поле піль             @ noun:p:v_rod
+оле     іль     оле         #  поле піль             @ noun:gnp:v_rod
 
-е       ям  е            #  яйце  яйцям                      @ noun:p:v_dav
-е       ями е            #  яйце  яйцями                     @ noun:p:v_oru
-е       ях  е            #  яйце  яйцях                      @ noun:p:v_mis
+е       ям  е            #  яйце  яйцям                      @ noun:gnp:v_dav
+е       ями е            #  яйце  яйцями                     @ noun:gnp:v_oru
+е       ях  е            #  яйце  яйцях                      @ noun:gnp:v_mis
 
 че:
-е       і               #  плечі                       @ noun:p:v_naz
-ече     іч              #  пліч                        @ noun:p:v_rod
-0       й               #  плечей                      @ noun:p:v_rod
-е       ам              #  плечам                      @ noun:p:v_dav
-е       има             #  плечима                     @ noun:p:v_oru
-е       ах              #  плечах                      @ noun:p:v_mis
+е       і               #  плечі                       @ noun:gnp:v_naz
+ече     іч              #  пліч                        @ noun:gnp:v_rod
+0       й               #  плечей                      @ noun:gnp:v_rod
+е       ам              #  плечам                      @ noun:gnp:v_dav
+е       има             #  плечима                     @ noun:gnp:v_oru
+е       ах              #  плечах                      @ noun:gnp:v_mis
 
 
-ря  ер  тря          #  вістря вістер                @ noun:p:v_rod
+ря  ер  тря          #  вістря вістер                @ noun:gnp:v_rod
 
-я   їв  'я           #  бездощів'я  бездощів'їв        @ noun:p:v_rod
-я   ів  лля          #  підстілля  підстіллів        @ noun:p:v_rod
+я   їв  'я           #  бездощів'я  бездощів'їв        @ noun:gnp:v_rod
+я   ів  лля          #  підстілля  підстіллів        @ noun:gnp:v_rod
 
-я       ів   [жст]я  #  життя  життів                @ noun:p:v_rod
-я       ям   я       #  життя  життям                @ noun:p:v_dav
-я       ями  я       #  життя  життями               @ noun:p:v_oru
-я       ях   я       #  життя  життях                @ noun:p:v_mis
+я       ів   [жст]я  #  життя  життів                @ noun:gnp:v_rod
+я       ям   я       #  життя  життям                @ noun:gnp:v_dav
+я       ями  я       #  життя  життями               @ noun:gnp:v_oru
+я       ях   я       #  життя  життях                @ noun:gnp:v_mis
 
 
 
@@ -183,11 +183,11 @@ subgroup n2n.p2
 subgroup n2n.p3
 
 но:
-но    ена                  #  дно  дена                 @ noun:p:v_naz
-но    ен                   #  дно  ден                @ noun:p:v_rod
-но    енам                 #  дно  денам                @ noun:p:v_dav
-но    енами                #  дно  денами                @ noun:p:v_oru
-но    енах                 #  дно  денах                @ noun:p:v_mis
+но    ена                  #  дно  дена                 @ noun:gnp:v_naz
+но    ен                   #  дно  ден                @ noun:gnp:v_rod
+но    енам                 #  дно  денам                @ noun:gnp:v_dav
+но    енами                #  дно  денами                @ noun:gnp:v_oru
+но    енах                 #  дно  денах                @ noun:gnp:v_mis
 
 
 
@@ -196,18 +196,18 @@ subgroup n2n.p3
 subgroup n2n.piv
 
 о:
-о    а      #  ікло  ікла               @ noun:p:v_naz
-о    ів     #  ікло  іклів               @ noun:p:v_rod
-о    ам     #  ікло  іклам                @ noun:p:v_dav
-о    ами    #  ікло  іклами                @ noun:p:v_oru
-о    ах     #  ікло  іклах                @ noun:p:v_mis
+о    а      #  ікло  ікла               @ noun:gnp:v_naz
+о    ів     #  ікло  іклів               @ noun:gnp:v_rod
+о    ам     #  ікло  іклам                @ noun:gnp:v_dav
+о    ами    #  ікло  іклами                @ noun:gnp:v_oru
+о    ах     #  ікло  іклах                @ noun:gnp:v_mis
 
 
 [лр][яе]:
-.   ів      #  море  морів                      @ noun:p:v_rod
-.   ям      #  море  морям                      @ noun:p:v_dav
-.   ями     #  море  морями                     @ noun:p:v_oru
-.   ях      #  море  морях                      @ noun:p:v_mis
+.   ів      #  море  морів                      @ noun:gnp:v_rod
+.   ям      #  море  морям                      @ noun:gnp:v_dav
+.   ями     #  море  морями                     @ noun:gnp:v_oru
+.   ях      #  море  морях                      @ noun:gnp:v_mis
 
 
 
@@ -216,8 +216,8 @@ subgroup n2n.piv
 group n2nf
 
 ще:
-е    і          # бородище                             @ noun:f:v_rod/v_dav/v_mis
-е    ею         # бородищею                         @ noun:f:v_oru
+е    і          # бородище                             @ noun:gfs:v_rod/v_dav/v_mis
+е    ею         # бородищею                         @ noun:gfs:v_oru
 
 
 
@@ -226,11 +226,11 @@ group n2nf
 subgroup n2nf.p
 
 ще:
-е    і          # бородище бородищі                                        @ noun:p:v_naz
-е    0          # бородище бородищ                                            @ noun:p:v_rod
-е    ам         # бородище  бородищам                                        @ noun:p:v_dav
-е    ами        # бородище  бородищами                                     @ noun:p:v_oru
-е    ах         # бородище  бородищах                                        @ noun:p:v_mis
+е    і          # бородище бородищі                                        @ noun:gnp:v_naz
+е    0          # бородище бородищ                                            @ noun:gnp:v_rod
+е    ам         # бородище  бородищам                                        @ noun:gnp:v_dav
+е    ами        # бородище  бородищами                                     @ noun:gnp:v_oru
+е    ах         # бородище  бородищах                                        @ noun:gnp:v_mis
 
 
 
@@ -240,10 +240,10 @@ group n2nm
 
 
 ще:
-е   а           # вовчище  вовчища                 @ noun:m:v_rod
-е   у           # вовчище  вовчищу                 @ noun:m:v_dav/v_mis
-е   ем          # вовчище  вовчищем                @ noun:m:v_oru
-е   і           # вовчище  вовчищі                 @ noun:m:v_mis
+е   а           # вовчище  вовчища                 @ noun:gms:v_rod
+е   у           # вовчище  вовчищу                 @ noun:gms:v_dav/v_mis
+е   ем          # вовчище  вовчищем                @ noun:gms:v_oru
+е   і           # вовчище  вовчищі                 @ noun:gms:v_mis
 
 
 
@@ -252,8 +252,8 @@ group n2nm
 subgroup n2nm.p
 
 ще:
-е   а          # вовчище  вовчища              @ noun:p:v_naz
-е   0          # вовчище  вовчищам        @ noun:p:v_rod
-е   ам         # вовчище  вовчищам        @ noun:p:v_dav
-е   ами        # вовчище  вовчищами       @ noun:p:v_oru
-е   ах         # вовчище  вовчищах        @ noun:p:v_mis
+е   а          # вовчище  вовчища              @ noun:gnp:v_naz
+е   0          # вовчище  вовчищам        @ noun:gnp:v_rod
+е   ам         # вовчище  вовчищам        @ noun:gnp:v_dav
+е   ами        # вовчище  вовчищами       @ noun:gnp:v_oru
+е   ах         # вовчище  вовчищах        @ noun:gnp:v_mis

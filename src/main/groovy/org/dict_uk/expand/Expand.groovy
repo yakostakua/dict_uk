@@ -254,18 +254,24 @@ class Expand {
 	private boolean filter_word(DicEntry entry, Map modifiers, String flags) {
 		String tagStr = entry.tagStr
 		
-		if( "gen" in modifiers) {
-			if( ! (tagStr =~ (":[" + modifiers["gen"] + "]:") ) )
-				return false
+		if( "gen" in modifiers ) {
+			if( modifiers["gen"] == 'p' ) {
+				if( ! (tagStr =~ /:g[/ + modifiers["gen"] + /]s/ ) )
+					return false
+			}
+			else {
+				if( ! (tagStr =~ /:g[/ + modifiers["gen"] + /]s/ ) )
+					return false
+			}
 		}
 		
-		if( "pers" in modifiers && ! ( tagStr =~ ":(inf|past:n|impers)") ) {
-			def prs = ":[" + modifiers["pers"] + "]"
+		if( "pers" in modifiers && ! ( tagStr =~ ":(inf|past:gns|impers)") ) {
+			def prs = ":g[" + modifiers["pers"] + "]"
 			if( modifiers["pers"] == "3" ) {
-				prs = ":s" + prs
+				prs = prs + "s" //":s" + prs
 			}
 			else { // p=4
-				prs = ":3|:past|:impr:[sp]:2"
+				prs = ":g3|:past|:impr:g2[sp]"
 				if( flags.contains('.advp') ) {
 				    prs += '|advp'
 				}
@@ -298,10 +304,16 @@ class Expand {
 				line.tagStr = line.tagStr.replaceAll("^[^:]+", modifiers["pos"])
 				//            util.debug("pos repl %s in %s", modifiers["pos"], line)
 			}
-			if( "force_gen" in modifiers && ! line.tagStr.contains(":pname") ) {
+			if( "force_gen" in modifiers 
+					&& ! line.tagStr.contains(":pname") ) {
+					
 				def force_gen = modifiers["force_gen"]
-				line.tagStr = line.tagStr.replaceAll(/:[mfn](:|$)/,  ":" + force_gen + /$1/)
-				//            util.debug("gen repl: %s in %s", force_gen, line)
+				if( force_gen == "p" )
+					line.tagStr = line.tagStr.replaceAll(/:g[mfn]s/,  ":gxp")
+				else
+					line.tagStr = line.tagStr.replaceAll(/:g[mfn]/,  ":g"+force_gen)
+//				            util.debug("gen repl: %s in %s", force_gen, line)
+//							println(String.format("gen repl: %s in %s", force_gen, line))
 			}
 
 			out.add(line)
@@ -353,7 +365,7 @@ class Expand {
 		String extra_flags = get_extra_flags(flags)
 
 
-		if( extra_flags) {
+		if( extra_flags ) {
 			boolean first_name_base = util.firstname(lines[0].word, flags)
 
 			List<DicEntry> out_lines = []
@@ -365,6 +377,7 @@ class Expand {
 				if( first_name_base && ! line.tagStr.contains("pname") && ! flags.contains(":pname") ) {
 					extra_flags2 += ":prop:fname"
 				}
+
 				if( line.tagStr.startsWith("advp") ) {
 					if( line.tagStr.contains(":imperf") )
 						extra_flags2 = perf_imperf_pattern.matcher(extra_flags2).replaceFirst("")
@@ -377,23 +390,25 @@ class Expand {
 				else if( extra_flags.contains(":+m") ) {
 					extra_flags2 = extra_flags2.replace(":+m", "")
 
-					if( line.tagStr.contains(":f:") ) {
-						String  mascLineTags2 = line.tagStr.replace(":f:", ":m:") + extra_flags2
+                    // for dual gender we only duplicate singular
+					if( line.tagStr.contains(":gf") ) {
+						String  mascLineTags2 = line.tagStr.replace(":gf", ":gm") + extra_flags2
 						extra_out_lines.add(new DicEntry(line.word, line.lemma, mascLineTags2))
 					}
-					else if( line.tagStr.contains(":n:") ) {
-						String mascLineTags = line.tagStr.replace(":n:", ":m:") + extra_flags2
+					else if( line.tagStr.contains(":gn") ) {
+						String mascLineTags = line.tagStr.replace(":gn", ":gm") + extra_flags2
 
 						if( util.istota(flags)) {
-							if( mascLineTags.contains("m:v_rod") ) {
-								def mascLineTags2 = mascLineTags.replace("m:v_rod", "m:v_zna")
+						    // пописько: р.в для с.р + р./з.в. для ч.р.
+							if( mascLineTags.contains("ms:v_rod") ) {
+								def mascLineTags2 = mascLineTags.replace("ms:v_rod", "ms:v_zna")
 								extra_out_lines.add(new DicEntry(line.word, line.lemma, mascLineTags2))
 							}
-							else if( mascLineTags.contains("m:v_zna") ) {
+							else if( mascLineTags.contains("ms:v_zna") ) {
 								mascLineTags = ""
 							}
 
-							if( mascLineTags.contains("m:v_kly") ) {
+							if( mascLineTags.contains("ms:v_kly") ) { //TODO: this is wrong - fix it
 								extra_out_lines << new DicEntry(line.word[0..<-1] + "е", line.lemma, mascLineTags)
 								mascLineTags = null
 							}
@@ -406,12 +421,12 @@ class Expand {
 				else if( extra_flags.contains(":+f") ) {
 					extra_flags2 = extra_flags2.replace(":+f", "")
 
-					if( line.tagStr.contains(":m:") ) {
-						String masc_line = line.tagStr.replace(":m:", ":f:") + extra_flags2
+					if( line.tagStr.contains(":gm") ) {
+						String masc_line = line.tagStr.replace(":gm", ":gf") + extra_flags2
 						extra_out_lines.add(new DicEntry(line.word, line.lemma, masc_line))
 					}
-					else if( line.tagStr.contains(":n:") ) {
-						String masc_line = line.tagStr.replace(":n:", ":f:") + extra_flags2
+					else if( line.tagStr.contains(":gn") ) {
+						String masc_line = line.tagStr.replace(":gn", ":gf") + extra_flags2
 
 						if( masc_line) {
 							extra_out_lines.add(new DicEntry(line.word, line.lemma, masc_line))
@@ -446,8 +461,8 @@ class Expand {
 					base_word = line.lemma
 
 					if( util.istota(flags)) {
-						if( line.tagStr.contains("m:v_rod") && ! line.tagStr.contains("/v_zna") ) {
-							line.setTagStr( line.tagStr.replace("m:v_rod", "m:v_rod/v_zna") )
+						if( line.tagStr.contains("gms:v_rod") && ! line.tagStr.contains("/v_zna") ) {
+							line.setTagStr( line.tagStr.replace("gms:v_rod", "gms:v_rod/v_zna") )
 						}
 					}
 					if( ! "аеєиіїоюя".contains(base_word[-1..-1]) && ! flags.contains(".a") ) {
@@ -479,26 +494,26 @@ class Expand {
 				}
 				else if( main_flag.startsWith("/n2nm") ) {
 					if( util.istota(flags)) {
-						if( line.tagStr.contains("m:v_rod") && ! line.tagStr.contains("/v_zna") ) {
-							line.tagStr = line.tagStr.replace("m:v_rod", "m:v_rod/v_zna")
+						if( line.tagStr.contains("ms:v_rod") && ! line.tagStr.contains("/v_zna") ) {
+							line.tagStr = line.tagStr.replace("ms:v_rod", "ms:v_rod/v_zna")
 						}
 					}
 				}
 				
 				if( main_flag.startsWith("/n2") && flags.contains("@") ) {
 					word = line.word
-					if( "ая".contains(word[-1..-1]) && line.tagStr.contains("m:v_rod") ) {
-						line.setTagStr( line.tagStr.replace("m:v_rod", "m:v_rod/v_zna") )
+					if( "ая".contains(word[-1..-1]) && line.tagStr.contains("ms:v_rod") ) {
+						line.setTagStr( line.tagStr.replace("ms:v_rod", "ms:v_rod/v_zna") )
 					}
 				}
 				
 				if( ! main_flag.contains("np") && ! main_flag.contains(".p") \
 				        && ! flags.contains("n2adj") && ! main_flag.contains("numr") ) {
-					if( line.tagStr.contains(":p:") ) {
+					if( line.tagStr =~ /:g.p/ ) {
 						// log.debug("skipping line with p: " + line)
 					}
-					else if( line.tagStr.contains("//p:") ) {
-						line.setTagStr( line.tagStr.replaceAll("//p:.*", "") )
+					else if( line.tagStr =~ '//g.p:' ) {
+						line.setTagStr( line.tagStr.replaceAll('//g.p:.*', "") )
 						// log.debug("removing //p from: " + line)
 					}
 				}
@@ -511,7 +526,7 @@ class Expand {
 					boolean explicitKly = flags.contains(".ko") || flags.contains(".ke")
 					if( ( explicitKly && ! line.tagStr.contains(":pname") ) \
 					        || ( ! explicitKly && main_flag =~ /n2[0-4]/ && ! isDefaultKlyU(base_word, flags) )
-                            || (line.tagStr.contains(":m:") && flags.contains("<+") ) ) {
+                            || (line.tagStr.contains(":gms") && flags.contains("<+") ) ) {
 						//log.info("removing v_kly from: %s, %s", line, flags)
 						line.setTagStr( line.tagStr.replace("/v_kly", "") )
 					}
@@ -555,10 +570,10 @@ class Expand {
 //						line = line.replace("v_naz", "v_naz/v_kly")
 				}
 				else if( flags.contains("^noun") ) {
-					if( line.tagStr.contains(":m:v_rod/v_zna") ) {
+					if( line.tagStr.contains(":gm") && line.tagStr.contains(":v_rod/v_zna") ) {
 						line.setTagStr( line.tagStr.replace("v_rod/v_zna", "v_rod") )
 					}
-					else if( line.tagStr.contains(":p:v_rod/v_zna") ) {
+					else if( line.tagStr.contains("p:v_rod/v_zna") ) {
 						line.setTagStr( line.tagStr.replace("v_rod/v_zna", "v_rod") )
 					}
 				}
@@ -651,7 +666,7 @@ class Expand {
             for(Map.Entry<String,String> entry: additionalTags.entrySet()) {
                 String wordStr = words[i].word + " " + words[i].tagStr
                 if( wordStr.startsWith( entry.getKey() ) ) {
-                    if( entry.getKey() =~ / (noun|adj)/ && ! (wordStr =~ /(noun|adj).*:[mfn]:v_naz/) )
+                    if( entry.getKey() =~ / (noun|adj)/ && ! (wordStr =~ /(noun|adj).*:g[mfn]s:v_naz/) )
                         continue
 
 					def entryValue = entry.getValue()
@@ -818,7 +833,7 @@ class Expand {
 		return out_lines
 	}
 
-	private static final Pattern PATTR_BASE_LEMMAN_PATTERN = ~ ":[mf]:v_naz:.*?pname"
+	private static final Pattern PATTR_BASE_LEMMAN_PATTERN = ~ ":g[mf]s:v_naz:.*?pname"
 	
 	@CompileStatic
 	private List<DicEntry> post_process_sorted(List<DicEntry> lines) {
@@ -836,9 +851,9 @@ class Expand {
 				line.lemma = last_lemma
 			}
 			else if( line.tagStr.contains("lname") 
-					&& line.tagStr.contains(":f:") 
+					&& line.tagStr.contains(":gfs:") 
 					&& ! line.tagStr.contains(":nv") ) {
-				if( line.tagStr.contains(":f:v_naz") ) {
+				if( line.tagStr.contains(":gfs:v_naz") ) {
 					last_lemma = line.word //split()[0]
 					//                System.err.printf("promoting f name to lemma %s for %s\n", last_lema, line)
 				}
@@ -899,7 +914,7 @@ class Expand {
 
 
 	private static final Pattern imperf_move_pattern = ~/(verb(?::rev)?)(.*)(:(im)?perf)/
-	private static final Pattern reorder_comp_with_adjp = ~/^(adj:.:v_...(?::ranim|:rinanim)?)(.*)(:compb)(.*)/
+	private static final Pattern reorder_comp_with_adjp = ~/^(adj:g..:v_...(?::ranim|:rinanim)?)(.*)(:compb)(.*)/
 	private static final Pattern any_anim = ~/:([iu]n)?anim/
 
 	@CompileStatic
@@ -1309,7 +1324,7 @@ class Expand {
 	}
 
 	@CompileStatic
-	private sortAndPostProcess(List allEntries) {
+	sortAndPostProcess(List<DicEntry> allEntries) {
 		if( Args.args.time ) {
 			log.info("Sorting...\n")
 		}

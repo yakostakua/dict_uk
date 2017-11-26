@@ -1,5 +1,6 @@
 package org.dict_uk.expand
 
+import java.security.acl.LastOwnerException
 import java.util.regex.Pattern
 
 import org.dict_uk.common.DicEntry
@@ -14,7 +15,7 @@ class OutputValidator {
 	static Logger log = LoggerFactory.getLogger(OutputValidator.class);
 	
 	static final Pattern WORD_RE = Pattern.compile("[а-яіїєґА-ЯІЇЄҐ][а-яіїєґА-ЯІЇЄҐ']*(-[а-яіїєґА-ЯІЇЄҐ']*)*|[А-ЯІЇЄҐ][А-ЯІЇЄҐ-]+|[а-яіїєґ]+\\.(-[а-яіїєґ]+\\.)?")
-	static final Pattern POS_RE = Pattern.compile("(noun:([iu]n)?anim:|noun:.*:&pron|verb(:rev)?:(im)?perf:|advp:(im)?perf|adj:[mfnp]:|adv|numr:|prep|part|intj|conj:|onomat|foreign|noninfl).*")
+	static final Pattern POS_RE = Pattern.compile("(noun:([iu]n)?anim:|noun:.*:&pron|verb(:rev)?:(im)?perf:|advp:(im)?perf|adj:g[mfno][sp]:|adv|numr:|prep|part|intj|conj:|onomat|foreign|noninfl).*")
     static final List<String> IGNORED_NOUNS = ["бельмеса", "давніх-давен", "основанья", "предку-віку", "роб", "свободівець", "шатер",
             "галай-балай", "вепр", "вихідець", "гратами", "мати-одиночка", "кінця-краю", "усіх-усюд", "Таганріг"]
 
@@ -67,13 +68,14 @@ class OutputValidator {
 
 	static final List<String> ALL_V_TAGS = ["v_naz", "v_rod", "v_dav", "v_zna", "v_oru", "v_mis", "v_kly"]
 	static final List<String> ADJ_PRON_V_TAGS = ["v_naz", "v_rod", "v_dav", "v_zna", "v_oru", "v_mis"]
-	static final List<String> ALL_VERB_TAGS = ["inf",
+	static final List<String> ALL_IMPERF_VERB_TAGS = ["inf",
 //			"impr:s:2", "impr:p:1", "impr:p:2", \
-			"pres:s:1", "pres:s:2", "pres:s:3", \
-			"pres:p:1", "pres:p:2", "pres:p:3", \
-			"past:m", "past:f", "past:n", "past:p", \
+			"pres:g1s", "pres:g2s", "pres:g3s", \
+			"pres:g1p", "pres:g2p", "pres:g3p", \
+			"past:gms", "past:gfs", "past:gns", "past:gop", \
 			 ]
-	static final Pattern VERB_CHECK_PATTERN = ~/inf|impr:s:2|impr:p:[12]|(?:pres|futr):[sp]:[123]|past:[mfnp]/
+	static final List<String> ALL_PERF_VERB_TAGS = ALL_IMPERF_VERB_TAGS.collect { it.replace("pres:", "futr:") }
+	static final Pattern VERB_CHECK_PATTERN = ~/inf|impr:g2s|impr:g[12]p|(?:pres|futr):g[123][sp]|past:g(?:[mfn]s|op)/
 
 	@CompileStatic
 	int check_indented_lines(List<String> lines, List<String> limitedVerbLemmas) {
@@ -88,6 +90,10 @@ class OutputValidator {
 		//		ParallelEnhancer.enhanceInstance(lines)
 
 		lines.each { String line ->
+			def parts = line.trim().split(" ")
+			def word = parts[0]
+			def tags = parts[1]
+			
 			if( ! line.startsWith(" ") ) {
 				if (gender) {
 					checkVTagSet(gender, subtagSet, lemmaLine)
@@ -102,28 +108,26 @@ class OutputValidator {
 				gender = ""
 				lemmaLine = line
 				
-				if( line.contains(" verb:") && ! lemmaLine.contains(":inf:dimin") && ! (lemmaLine.split()[0] in limitedVerbLemmas) ) {
-					def time = line.contains(":imperf") ? "pres" : "futr"
-					lastVerbTags = ALL_VERB_TAGS.collect { it.replace("pres", time) }
+				if( tags.startsWith("verb:") && ! lemmaLine.contains(":inf:dimin") && ! (word in limitedVerbLemmas) ) {
+					lastVerbTags = new ArrayList<>(tags.contains(":imperf") ? ALL_IMPERF_VERB_TAGS : ALL_PERF_VERB_TAGS)
 				}
 				else {
 					lastVerbTags = null
 				}
 			}
+			
+			if( ( tags.startsWith("noun") && ! tags.contains("&pron") )
+			        || ( tags.startsWith("adj") && tags.contains("&pron") ) ) {
 
-			if( ( line.contains(" noun") && ! line.contains("&pron") )
-			        || ( line.contains(" adj") && line.contains("&pron") ) ) {
-				def parts = line.trim().split(" ")
-				def tags = parts[1].split(":")
-
-				def gen = tags.find { it.size() == 1 && "mfnp".contains(it) }
+				def tagSet = tags.split(':')
+				def gen = tagSet.find { it.size() == 3 && it =~ /[mfn][sp]|[odx]p/ }
 				assert gen : "Cound not find gen in " + tags + " for " + line
 
 				if( gen != gender ) {
 					if (gender) {
 						checkVTagSet(gender, subtagSet, lemmaLine)
 					}
-					if( line.contains(":short") ) {
+					if( tags.contains(":short") ) {
 					    gender = ''
 					}
 					else {
@@ -132,11 +136,11 @@ class OutputValidator {
 					subtagSet.clear()
 				}
 
-				String v_tag = tags.find { it.startsWith("v_") }
+				String v_tag = tagSet.find { it.startsWith("v_") }
 				subtagSet.add( v_tag )
 			}
 			else if ( lastVerbTags ) {
-				def tagg = VERB_CHECK_PATTERN.matcher(line)
+				def tagg = VERB_CHECK_PATTERN.matcher(tags)
 				if( tagg ) {
 					lastVerbTags.remove(tagg[0])
 				}
@@ -149,7 +153,7 @@ class OutputValidator {
 //	private static final Set V_KLY_ONLY = new HashSet(Arrays.asList("v_kly"))
 
 	@CompileStatic
-	private checkVTagSet(String gender, HashSet subtagSet, String line) {
+	private checkVTagSet(String gender, Set subtagSet, String line) {
 		int nonFatalErrorCount = 0
 		
 		if( ! subtagSet.containsAll(ALL_V_TAGS) && ! line.contains(". ") ) {

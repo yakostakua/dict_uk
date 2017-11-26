@@ -39,24 +39,24 @@ class BaseTags {
 		if( affixFlag.startsWith("adj") ) {
 
 			if( word.endsWith("е") || word.endsWith("є") ) {
-				tag = ":n:v_naz/v_zna/v_kly"
+				tag = ":gns:v_naz/v_zna/v_kly"
 		    }
 			else if( word.endsWith("і") ) {
-				tag = ":p:v_naz/v_zn2/v_kly:ns"
+				tag = ":gxp:v_naz/v_zn2/v_kly:ns"
 			}
 			else if( word.endsWith("а") || word.endsWith("я") ) {
-				tag = ":f:v_naz/v_kly"
+				tag = ":gfs:v_naz/v_kly"
 			}
 			else if( word.endsWith("ій") || word.endsWith("їй") ) {
 				if( affixFlag.startsWith("adj_pron") ) {
-					tag = ":m:v_naz/v_zn2/v_kly"
+					tag = ":gms:v_naz/v_zn2/v_kly"
 				}
 				else {
-					tag = ":m:v_naz/v_zn2/v_kly//f:v_dav/v_mis"
+					tag = ":gms:v_naz/v_zn2/v_kly//gfs:v_dav/v_mis"
 				}
 			}
 			else {
-				tag = ":m:v_naz/v_zn2/v_kly"
+				tag = ":gms:v_naz/v_zn2/v_kly"
 			}
 
 			return tag
@@ -64,64 +64,64 @@ class BaseTags {
 
 		if( affixFlag == "numr" ) {
 		    if( word.endsWith("ин") ) {
-		        tag = ":m:v_naz/v_zn2"
+		        tag = ":gms:v_naz/v_zn2"
 		    }
 		    else {
-			    tag = ":p:v_naz/v_zna"
+			    tag = ":gop:v_naz/v_zna"
 			}
 			return tag
 		}
 
 		if( affixFlag.startsWith("n2n") ) {
 		    if( affixFlag.startsWith("n2nm") ) { // сутяжище /n2nm.p.<
-			    tag = ":m:v_naz" + v_zna_for_inanim
+			    tag = ":gms:v_naz" + v_zna_for_inanim
 			    tag += "/v_kly"
 		    }
 		    else if( affixFlag.startsWith("n2nf") ) { // сутяжище /n2nf.p.<
-			    tag = ":f:v_naz" + v_zna_for_inanim
+			    tag = ":gfs:v_naz" + v_zna_for_inanim
 			    tag += "/v_zna/v_kly"
 		    }
 		    else if( ending_i_nnia_re.matcher(word).matches() ) {
-				tag = ":n:v_naz/v_rod/v_zna/v_kly//p:v_naz/v_kly"
+				tag = ":gns:v_naz/v_rod/v_zna/v_kly//gnp:v_naz/v_kly"
 			}
 			else {
-				tag = ":n:v_naz/v_zna/v_kly"
+				tag = ":gns:v_naz/v_zna/v_kly"
 			}
 		}
 		else if( affixFlag.startsWith("np") ) {
-			tag = ":p:v_naz/v_kly" // + v_zna_for_inanim
+			tag = ":gxp:v_naz/v_kly" // + v_zna_for_inanim
 		}
 		else if( affixFlag.startsWith("n2adj1") ) {
 		    if( word.endsWith("е") || word.endsWith("є") || word.endsWith("о") ) {
-			    tag = ":n:v_naz/v_kly" + v_zna_for_inanim
+			    tag = ":gns:v_naz/v_kly" + v_zna_for_inanim
 			}
 		    else if( word.endsWith("а") || word.endsWith("я") ) {
-			    tag = ":f:v_naz/v_kly"
+			    tag = ":gfs:v_naz/v_kly"
 			}
 		    else if( word.endsWith("і") ) {
-			    tag = ":p:v_naz/v_kly"
+			    tag = ":gxp:v_naz/v_kly"
 			}
 			else {
-    			tag = ":m:v_naz/v_kly" + v_zna_for_inanim
+    			tag = ":gms:v_naz/v_kly" + v_zna_for_inanim
 			}
 	    }
 		else if( affixFlag.startsWith("n2adj2") ) {
-   			tag = ":m:v_naz" + v_zna_for_inanim
+   			tag = ":gms:v_naz" + v_zna_for_inanim
 		}
 		else if( affixFlag[0..<2] == "n2" ) {
-			tag = ":m:v_naz" + v_zna_for_inanim
+			tag = ":gms:v_naz" + v_zna_for_inanim
 //			if( affixFlag.startsWith("n20") && util.person(allAffixFlags) && (word[-2..-1] == "ло") && ! allAffixFlags.contains(".k") ) {
 //				tag += "/v_kly"
 //			}
 		}
 		else if( affixFlag[0..<2] == "n1" ) {
-			tag = ":f:v_naz"
+			tag = ":gfs:v_naz"
 		}
 		else if( affixFlag[0..<2] == "n4" ) {
-			tag = ":n:v_naz/v_zna/v_kly"
+			tag = ":gns:v_naz/v_zna/v_kly"
 		}
 		else if( affixFlag[0..<2] == "n3" ) {
-			tag = ":f:v_naz/v_zna"
+			tag = ":gfs:v_naz/v_zna"
 		}
 		else
 			assert "Unkown base for " + word + " " + allAffixFlags

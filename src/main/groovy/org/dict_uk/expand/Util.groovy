@@ -110,13 +110,13 @@ class Util {
 		"v_mis",
 		"v_kly"
 	]
-	static final Pattern re_nv_vidm = Pattern.compile("(noun):[mfn]:(.*)")
+	static final Pattern re_nv_vidm = Pattern.compile("(noun):([mfn]):(.*)")
 
 	@CompileStatic
 	List<DicEntry> expand_nv(List<DicEntry> in_lines) {
 		def lines = []
 
-		for( line in in_lines ){
+		for(DicEntry line in in_lines ){
 			def lineTagStr = line.tagStr
 
 			if( ! lineTagStr.contains(":nv") ) {
@@ -127,22 +127,24 @@ class Util {
 				def parts = lineTagStr.split(":nv")
 				def part2 = parts.size() > 1 ? parts[1] : ""
 
+				def singleGender = parts[0][-1]
+				def startingTag = parts[0][0..<-1] + "g" + (singleGender == "p" ? "xp" : singleGender + "s")
 
-				for( v in VIDM_LIST ){
+				for(String v in VIDM_LIST ){
 //					if( v == "v_kly" && (! (":anim" in line) || ":lname" in line) )
 					if( v == "v_kly" && line.word.endsWith(".") )
 						continue
 
-					lines.add(new DicEntry(line.word, line.lemma, parts[0] + ":" + v + ":nv" + part2))
+					lines.add(new DicEntry(line.word, line.lemma, startingTag + ":" + v + ":nv" + part2))
 				}
 
 				if( lineTagStr.contains("noun") ) {
-					if( ! lineTagStr.contains(":p") && ! lineTagStr.contains(":np") && ! lineTagStr.contains(":lname") ) {
+					if( ! (lineTagStr =~ /:g.p/) && ! lineTagStr.contains(":np") && ! lineTagStr.contains(":lname") ) {
 						for( v in VIDM_LIST ) {
         					if( v == "v_kly" && line.word.endsWith(".") )
         					    continue
 //							if( v != "v_kly" || "anim" in line) {
-							def newTagStr = re_nv_vidm.matcher(lineTagStr).replaceAll('$1:p:' + v + ':$2')
+							def newTagStr = re_nv_vidm.matcher(lineTagStr).replaceAll('$1:g$2p:' + v + ':$3')
 							lines.add(new DicEntry(line.word, line.lemma, newTagStr))
 //							}
 						}
@@ -162,13 +164,16 @@ class Util {
 					gens = GEN_LIST
 				}
 
-				for( g in gens ){
+				for(String g in gens) {
 					for( v in VIDM_LIST ){
 //						if( v == "v_kly" && (! (":anim" in line) || ":lname" in line) )    // TODO: include v_kly? but ! for abbr like кв.
         				if( v == "v_kly" && (line.word.endsWith(".") || lineTagStr.contains("&pron")) )
 							continue
 
-						def newTagStr = parts[0] + ":" + g + ":" + v + ":nv" + (parts.size()>1 ? parts[1] :"")
+						def ps = g == "p" ? "p" : "s";
+						if( g == "p" )
+							g = "o"
+						def newTagStr = parts[0] + ":g" + g + ps + ":" + v + ":nv" + (parts.size()>1 ? parts[1] :"")
 						lines.add(new DicEntry(line.word, line.lemma, newTagStr))
 					}
 				}

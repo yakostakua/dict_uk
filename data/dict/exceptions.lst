@@ -4,506 +4,506 @@
 # з тегами
 
 # і - о + ь в кінці
-якір якір noun:m:v_naz/v_zna
-якоря якір noun:m:v_rod
-якорю якір noun:m:v_dav/v_mis
-якорем якір noun:m:v_oru
-якореві якір noun:m:v_dav
-якорі якір noun:m:v_mis//p:v_naz/v_zna/v_kly
-якорю якір noun:m:v_kly
-якорів якір noun:p:v_rod
-якорям якір noun:p:v_dav
-якорями якір noun:p:v_oru
-якорях якір noun:p:v_mis
+якір якір noun:gms:v_naz/v_zna
+якоря якір noun:gms:v_rod
+якорю якір noun:gms:v_dav/v_mis
+якорем якір noun:gms:v_oru
+якореві якір noun:gms:v_dav
+якорі якір noun:gms:v_mis//gmp:v_naz/v_zna/v_kly
+якорю якір noun:gms:v_kly
+якорів якір noun:gmp:v_rod
+якорям якір noun:gmp:v_dav
+якорями якір noun:gmp:v_oru
+якорях якір noun:gmp:v_mis
 
 # 0 - о
-Великдень Великдень noun:m:v_naz/v_zna:prop
-Великодня Великдень noun:m:v_rod:prop
-Великодню Великдень noun:m:v_dav/v_mis/v_kly:prop
-Великоднем Великдень noun:m:v_oru:prop
-Великодні Великдень noun:p:v_naz/v_zna/v_kly:prop
-Великоднів Великдень noun:p:v_rod:prop
-Великодням Великдень noun:p:v_dav:prop
-Великоднями Великдень noun:p:v_oru:prop
-Великоднях Великдень noun:p:v_mis:prop
+Великдень Великдень noun:gms:v_naz/v_zna:prop
+Великодня Великдень noun:gms:v_rod:prop
+Великодню Великдень noun:gms:v_dav/v_mis/v_kly:prop
+Великоднем Великдень noun:gms:v_oru:prop
+Великодні Великдень noun:gmp:v_naz/v_zna/v_kly:prop
+Великоднів Великдень noun:gmp:v_rod:prop
+Великодням Великдень noun:gmp:v_dav:prop
+Великоднями Великдень noun:gmp:v_oru:prop
+Великоднях Великдень noun:gmp:v_mis:prop
 
-Лев Лев noun:anim:m:v_naz:prop:fname
-Льва Лев noun:anim:m:v_rod:prop:fname
-Львові Лев noun:anim:m:v_dav:prop:fname
-Льву Лев noun:anim:m:v_dav:prop:fname
-Льва Лев noun:anim:m:v_zna:prop:fname
-Львом Лев noun:anim:m:v_oru:prop:fname
-Льві Лев noun:anim:m:v_mis:prop:fname
-Львові Лев noun:anim:m:v_mis:prop:fname
-Льву Лев noun:anim:m:v_mis:prop:fname
-Леве Лев noun:anim:m:v_kly:prop:fname
-
-
-чернець чернець noun:anim:m:v_naz
-ченця чернець noun:anim:m:v_rod
-ченцеві чернець noun:anim:m:v_dav
-ченцю чернець noun:anim:m:v_dav
-ченця чернець noun:anim:m:v_zna
-ченцем чернець noun:anim:m:v_oru
-ченцеві чернець noun:anim:m:v_mis
-ченці чернець noun:anim:m:v_mis
-ченцю чернець noun:anim:m:v_mis
-ченче чернець noun:anim:m:v_kly
-ченці чернець noun:anim:p:v_naz
-ченців чернець noun:anim:p:v_rod
-ченцям чернець noun:anim:p:v_dav
-ченців чернець noun:anim:p:v_zna
-ченцями чернець noun:anim:p:v_oru
-ченцях чернець noun:anim:p:v_mis
-ченці чернець noun:anim:p:v_kly
-
-стекла скло noun:p:v_naz/v_zna/v_kly      #> скла
-стекол скло noun:p:v_rod            #> скел
-стеклам скло noun:p:v_dav/v_mis     #> склам
-стеклами скло noun:p:v_oru          #> склами
-стеклах скло noun:p:v_mis           #> склах
-
-зябра зябра noun:inanim:f:v_naz:rare
-зябри зябра noun:inanim:f:v_rod:rare
-зябрі зябра noun:inanim:f:v_dav:rare
-зябру зябра noun:inanim:f:v_zna:rare
-зяброю зябра noun:inanim:f:v_oru:rare
-зябрі зябра noun:inanim:f:v_mis:rare
-зябро зябра noun:inanim:f:v_kly:rare
-зябра зябра noun:inanim:p:v_naz
-зябер зябра noun:inanim:p:v_rod
-зябрам зябра noun:inanim:p:v_dav
-зябра зябра noun:inanim:p:v_zna
-зябрами зябра noun:inanim:p:v_oru
-зябрах зябра noun:inanim:p:v_mis
-зябра зябра noun:inanim:p:v_kly
+Лев Лев noun:anim:gms:v_naz:prop:fname
+Льва Лев noun:anim:gms:v_rod:prop:fname
+Львові Лев noun:anim:gms:v_dav:prop:fname
+Льву Лев noun:anim:gms:v_dav:prop:fname
+Льва Лев noun:anim:gms:v_zna:prop:fname
+Львом Лев noun:anim:gms:v_oru:prop:fname
+Льві Лев noun:anim:gms:v_mis:prop:fname
+Львові Лев noun:anim:gms:v_mis:prop:fname
+Льву Лев noun:anim:gms:v_mis:prop:fname
+Леве Лев noun:anim:gms:v_kly:prop:fname
 
 
-вісь вісь noun:f:v_naz/v_zna
-осі вісь noun:f:v_rod/v_dav/v_mis//p:v_naz/v_zna/v_kly
-осе вісь noun:f:v_kly
-віссю вісь noun:f:v_oru
-осей вісь noun:p:v_rod
-осям вісь noun:p:v_dav
-осях вісь noun:p:v_mis
-осями вісь noun:p:v_oru
+чернець чернець noun:anim:gms:v_naz
+ченця чернець noun:anim:gms:v_rod
+ченцеві чернець noun:anim:gms:v_dav
+ченцю чернець noun:anim:gms:v_dav
+ченця чернець noun:anim:gms:v_zna
+ченцем чернець noun:anim:gms:v_oru
+ченцеві чернець noun:anim:gms:v_mis
+ченці чернець noun:anim:gms:v_mis
+ченцю чернець noun:anim:gms:v_mis
+ченче чернець noun:anim:gms:v_kly
+ченці чернець noun:anim:gmp:v_naz
+ченців чернець noun:anim:gmp:v_rod
+ченцям чернець noun:anim:gmp:v_dav
+ченців чернець noun:anim:gmp:v_zna
+ченцями чернець noun:anim:gmp:v_oru
+ченцях чернець noun:anim:gmp:v_mis
+ченці чернець noun:anim:gmp:v_kly
 
-піввісь піввісь noun:f:v_naz/v_zna
-півосі піввісь noun:f:v_rod/v_dav/v_mis//p:v_naz/v_zna/v_kly
-піввіссю піввісь noun:f:v_oru
-півосе піввісь noun:f:v_kly
-півосей піввісь noun:p:v_rod
-півосям піввісь noun:p:v_dav
-півосях піввісь noun:p:v_mis
-півосями піввісь noun:p:v_oru
+стекла скло noun:gnp:v_naz/v_zna/v_kly      #> скла
+стекол скло noun:gnp:v_rod            #> скел
+стеклам скло noun:gnp:v_dav/v_mis     #> склам
+стеклами скло noun:gnp:v_oru          #> склами
+стеклах скло noun:gnp:v_mis           #> склах
 
-овес овес noun:m:v_naz/v_zna
-вівса овес noun:m:v_rod//p:v_naz/v_zna
-вівсу овес noun:m:v_dav/v_mis
-вівсові овес noun:m:v_dav/v_mis
-вівсом овес noun:m:v_oru
-вівсі овес noun:m:v_mis
-вівсе овес noun:m:v_kly
-вівси овес noun:p:v_naz/v_zna/v_kly
-вівса овес noun:p:v_naz/v_zna/v_kly
-вівсів овес noun:p:v_rod
-вівсам овес noun:p:v_dav
-вівсами овес noun:p:v_oru
-вівсах овес noun:p:v_mis
-
-вівці вівця noun:p:v_naz/v_zna/v_kly:anim
-овець вівця noun:p:v_rod/v_zna:anim
-вівцям вівця noun:p:v_dav:anim
-вівцями вівця noun:p:v_oru:anim
-вівцях вівця noun:p:v_mis:anim
-
-
-ігри гра noun:p:v_naz/v_zna/v_kly
-гри гра noun:p:v_naz/v_zna              # 2,3,4 гри
-ігор гра noun:p:v_rod
-іграм гра noun:p:v_dav
-іграми гра noun:p:v_oru
-іграх гра noun:p:v_mis
-
-телеігри телегра noun:p:v_naz/v_zna/v_kly
-телегри телегра noun:p:v_naz/v_zna              # 2,3,4 гри
-телеігор телегра noun:p:v_rod
-телеіграм телегра noun:p:v_dav
-телеіграми телегра noun:p:v_oru
-телеіграх телегра noun:p:v_mis
-
-суперігри супергра noun:p:v_naz/v_zna/v_kly
-супергри супергра noun:p:v_naz/v_zna              # 2,3,4 гри
-суперігор супергра noun:p:v_rod
-суперіграм супергра noun:p:v_dav
-суперіграми супергра noun:p:v_oru
-суперіграх супергра noun:p:v_mis
-
-відеоігри відеогра noun:p:v_naz/v_zna/v_kly
-відеоігор відеогра noun:p:v_rod
-відеоіграм відеогра noun:p:v_dav
-відеоіграми відеогра noun:p:v_oru
-відеоіграх відеогра noun:p:v_mis
-
-окові око noun:n:v_dav
-очі око noun:p:v_naz/v_zna/v_kly
-очей око noun:p:v_rod
-очам око noun:p:v_dav
-очима око noun:p:v_oru
-очах око noun:p:v_mis
-вічі око noun:p:v_zna
-
-очко очко noun:n:v_naz/v_zna/v_kly:xp1    # о́чко (від око)
-очка очко noun:n:v_rod:xp1
-очку очко noun:n:v_dav:xp1
-очком очко noun:n:v_oru:xp1
-очку очко noun:n:v_mis:xp1
-очка очко noun:p:v_naz:xp1
-очки очко noun:p:v_naz/v_kly:xp1
-очок очко noun:p:v_rod:xp1
-очкам очко noun:p:v_dav:xp1
-очка очко noun:p:v_zna:xp1
-очки очко noun:p:v_zna:xp1
-очками очко noun:p:v_oru:xp1
-очках очко noun:p:v_mis:xp1
-
-очко очко noun:n:v_naz/v_zna/v_kly:xp2    # очко́ (в грі)
-очка очко noun:n:v_rod:xp2
-очку очко noun:n:v_dav:xp2
-очком очко noun:n:v_oru:xp2
-очку очко noun:n:v_mis:xp2
-очки очко noun:p:v_naz/v_kly:xp2
-очок очко noun:p:v_rod:xp2
-очкам очко noun:p:v_dav:xp2
-очки очко noun:p:v_zna:xp2
-очками очко noun:p:v_oru:xp2
-очках очко noun:p:v_mis:xp2
-
-переддень переддень noun:inanim:m:v_naz
-передодня переддень noun:inanim:m:v_rod
-передодневі переддень noun:inanim:m:v_dav
-передодню переддень noun:inanim:m:v_dav
-переддень переддень noun:inanim:m:v_zna
-передоднем переддень noun:inanim:m:v_oru
-передодневі переддень noun:inanim:m:v_mis
-передодні переддень noun:inanim:m:v_mis
-передодню переддень noun:inanim:m:v_mis
-передодню переддень noun:inanim:m:v_kly
-передодні переддень noun:inanim:p:v_naz
-передоднів переддень noun:inanim:p:v_rod
-передодням переддень noun:inanim:p:v_dav
-передодні переддень noun:inanim:p:v_zna
-передоднями переддень noun:inanim:p:v_oru
-передоднях переддень noun:inanim:p:v_mis
-передодні переддень noun:inanim:p:v_kly
+зябра зябра noun:inanim:gfs:v_naz:rare
+зябри зябра noun:inanim:gfs:v_rod:rare
+зябрі зябра noun:inanim:gfs:v_dav:rare
+зябру зябра noun:inanim:gfs:v_zna:rare
+зяброю зябра noun:inanim:gfs:v_oru:rare
+зябрі зябра noun:inanim:gfs:v_mis:rare
+зябро зябра noun:inanim:gfs:v_kly:rare
+зябра зябра noun:inanim:gfp:v_naz
+зябер зябра noun:inanim:gfp:v_rod
+зябрам зябра noun:inanim:gfp:v_dav
+зябра зябра noun:inanim:gfp:v_zna
+зябрами зябра noun:inanim:gfp:v_oru
+зябрах зябра noun:inanim:gfp:v_mis
+зябра зябра noun:inanim:gfp:v_kly
 
 
+вісь вісь noun:gfs:v_naz/v_zna
+осі вісь noun:gfs:v_rod/v_dav/v_mis//gfp:v_naz/v_zna/v_kly
+осе вісь noun:gfs:v_kly
+віссю вісь noun:gfs:v_oru
+осей вісь noun:gfp:v_rod
+осям вісь noun:gfp:v_dav
+осях вісь noun:gfp:v_mis
+осями вісь noun:gfp:v_oru
 
-Господь Господь noun:m:v_naz:anim:prop
-Господа Господь noun:m:v_rod/v_zna:anim:prop
-Господові Господь noun:m:v_dav/v_mis:anim:prop
-Господеві Господь noun:m:v_dav/v_mis:anim:prop
-Господу Господь noun:m:v_dav:anim:prop
-Господом Господь noun:m:v_oru:anim:prop
-Господі Господь noun:m:v_mis:anim:prop
-Господи Господь noun:m:v_kly:anim:prop
+піввісь піввісь noun:gfs:v_naz/v_zna
+півосі піввісь noun:gfs:v_rod/v_dav/v_mis//gfp:v_naz/v_zna/v_kly
+піввіссю піввісь noun:gfs:v_oru
+півосе піввісь noun:gfs:v_kly
+півосей піввісь noun:gfp:v_rod
+півосям піввісь noun:gfp:v_dav
+півосях піввісь noun:gfp:v_mis
+півосями піввісь noun:gfp:v_oru
 
-Христос Христос noun:m:v_naz:anim:prop:fname
-Христа Христос noun:m:v_rod/v_zna:anim:prop:fname
-Христу Христос noun:m:v_dav:anim:prop:fname
-Христові Христос noun:m:v_dav/v_mis:anim:prop:fname
-Христом Христос noun:m:v_oru:anim:prop:fname
-Христі Христос noun:m:v_mis:anim:prop:fname
-Христе Христос noun:m:v_kly:anim:prop:fname
+овес овес noun:gms:v_naz/v_zna
+вівса овес noun:gms:v_rod//gmp:v_naz/v_zna
+вівсу овес noun:gms:v_dav/v_mis
+вівсові овес noun:gms:v_dav/v_mis
+вівсом овес noun:gms:v_oru
+вівсі овес noun:gms:v_mis
+вівсе овес noun:gms:v_kly
+вівси овес noun:gmp:v_naz/v_zna/v_kly
+вівса овес noun:gmp:v_naz/v_zna/v_kly
+вівсів овес noun:gmp:v_rod
+вівсам овес noun:gmp:v_dav
+вівсами овес noun:gmp:v_oru
+вівсах овес noun:gmp:v_mis
 
-четвер четвер noun:m:v_naz/v_zna
-четверга четвер noun:m:v_rod
-четвергу четвер noun:m:v_dav/v_mis/v_kly
-четвергові четвер noun:m:v_dav
-четвергом четвер noun:m:v_oru
-четвере четвер noun:m:v_kly
-четверги четвер noun:p:v_naz/v_zna/v_kly
-четвергах четвер noun:p:v_mis
-четвергами четвер noun:p:v_oru
-четвергів четвер noun:p:v_rod
-четвергам четвер noun:p:v_dav
-
-мати мати noun:anim:f:v_naz/v_kly
-матір мати noun:anim:f:v_naz:rare
-матері мати noun:anim:f:v_rod
-матері мати noun:anim:f:v_dav
-матір мати noun:anim:f:v_zna
-матір'ю мати noun:anim:f:v_oru
-матері мати noun:anim:f:v_mis
-матері мати noun:anim:p:v_naz/v_kly
-матерів мати noun:anim:p:v_rod
-матерям мати noun:anim:p:v_dav
-матерів мати noun:anim:p:v_zna
-матерями мати noun:anim:p:v_oru
-матерях мати noun:anim:p:v_mis
-
-прамати прамати noun:anim:f:v_naz/v_kly
-праматір прамати noun:anim:f:v_naz:rare
-праматері прамати noun:anim:f:v_rod
-праматері прамати noun:anim:f:v_dav
-праматір прамати noun:anim:f:v_zna
-праматір'ю прамати noun:anim:f:v_oru
-праматері прамати noun:anim:f:v_mis
-праматері прамати noun:anim:p:v_naz/v_kly
-праматерів прамати noun:anim:p:v_rod
-праматерям прамати noun:anim:p:v_dav
-праматерів прамати noun:anim:p:v_zna
-праматерями прамати noun:anim:p:v_oru
-праматерях прамати noun:anim:p:v_mis
-
-батько-мати батько-мати noun:anim:p:v_naz
-батько-матір батько-мати noun:anim:p:v_naz
-батька-матері батько-мати noun:anim:p:v_rod
-батьку-матері батько-мати noun:anim:p:v_dav
-батькові-матері батько-мати noun:anim:p:v_dav
-батька-матір батько-мати noun:anim:p:v_zna
-батьком-матір'ю батько-мати noun:anim:p:v_oru
-батьку-матері батько-мати noun:anim:p:v_mis
-батькові-матері батько-мати noun:anim:p:v_mis
-батьку-мати батько-мати noun:anim:p:v_kly
+вівці вівця noun:gfp:v_naz/v_zna/v_kly:anim
+овець вівця noun:gfp:v_rod/v_zna:anim
+вівцям вівця noun:gfp:v_dav:anim
+вівцями вівця noun:gfp:v_oru:anim
+вівцях вівця noun:gfp:v_mis:anim
 
 
-біомати біомати noun:anim:f:v_naz/v_kly
-біоматір біомати noun:anim:f:v_naz:rare
-біоматері біомати noun:anim:f:v_rod
-біоматері біомати noun:anim:f:v_dav
-біоматір біомати noun:anim:f:v_zna
-біоматір'ю біомати noun:anim:f:v_oru
-біоматері біомати noun:anim:f:v_mis
-біоматері біомати noun:anim:p:v_naz/v_kly
-біоматерів біомати noun:anim:p:v_rod
-біоматерям біомати noun:anim:p:v_dav
-біоматерів біомати noun:anim:p:v_zna
-біоматерями біомати noun:anim:p:v_oru
-біоматерях біомати noun:anim:p:v_mis
+ігри гра noun:gfp:v_naz/v_zna/v_kly
+гри гра noun:gfp:v_naz/v_zna              # 2,3,4 гри
+ігор гра noun:gfp:v_rod
+іграм гра noun:gfp:v_dav
+іграми гра noun:gfp:v_oru
+іграх гра noun:gfp:v_mis
 
-чоботи чобіт noun:p:v_naz/v_zna/v_kly
-чобіт чобіт noun:p:v_rod
-чоботам чобіт noun:p:v_dav
-чоботям чобіт noun:p:v_dav
-чобітьми чобіт noun:p:v_oru
-чоботами чобіт noun:p:v_oru
-чоботах чобіт noun:p:v_mis
-чоботях чобіт noun:p:v_mis
+телеігри телегра noun:gfp:v_naz/v_zna/v_kly
+телегри телегра noun:gfp:v_naz/v_zna              # 2,3,4 гри
+телеігор телегра noun:gfp:v_rod
+телеіграм телегра noun:gfp:v_dav
+телеіграми телегра noun:gfp:v_oru
+телеіграх телегра noun:gfp:v_mis
 
-горщок горщок noun:m:v_naz/v_zna/v_kly
-горшка горщок noun:m:v_rod
-горшку горщок noun:m:v_dav/v_mis
-горшкові горщок noun:m:v_dav
-горшком горщок noun:m:v_oru
-горшки горщок noun:inanim:p:v_naz
-горшків горщок noun:inanim:p:v_rod
-горшкам горщок noun:inanim:p:v_dav
-горшки горщок noun:inanim:p:v_zna
-горшками горщок noun:inanim:p:v_oru
-горшках горщок noun:inanim:p:v_mis
-горшки горщок noun:inanim:p:v_kly
+суперігри супергра noun:gfp:v_naz/v_zna/v_kly
+супергри супергра noun:gfp:v_naz/v_zna              # 2,3,4 гри
+суперігор супергра noun:gfp:v_rod
+суперіграм супергра noun:gfp:v_dav
+суперіграми супергра noun:gfp:v_oru
+суперіграх супергра noun:gfp:v_mis
 
-війя війя noun:n:v_naz/v_rod/v_zna/v_kly
-війю війя noun:n:v_dav/v_mis
-війям війя noun:n:v_oru
-війї війя noun:n:v_mis
+відеоігри відеогра noun:gfp:v_naz/v_zna/v_kly
+відеоігор відеогра noun:gfp:v_rod
+відеоіграм відеогра noun:gfp:v_dav
+відеоіграми відеогра noun:gfp:v_oru
+відеоіграх відеогра noun:gfp:v_mis
 
-відом відом noun:m:v_naz/v_zna/v_kly:rare
-відома відом noun:m:v_rod
-відому відом noun:m:v_dav:rare
-відомом відом noun:m:v_oru
-відомі відом noun:m:v_mis:rare
+окові око noun:gns:v_dav
+очі око noun:gnp:v_naz/v_zna/v_kly
+очей око noun:gnp:v_rod
+очам око noun:gnp:v_dav
+очима око noun:gnp:v_oru
+очах око noun:gnp:v_mis
+вічі око noun:gnp:v_zna
 
-штаням штани noun:p:v_dav:ns
-штаньми штани noun:p:v_oru:ns
-штанями штани noun:p:v_oru:ns
-штанях штани noun:p:v_mis:ns
+очко очко noun:gns:v_naz/v_zna/v_kly:xp1    # о́чко (від око)
+очка очко noun:gns:v_rod:xp1
+очку очко noun:gns:v_dav:xp1
+очком очко noun:gns:v_oru:xp1
+очку очко noun:gns:v_mis:xp1
+очка очко noun:gnp:v_naz:xp1
+очки очко noun:gnp:v_naz/v_kly:xp1
+очок очко noun:gnp:v_rod:xp1
+очкам очко noun:gnp:v_dav:xp1
+очка очко noun:gnp:v_zna:xp1
+очки очко noun:gnp:v_zna:xp1
+очками очко noun:gnp:v_oru:xp1
+очках очко noun:gnp:v_mis:xp1
+
+очко очко noun:gns:v_naz/v_zna/v_kly:xp2    # очко́ (в грі)
+очка очко noun:gns:v_rod:xp2
+очку очко noun:gns:v_dav:xp2
+очком очко noun:gns:v_oru:xp2
+очку очко noun:gns:v_mis:xp2
+очки очко noun:gnp:v_naz/v_kly:xp2
+очок очко noun:gnp:v_rod:xp2
+очкам очко noun:gnp:v_dav:xp2
+очки очко noun:gnp:v_zna:xp2
+очками очко noun:gnp:v_oru:xp2
+очках очко noun:gnp:v_mis:xp2
+
+переддень переддень noun:inanim:gms:v_naz
+передодня переддень noun:inanim:gms:v_rod
+передодневі переддень noun:inanim:gms:v_dav
+передодню переддень noun:inanim:gms:v_dav
+переддень переддень noun:inanim:gms:v_zna
+передоднем переддень noun:inanim:gms:v_oru
+передодневі переддень noun:inanim:gms:v_mis
+передодні переддень noun:inanim:gms:v_mis
+передодню переддень noun:inanim:gms:v_mis
+передодню переддень noun:inanim:gms:v_kly
+передодні переддень noun:inanim:gmp:v_naz
+передоднів переддень noun:inanim:gmp:v_rod
+передодням переддень noun:inanim:gmp:v_dav
+передодні переддень noun:inanim:gmp:v_zna
+передоднями переддень noun:inanim:gmp:v_oru
+передоднях переддень noun:inanim:gmp:v_mis
+передодні переддень noun:inanim:gmp:v_kly
 
 
-нічия нічия noun:inanim:f:v_naz
-нічиєї нічия noun:inanim:f:v_rod
-нічиїй нічия noun:inanim:f:v_dav
-нічию нічия noun:inanim:f:v_zna
-нічиєю нічия noun:inanim:f:v_oru
-нічиїй нічия noun:inanim:f:v_mis
-нічия нічия noun:inanim:f:v_kly
-нічиї нічия noun:inanim:p:v_naz
-нічиїх нічия noun:inanim:p:v_rod
-нічиїм нічия noun:inanim:p:v_dav
-нічиї нічия noun:inanim:p:v_zna
-нічиїми нічия noun:inanim:p:v_oru
-нічиїх нічия noun:inanim:p:v_mis
-нічиї нічия noun:inanim:p:v_kly
+
+Господь Господь noun:gms:v_naz:anim:prop
+Господа Господь noun:gms:v_rod/v_zna:anim:prop
+Господові Господь noun:gms:v_dav/v_mis:anim:prop
+Господеві Господь noun:gms:v_dav/v_mis:anim:prop
+Господу Господь noun:gms:v_dav:anim:prop
+Господом Господь noun:gms:v_oru:anim:prop
+Господі Господь noun:gms:v_mis:anim:prop
+Господи Господь noun:gms:v_kly:anim:prop
+
+Христос Христос noun:gms:v_naz:anim:prop:fname
+Христа Христос noun:gms:v_rod/v_zna:anim:prop:fname
+Христу Христос noun:gms:v_dav:anim:prop:fname
+Христові Христос noun:gms:v_dav/v_mis:anim:prop:fname
+Христом Христос noun:gms:v_oru:anim:prop:fname
+Христі Христос noun:gms:v_mis:anim:prop:fname
+Христе Христос noun:gms:v_kly:anim:prop:fname
+
+четвер четвер noun:gms:v_naz/v_zna
+четверга четвер noun:gms:v_rod
+четвергу четвер noun:gms:v_dav/v_mis/v_kly
+четвергові четвер noun:gms:v_dav
+четвергом четвер noun:gms:v_oru
+четвере четвер noun:gms:v_kly
+четверги четвер noun:gmp:v_naz/v_zna/v_kly
+четвергах четвер noun:gmp:v_mis
+четвергами четвер noun:gmp:v_oru
+четвергів четвер noun:gmp:v_rod
+четвергам четвер noun:gmp:v_dav
+
+мати мати noun:anim:gfs:v_naz/v_kly
+матір мати noun:anim:gfs:v_naz:rare
+матері мати noun:anim:gfs:v_rod
+матері мати noun:anim:gfs:v_dav
+матір мати noun:anim:gfs:v_zna
+матір'ю мати noun:anim:gfs:v_oru
+матері мати noun:anim:gfs:v_mis
+матері мати noun:anim:gfp:v_naz/v_kly
+матерів мати noun:anim:gfp:v_rod
+матерям мати noun:anim:gfp:v_dav
+матерів мати noun:anim:gfp:v_zna
+матерями мати noun:anim:gfp:v_oru
+матерях мати noun:anim:gfp:v_mis
+
+прамати прамати noun:anim:gfs:v_naz/v_kly
+праматір прамати noun:anim:gfs:v_naz:rare
+праматері прамати noun:anim:gfs:v_rod
+праматері прамати noun:anim:gfs:v_dav
+праматір прамати noun:anim:gfs:v_zna
+праматір'ю прамати noun:anim:gfs:v_oru
+праматері прамати noun:anim:gfs:v_mis
+праматері прамати noun:anim:gfp:v_naz/v_kly
+праматерів прамати noun:anim:gfp:v_rod
+праматерям прамати noun:anim:gfp:v_dav
+праматерів прамати noun:anim:gfp:v_zna
+праматерями прамати noun:anim:gfp:v_oru
+праматерях прамати noun:anim:gfp:v_mis
+
+батько-мати батько-мати noun:anim:gxp:v_naz
+батько-матір батько-мати noun:anim:gxp:v_naz
+батька-матері батько-мати noun:anim:gxp:v_rod
+батьку-матері батько-мати noun:anim:gxp:v_dav
+батькові-матері батько-мати noun:anim:gxp:v_dav
+батька-матір батько-мати noun:anim:gxp:v_zna
+батьком-матір'ю батько-мати noun:anim:gxp:v_oru
+батьку-матері батько-мати noun:anim:gxp:v_mis
+батькові-матері батько-мати noun:anim:gxp:v_mis
+батьку-мати батько-мати noun:anim:gxp:v_kly
+
+
+біомати біомати noun:anim:gfs:v_naz/v_kly
+біоматір біомати noun:anim:gfs:v_naz:rare
+біоматері біомати noun:anim:gfs:v_rod
+біоматері біомати noun:anim:gfs:v_dav
+біоматір біомати noun:anim:gfs:v_zna
+біоматір'ю біомати noun:anim:gfs:v_oru
+біоматері біомати noun:anim:gfs:v_mis
+біоматері біомати noun:anim:gfp:v_naz/v_kly
+біоматерів біомати noun:anim:gfp:v_rod
+біоматерям біомати noun:anim:gfp:v_dav
+біоматерів біомати noun:anim:gfp:v_zna
+біоматерями біомати noun:anim:gfp:v_oru
+біоматерях біомати noun:anim:gfp:v_mis
+
+чоботи чобіт noun:gmp:v_naz/v_zna/v_kly
+чобіт чобіт noun:gmp:v_rod
+чоботам чобіт noun:gmp:v_dav
+чоботям чобіт noun:gmp:v_dav
+чобітьми чобіт noun:gmp:v_oru
+чоботами чобіт noun:gmp:v_oru
+чоботах чобіт noun:gmp:v_mis
+чоботях чобіт noun:gmp:v_mis
+
+горщок горщок noun:gms:v_naz/v_zna/v_kly
+горшка горщок noun:gms:v_rod
+горшку горщок noun:gms:v_dav/v_mis
+горшкові горщок noun:gms:v_dav
+горшком горщок noun:gms:v_oru
+горшки горщок noun:gmp:v_naz
+горшків горщок noun:gmp:v_rod
+горшкам горщок noun:gmp:v_dav
+горшки горщок noun:gmp:v_zna
+горшками горщок noun:gmp:v_oru
+горшках горщок noun:gmp:v_mis
+горшки горщок noun:gmp:v_kly
+
+війя війя noun:gns:v_naz/v_rod/v_zna/v_kly
+війю війя noun:gns:v_dav/v_mis
+війям війя noun:gns:v_oru
+війї війя noun:gns:v_mis
+
+відом відом noun:gms:v_naz/v_zna/v_kly:rare
+відома відом noun:gms:v_rod
+відому відом noun:gms:v_dav:rare
+відомом відом noun:gms:v_oru
+відомі відом noun:gms:v_mis:rare
+
+штаням штани noun:gxp:v_dav:ns
+штаньми штани noun:gxp:v_oru:ns
+штанями штани noun:gxp:v_oru:ns
+штанях штани noun:gxp:v_mis:ns
+
+
+нічия нічия noun:inanim:gfs:v_naz
+нічиєї нічия noun:inanim:gfs:v_rod
+нічиїй нічия noun:inanim:gfs:v_dav
+нічию нічия noun:inanim:gfs:v_zna
+нічиєю нічия noun:inanim:gfs:v_oru
+нічиїй нічия noun:inanim:gfs:v_mis
+нічия нічия noun:inanim:gfs:v_kly
+нічиї нічия noun:inanim:gfp:v_naz
+нічиїх нічия noun:inanim:gfp:v_rod
+нічиїм нічия noun:inanim:gfp:v_dav
+нічиї нічия noun:inanim:gfp:v_zna
+нічиїми нічия noun:inanim:gfp:v_oru
+нічиїх нічия noun:inanim:gfp:v_mis
+нічиї нічия noun:inanim:gfp:v_kly
 
 
 # нестандартні леми
 
 # люди /np3.<
-люди людина noun:anim:p:v_naz
-людей людина noun:anim:p:v_rod
-людям людина noun:anim:p:v_dav
-людей людина noun:anim:p:v_zna
-людьми людина noun:anim:p:v_oru
-людях людина noun:anim:p:v_mis
-люди людина noun:anim:p:v_kly
+люди людина noun:anim:gfp:v_naz
+людей людина noun:anim:gfp:v_rod
+людям людина noun:anim:gfp:v_dav
+людей людина noun:anim:gfp:v_zna
+людьми людина noun:anim:gfp:v_oru
+людях людина noun:anim:gfp:v_mis
+люди людина noun:anim:gfp:v_kly
 
-надлюди надлюдина noun:anim:p:v_naz
-надлюдей надлюдина noun:anim:p:v_rod
-надлюдям надлюдина noun:anim:p:v_dav
-надлюдей надлюдина noun:anim:p:v_zna
-надлюдьми надлюдина noun:anim:p:v_oru
-надлюдях надлюдина noun:anim:p:v_mis
-надлюди надлюдина noun:anim:p:v_kly
+надлюди надлюдина noun:anim:gfp:v_naz
+надлюдей надлюдина noun:anim:gfp:v_rod
+надлюдям надлюдина noun:anim:gfp:v_dav
+надлюдей надлюдина noun:anim:gfp:v_zna
+надлюдьми надлюдина noun:anim:gfp:v_oru
+надлюдях надлюдина noun:anim:gfp:v_mis
+надлюди надлюдина noun:anim:gfp:v_kly
 
 # боголюди /np3.<
-боголюди боголюдина noun:anim:p:v_naz
-боголюдей боголюдина noun:anim:p:v_rod
-боголюдям боголюдина noun:anim:p:v_dav
-боголюдей боголюдина noun:anim:p:v_zna
-боголюдьми боголюдина noun:anim:p:v_oru
-боголюдях боголюдина noun:anim:p:v_mis
-боголюди боголюдина noun:anim:p:v_kly
+боголюди боголюдина noun:anim:gfp:v_naz
+боголюдей боголюдина noun:anim:gfp:v_rod
+боголюдям боголюдина noun:anim:gfp:v_dav
+боголюдей боголюдина noun:anim:gfp:v_zna
+боголюдьми боголюдина noun:anim:gfp:v_oru
+боголюдях боголюдина noun:anim:gfp:v_mis
+боголюди боголюдина noun:anim:gfp:v_kly
 
-чоловіки чоловік noun:anim:p:v_naz:xp2
-чоловік чоловік noun:anim:p:v_rod:xp2
-чоловікам чоловік noun:anim:p:v_dav:xp2
-чоловік чоловік noun:anim:p:v_zna:xp2
-чоловіками чоловік noun:anim:p:v_oru:xp2
-чоловіках чоловік noun:anim:p:v_mis:xp2
-чоловіки чоловік noun:anim:p:v_kly:xp2
+чоловіки чоловік noun:anim:gmp:v_naz:xp2
+чоловік чоловік noun:anim:gmp:v_rod:xp2
+чоловікам чоловік noun:anim:gmp:v_dav:xp2
+чоловік чоловік noun:anim:gmp:v_zna:xp2
+чоловіками чоловік noun:anim:gmp:v_oru:xp2
+чоловіках чоловік noun:anim:gmp:v_mis:xp2
+чоловіки чоловік noun:anim:gmp:v_kly:xp2
 
-хазяї хазяїн noun:anim:p:v_naz:ns
-хазяїв хазяїн noun:anim:p:v_rod:ns
-хазяям хазяїн noun:anim:p:v_dav:ns
-хазяїв хазяїн noun:anim:p:v_zna:ns
-хазяями хазяїн noun:anim:p:v_oru:ns
-хазяях хазяїн noun:anim:p:v_mis:ns
-хазяї хазяїн noun:anim:p:v_kly:ns
+хазяї хазяїн noun:anim:gmp:v_naz:ns
+хазяїв хазяїн noun:anim:gmp:v_rod:ns
+хазяям хазяїн noun:anim:gmp:v_dav:ns
+хазяїв хазяїн noun:anim:gmp:v_zna:ns
+хазяями хазяїн noun:anim:gmp:v_oru:ns
+хазяях хазяїн noun:anim:gmp:v_mis:ns
+хазяї хазяїн noun:anim:gmp:v_kly:ns
 
 # діти /np3.<
-діти дитина noun:anim:p:v_naz
-дітей дитина noun:anim:p:v_rod
-дітям дитина noun:anim:p:v_dav
-дітей дитина noun:anim:p:v_zna
-дітьми дитина noun:anim:p:v_oru
-дітях дитина noun:anim:p:v_mis
-діти дитина noun:anim:p:v_kly
+діти дитина noun:anim:gfp:v_naz
+дітей дитина noun:anim:gfp:v_rod
+дітям дитина noun:anim:gfp:v_dav
+дітей дитина noun:anim:gfp:v_zna
+дітьми дитина noun:anim:gfp:v_oru
+дітях дитина noun:anim:gfp:v_mis
+діти дитина noun:anim:gfp:v_kly
 
 
-дівчата дівчина noun:anim:p:v_naz
-дівчат дівчина noun:anim:p:v_rod
-дівчатам дівчина noun:anim:p:v_dav
-дівчат дівчина noun:anim:p:v_zna
-дівчатами дівчина noun:anim:p:v_oru
-дівчатах дівчина noun:anim:p:v_mis
-дівчата дівчина noun:anim:p:v_kly
+дівчата дівчина noun:anim:gfp:v_naz
+дівчат дівчина noun:anim:gfp:v_rod
+дівчатам дівчина noun:anim:gfp:v_dav
+дівчат дівчина noun:anim:gfp:v_zna
+дівчатами дівчина noun:anim:gfp:v_oru
+дівчатах дівчина noun:anim:gfp:v_mis
+дівчата дівчина noun:anim:gfp:v_kly
 
 
-кабельтови кабельтов noun:inanim:p:v_naz/v_zna
-кабельтових кабельтов noun:inanim:p:v_rod
-кабельтовим кабельтов noun:inanim:p:v_dav
-кабельтовими кабельтов noun:inanim:p:v_oru
-кабельтових кабельтов noun:inanim:p:v_mis
-кабельтови кабельтов noun:inanim:p:v_kly
+кабельтови кабельтов noun:inanim:gmp:v_naz/v_zna
+кабельтових кабельтов noun:inanim:gmp:v_rod
+кабельтовим кабельтов noun:inanim:gmp:v_dav
+кабельтовими кабельтов noun:inanim:gmp:v_oru
+кабельтових кабельтов noun:inanim:gmp:v_mis
+кабельтови кабельтов noun:inanim:gmp:v_kly
 
 
-гони гони noun:inanim:p:v_naz:ns:xp2        # міра довжини
-гін гони noun:inanim:p:v_rod:ns:xp2
-гонам гони noun:inanim:p:v_dav:ns:xp2
-гони гони noun:inanim:p:v_zna:ns:xp2
-гонами гони noun:inanim:p:v_oru:ns:xp2
-гонах гони noun:inanim:p:v_mis:ns:xp2
-гони гони noun:inanim:p:v_kly:ns:xp2
+гони гони noun:inanim:gxp:v_naz:ns:xp2        # міра довжини
+гін гони noun:inanim:gxp:v_rod:ns:xp2
+гонам гони noun:inanim:gxp:v_dav:ns:xp2
+гони гони noun:inanim:gxp:v_zna:ns:xp2
+гонами гони noun:inanim:gxp:v_oru:ns:xp2
+гонах гони noun:inanim:gxp:v_mis:ns:xp2
+гони гони noun:inanim:gxp:v_kly:ns:xp2
 
 
-брат-і-сестра брат-і-сестра noun:f:v_naz
-брата-і-сестри брат-і-сестра noun:f:v_rod
-брату-і-сестрі брат-і-сестра noun:f:v_dav
-братові-і-сестрі брат-і-сестра noun:f:v_dav/v_mis
-брата-і-сестру брат-і-сестра noun:f:v_zna
-братом-і-сестрою брат-і-сестра noun:f:v_oru
-браті-і-сестрі брат-і-сестра noun:f:v_mis
-брате-і-сестро брат-і-сестра noun:f:v_kly
+брат-і-сестра брат-і-сестра noun:gfs:v_naz
+брата-і-сестри брат-і-сестра noun:gfs:v_rod
+брату-і-сестрі брат-і-сестра noun:gfs:v_dav
+братові-і-сестрі брат-і-сестра noun:gfs:v_dav/v_mis
+брата-і-сестру брат-і-сестра noun:gfs:v_zna
+братом-і-сестрою брат-і-сестра noun:gfs:v_oru
+браті-і-сестрі брат-і-сестра noun:gfs:v_mis
+брате-і-сестро брат-і-сестра noun:gfs:v_kly
 
 
 
 # додаткові форми
 
-болиш боліти verb:imperf:pres:s:2:xp2
+болиш боліти verb:imperf:pres:g2s:xp2
 
-постелею постіль noun:inanim:f:v_oru
-серць серце noun:p:v_rod
+постелею постіль noun:inanim:gfs:v_oru
+серць серце noun:gnp:v_rod
 
-людини людина noun:p:v_naz/v_zna:anim
-боголюдини боголюдина noun:p:v_naz/v_zna:anim
-дитини дитина noun:p:v_naz/v_zna:anim
+людини людина noun:gfp:v_naz/v_zna:anim
+боголюдини боголюдина noun:gfp:v_naz/v_zna:anim
+дитини дитина noun:gfp:v_naz/v_zna:anim
 
-хліба хліб noun:p:v_naz/v_zna
+хліба хліб noun:gmp:v_naz/v_zna			# хліба́
 
-тат тато noun:anim:p:v_rod
+тат тато noun:anim:gmp:v_rod
 
-раз раз noun:inanim:p:v_rod
-корогов корогва noun:f:v_naz/v_zna
+раз раз noun:inanim:gmp:v_rod
+корогов корогва noun:gfs:v_naz/v_zna
 
-сосон сосна noun:p:v_rod
-дровець дрівця noun:p:v_rod:ns
-плахіт плахта noun:p:v_rod
-плахот плахта noun:p:v_rod
+сосон сосна noun:gfp:v_rod
+дровець дрівця noun:gxp:v_rod:ns
+плахіт плахта noun:gfp:v_rod
+плахот плахта noun:gfp:v_rod
 
-автосанями автосани noun:inanim:p:v_oru:ns
-аеросанями аеросани noun:inanim:p:v_oru:ns
-мотосанями мотосани noun:inanim:p:v_oru:ns
-санями сани noun:inanim:p:v_oru:ns
-ворітьми ворота noun:p:v_oru:ns
-вошима воша noun:p:v_oru:anim
-грошима гроші noun:p:v_oru:ns
-грішми гроші noun:p:v_oru:ns
-колісьми колесо noun:p:v_oru
-квазігрошима квазігроші noun:p:v_oru:ns
-квазігрішми квазігроші noun:p:v_oru:ns
-крильми крило noun:p:v_oru
-слізьми сльоза noun:p:v_oru
-коліньми коліно noun:p:v_oru
-кістьми кість noun:p:v_oru
-гістьми гість noun:p:v_oru:anim
-свиньми свиня noun:p:v_oru:anim
+автосанями автосани noun:inanim:gxp:v_oru:ns
+аеросанями аеросани noun:inanim:gxp:v_oru:ns
+мотосанями мотосани noun:inanim:gxp:v_oru:ns
+санями сани noun:inanim:gxp:v_oru:ns
+ворітьми ворота noun:gxp:v_oru:ns
+вошима воша noun:gfp:v_oru:anim
+грошима гроші noun:gxp:v_oru:ns
+грішми гроші noun:gxp:v_oru:ns
+колісьми колесо noun:gnp:v_oru
+квазігрошима квазігроші noun:gxp:v_oru:ns
+квазігрішми квазігроші noun:gxp:v_oru:ns
+крильми крило noun:gnp:v_oru
+слізьми сльоза noun:gfp:v_oru
+коліньми коліно noun:gnp:v_oru
+кістьми кість noun:gfp:v_oru
+гістьми гість noun:gmp:v_oru:anim
+свиньми свиня noun:gfp:v_oru:anim
 
-уші вухо noun:p:v_naz/v_zna
-ушей вухо noun:p:v_rod
-ушам вухо noun:p:v_dav
-ушима вухо noun:p:v_oru
-ушах вухо noun:p:v_mis
+уші вухо noun:gnp:v_naz/v_zna
+ушей вухо noun:gnp:v_rod
+ушам вухо noun:gnp:v_dav
+ушима вухо noun:gnp:v_oru
+ушах вухо noun:gnp:v_mis
 
-стіп стопа noun:p:v_rod:xp1
+стіп стопа noun:gfp:v_rod:xp1
 
-воротям ворота noun:p:v_dav:ns
-воротях ворота noun:p:v_mis:ns
+воротям ворота noun:gxp:v_dav:ns
+воротях ворота noun:gxp:v_mis:ns
 
-зморщок зморшка noun:p:v_rod
+зморщок зморшка noun:gfp:v_rod
 
-панове пан noun:p:v_kly:anim
+панове пан noun:gmp:v_kly:anim
 
-чудеса чудо noun:p:v_naz/v_zna:xp2
-чудес чудо noun:p:v_rod:xp2
-чудесам чудо noun:p:v_dav:xp2
-чудесами чудо noun:p:v_oru:xp2
-чудесах чудо noun:p:v_mis:xp2
+чудеса чудо noun:gnp:v_naz/v_zna:xp2
+чудес чудо noun:gnp:v_rod:xp2
+чудесам чудо noun:gnp:v_dav:xp2
+чудесами чудо noun:gnp:v_oru:xp2
+чудесах чудо noun:gnp:v_mis:xp2
 
 # давні форми
-бельмеса бельмеса noun:m:v_rod
-язицех язик noun:p:v_mis
+бельмеса бельмеса noun:gms:v_rod
+язицех язик noun:gmp:v_mis
 
-давніх-давен давніх-давен noun:p:v_rod:ns
+давніх-давен давніх-давен noun:gxp:v_rod:ns
 
-Руси Русь noun:f:v_rod:prop:alt
-роб роб noun:m:v_naz/v_zna
-робом роб noun:m:v_oru
+Руси Русь noun:gfs:v_rod:prop:alt
+роб роб noun:gms:v_naz/v_zna
+робом роб noun:gms:v_oru
 
-кінця-краю кінця-краю noun:m:v_rod
-предку-віку предку-віку noun:m:v_zna
+кінця-краю кінця-краю noun:gms:v_rod
+предку-віку предку-віку noun:gms:v_zna
 
-галай-балай галай-балай noun:m:v_naz/v_zna
+галай-балай галай-балай noun:gms:v_naz/v_zna
 усюди /np2 /np1
 
 ван ван part:pers
@@ -511,23 +511,23 @@
 фон фон part:pers
 бен бен part:pers
 
-Ростов-на-Дону Ростов-на-Дону noun:inanim:m:v_naz:prop
-Ростова-на-Дону Ростов-на-Дону noun:inanim:m:v_rod:prop
-Ростову-на-Дону Ростов-на-Дону noun:inanim:m:v_dav:prop
-Ростов-на-Дону Ростов-на-Дону noun:inanim:m:v_zna:prop
-Ростовом-на-Дону Ростов-на-Дону noun:inanim:m:v_oru:prop
-Ростові-на-Дону Ростов-на-Дону noun:inanim:m:v_mis:prop
-Ростову-на-Дону Ростов-на-Дону noun:inanim:m:v_mis:prop
-Ростове-на-Дону Ростов-на-Дону noun:inanim:m:v_kly:prop
+Ростов-на-Дону Ростов-на-Дону noun:gms:v_naz:prop
+Ростова-на-Дону Ростов-на-Дону noun:gms:v_rod:prop
+Ростову-на-Дону Ростов-на-Дону noun:gms:v_dav:prop
+Ростов-на-Дону Ростов-на-Дону noun:gms:v_zna:prop
+Ростовом-на-Дону Ростов-на-Дону noun:gms:v_oru:prop
+Ростові-на-Дону Ростов-на-Дону noun:gms:v_mis:prop
+Ростову-на-Дону Ростов-на-Дону noun:gms:v_mis:prop
+Ростове-на-Дону Ростов-на-Дону noun:gms:v_kly:prop
 
-Франкфурт-на-Майні Франкфурт-на-Майні noun:inanim:m:v_naz:prop
-Франкфурта-на-Майні Франкфурт-на-Майні noun:inanim:m:v_rod:prop
-Франкфурту-на-Майні Франкфурт-на-Майні noun:inanim:m:v_dav:prop
-Франкфурт-на-Майні Франкфурт-на-Майні noun:inanim:m:v_zna:prop
-Франкфуртом-на-Майні Франкфурт-на-Майні noun:inanim:m:v_oru:prop
-Франкфурті-на-Майні Франкфурт-на-Майні noun:inanim:m:v_mis:prop
-Франкфурту-на-Майні Франкфурт-на-Майні noun:inanim:m:v_mis:prop
-Франкфурте-на-Майні Франкфурт-на-Майні noun:inanim:m:v_kly:prop
+Франкфурт-на-Майні Франкфурт-на-Майні noun:gms:v_naz:prop
+Франкфурта-на-Майні Франкфурт-на-Майні noun:gms:v_rod:prop
+Франкфурту-на-Майні Франкфурт-на-Майні noun:gms:v_dav:prop
+Франкфурт-на-Майні Франкфурт-на-Майні noun:gms:v_zna:prop
+Франкфуртом-на-Майні Франкфурт-на-Майні noun:gms:v_oru:prop
+Франкфурті-на-Майні Франкфурт-на-Майні noun:gms:v_mis:prop
+Франкфурту-на-Майні Франкфурт-на-Майні noun:gms:v_mis:prop
+Франкфурте-на-Майні Франкфурт-на-Майні noun:gms:v_kly:prop
 
 
 
@@ -537,168 +537,168 @@
 # !verb
 
 бути бути verb:inf:imperf
-буду бути verb:futr:s:1:imperf
-будеш бути verb:futr:s:2:imperf
-буде бути verb:futr:s:3:imperf
-будемо бути verb:futr:p:1:imperf
-будем бути verb:futr:p:1:imperf
-будете бути verb:futr:p:2:imperf
-будуть бути verb:futr:p:3:imperf
-є бути verb:pres:p:1/2/3:imperf
-є бути verb:pres:s:1/2/3:imperf
-єсть бути verb:pres:p:1/2/3:imperf:&predic:rare
-єсть бути verb:pres:s:1/2/3:imperf:&predic:rare
-єси бути verb:pres:s:2:imperf:rare
-суть бути verb:pres:p:3:imperf:rare
-був бути verb:past:m:imperf
-була бути verb:past:f:imperf
-було бути verb:past:n:imperf:&insert
-були бути verb:past:p:imperf
-будь бути verb:impr:s:2:imperf
-будьмо бути verb:impr:p:2:imperf
-будьте бути verb:impr:p:3:imperf
+буду бути verb:futr:g1s:imperf
+будеш бути verb:futr:g2s:imperf
+буде бути verb:futr:g3s:imperf
+будемо бути verb:futr:g1p:imperf
+будем бути verb:futr:g1p:imperf
+будете бути verb:futr:g2p:imperf
+будуть бути verb:futr:g3p:imperf
+є бути verb:pres:g1p/g2p/g3p:imperf
+є бути verb:pres:g1s/g2s/g3s:imperf
+єсть бути verb:pres:g1p/g2p/g3p:imperf:&predic:rare
+єсть бути verb:pres:g1s/g2s/g3s:imperf:&predic:rare
+єси бути verb:pres:g2s:imperf:rare
+суть бути verb:pres:g3p:imperf:rare
+був бути verb:past:gms:imperf
+була бути verb:past:gfs:imperf
+було бути verb:past:gns:imperf:&insert
+були бути verb:past:gop:imperf
+будь бути verb:impr:g2s:imperf
+будьмо бути verb:impr:g2p:imperf
+будьте бути verb:impr:g3p:imperf
 бувши бути advp:imperf
 
-бува бувати verb:imperf:pres:s:3:&insert:coll
+бува бувати verb:imperf:pres:g3s:&insert:coll
 
 пробути пробути verb:inf:perf
-пробуду пробути verb:futr:s:1:perf
-пробудеш пробути verb:futr:s:2:perf
-пробуде пробути verb:futr:s:3:perf
-пробудемо пробути verb:futr:p:1:perf
-пробудем пробути verb:futr:p:1:perf
-пробудете пробути verb:futr:p:2:perf
-пробудуть пробути verb:futr:p:3:perf
-пробув пробути verb:past:m:perf
-пробула пробути verb:past:f:perf
-пробуло пробути verb:past:n:perf
-пробули пробути verb:past:p:perf
-пробудь пробути verb:impr:s:2:perf
-пробудьмо пробути verb:impr:p:2:perf
-пробудьте пробути verb:impr:p:3:perf
+пробуду пробути verb:futr:g1s:perf
+пробудеш пробути verb:futr:g2s:perf
+пробуде пробути verb:futr:g3s:perf
+пробудемо пробути verb:futr:g1p:perf
+пробудем пробути verb:futr:g1p:perf
+пробудете пробути verb:futr:g2p:perf
+пробудуть пробути verb:futr:g3p:perf
+пробув пробути verb:past:gms:perf
+пробула пробути verb:past:gfs:perf
+пробуло пробути verb:past:gns:perf
+пробули пробути verb:past:gop:perf
+пробудь пробути verb:impr:g2s:perf
+пробудьмо пробути verb:impr:g2p:perf
+пробудьте пробути verb:impr:g3p:perf
 пробувши пробути advp:perf
 
-боронь боронити verb:impr:s:2:imperf:coll
+боронь боронити verb:impr:g2s:imperf:coll
 
 # паралельна: кляну - клену
-кленім клясти verb:impr:p:1:imperf:rare
-кленімо клясти verb:impr:p:1:imperf:rare
-кленіть клясти verb:impr:p:2:imperf:rare
-клену клясти verb:pres:s:1:imperf:rare
-кленеш клясти verb:pres:s:2:imperf:rare
-клене клясти verb:pres:s:3:imperf:rare
-кленем клясти verb:pres:p:1:imperf:rare
-кленемо клясти verb:pres:p:1:imperf:rare
-кленете клясти verb:pres:p:2:imperf:rare
-кленуть клясти verb:pres:p:3:imperf:rare
+кленім клясти verb:impr:g1p:imperf:rare
+кленімо клясти verb:impr:g1p:imperf:rare
+кленіть клясти verb:impr:g2p:imperf:rare
+клену клясти verb:pres:g1s:imperf:rare
+кленеш клясти verb:pres:g2s:imperf:rare
+клене клясти verb:pres:g3s:imperf:rare
+кленем клясти verb:pres:g1p:imperf:rare
+кленемо клясти verb:pres:g1p:imperf:rare
+кленете клясти verb:pres:g2p:imperf:rare
+кленуть клясти verb:pres:g3p:imperf:rare
 кленучи клясти advp:imperf
 
 
 хтітися хтітися verb:rev:imperf:inf
 хтітись хтітися verb:rev:imperf:inf
-хочеться хтітися verb:rev:imperf:pres:s:3
-хтітиметься хтітися verb:rev:imperf:futr:s:3
-хтілось хтітися verb:rev:imperf:past:n
-хтілося хтітися verb:rev:imperf:past:n
+хочеться хтітися verb:rev:imperf:pres:g3s
+хтітиметься хтітися verb:rev:imperf:futr:g3s
+хтілось хтітися verb:rev:imperf:past:gns
+хтілося хтітися verb:rev:imperf:past:gns
 
 хтівши хтівши advp:imperf
 
 хтіти хтіти verb:imperf:inf
-хоти хтіти verb:imperf:impr:s:2
-хотім хтіти verb:imperf:impr:p:1
-хотімо хтіти verb:imperf:impr:p:1
-хотіть хтіти verb:imperf:impr:p:2
-хочу хтіти verb:imperf:pres:s:1
-хочеш хтіти verb:imperf:pres:s:2
-хоче хтіти verb:imperf:pres:s:3
-хочем хтіти verb:imperf:pres:p:1
-хочемо хтіти verb:imperf:pres:p:1
-хочете хтіти verb:imperf:pres:p:2
-хочуть хтіти verb:imperf:pres:p:3
-хтітиму хтіти verb:imperf:futr:s:1
-хтітимеш хтіти verb:imperf:futr:s:2
-хтітиме хтіти verb:imperf:futr:s:3
-хтітимем хтіти verb:imperf:futr:p:1
-хтітимемо хтіти verb:imperf:futr:p:1
-хтітимете хтіти verb:imperf:futr:p:2
-хтітимуть хтіти verb:imperf:futr:p:3
-хтів хтіти verb:imperf:past:m
-хтіла хтіти verb:imperf:past:f
-хтіло хтіти verb:imperf:past:n
-хтіли хтіти verb:imperf:past:p
+хоти хтіти verb:imperf:impr:g2s
+хотім хтіти verb:imperf:impr:g1p
+хотімо хтіти verb:imperf:impr:g1p
+хотіть хтіти verb:imperf:impr:g2p
+хочу хтіти verb:imperf:pres:g1s
+хочеш хтіти verb:imperf:pres:g2s
+хоче хтіти verb:imperf:pres:g3s
+хочем хтіти verb:imperf:pres:g1p
+хочемо хтіти verb:imperf:pres:g1p
+хочете хтіти verb:imperf:pres:g2p
+хочуть хтіти verb:imperf:pres:g3p
+хтітиму хтіти verb:imperf:futr:g1s
+хтітимеш хтіти verb:imperf:futr:g2s
+хтітиме хтіти verb:imperf:futr:g3s
+хтітимем хтіти verb:imperf:futr:g1p
+хтітимемо хтіти verb:imperf:futr:g1p
+хтітимете хтіти verb:imperf:futr:g2p
+хтітимуть хтіти verb:imperf:futr:g3p
+хтів хтіти verb:imperf:past:gms
+хтіла хтіти verb:imperf:past:gfs
+хтіло хтіти verb:imperf:past:gns
+хтіли хтіти verb:imperf:past:gop
 
 
 # наказна фома є зайвою - не має сенсу значно ускладнювати правила???
 могти могти verb:inf:imperf             # rv_inf
-можу могти verb:pres:s:1:imperf
-можеш могти verb:pres:s:2:imperf
-може могти verb:pres:s:3:imperf:&insert
-можем могти verb:pres:p:1:imperf:subst
-можемо могти verb:pres:p:1:imperf
-можете могти verb:pres:p:2:imperf
-можуть могти verb:pres:p:3:imperf
-міг могти verb:past:m:imperf
-могла могти verb:past:f:imperf
-могло могти verb:past:n:imperf
-могли могти verb:past:p:imperf
-могтиму могти verb:imperf:futr:s:1
-могтимеш могти verb:imperf:futr:s:2
-могтиме могти verb:imperf:futr:s:3
-могтимем могти verb:imperf:futr:p:1
-могтимемо могти verb:imperf:futr:p:1
-могтимете могти verb:imperf:futr:p:2
-могтимуть могти verb:imperf:futr:p:3
+можу могти verb:pres:g1s:imperf
+можеш могти verb:pres:g2s:imperf
+може могти verb:pres:g3s:imperf:&insert
+можем могти verb:pres:g1p:imperf:subst
+можемо могти verb:pres:g1p:imperf
+можете могти verb:pres:g2p:imperf
+можуть могти verb:pres:g3p:imperf
+міг могти verb:past:gms:imperf
+могла могти verb:past:gfs:imperf
+могло могти verb:past:gns:imperf
+могли могти verb:past:gop:imperf
+могтиму могти verb:imperf:futr:g1s
+могтимеш могти verb:imperf:futr:g2s
+могтиме могти verb:imperf:futr:g3s
+могтимем могти verb:imperf:futr:g1p
+могтимемо могти verb:imperf:futr:g1p
+могтимете могти verb:imperf:futr:g2p
+могтимуть могти verb:imperf:futr:g3p
 можучи могти advp:imperf
 мігши могти advp:imperf
 
 # лише наказова
-щасти щастити verb:imperf:impr:s:2
+щасти щастити verb:imperf:impr:g2s
 
 ввити ввити verb:inf:perf
-ввий ввити verb:impr:s:2:perf
-ввиймо ввити verb:impr:p:1:perf
-ввийте ввити verb:impr:p:2:perf
-ввию ввити verb:futr:s:1:perf
-ув'ю ввити verb:futr:s:1:perf
-ув'єш ввити verb:futr:s:2:perf
-ув'є ввити verb:futr:s:3:perf
-ув'єм ввити verb:futr:p:1:perf
-ув'ємо ввити verb:futr:p:1:perf
-ув'єте ввити verb:futr:p:2:perf
-ув'ють ввити verb:futr:p:3:perf
-ввив ввити verb:past:m:perf
-ввила ввити verb:past:f:perf
-ввило ввити verb:past:n:perf
-ввили ввити verb:past:p:perf
+ввий ввити verb:impr:g2s:perf
+ввиймо ввити verb:impr:g1p:perf
+ввийте ввити verb:impr:g2p:perf
+ввию ввити verb:futr:g1s:perf
+ув'ю ввити verb:futr:g1s:perf
+ув'єш ввити verb:futr:g2s:perf
+ув'є ввити verb:futr:g3s:perf
+ув'єм ввити verb:futr:g1p:perf
+ув'ємо ввити verb:futr:g1p:perf
+ув'єте ввити verb:futr:g2p:perf
+ув'ють ввити verb:futr:g3p:perf
+ввив ввити verb:past:gms:perf
+ввила ввити verb:past:gfs:perf
+ввило ввити verb:past:gns:perf
+ввили ввити verb:past:gop:perf
 ввивши ввити advp:perf
 ввито ввити verb:impers:perf
 
 ввитися ввитися verb:rev:inf:perf
 ввитись ввитися verb:rev:inf:perf
-ввийсь ввитися verb:rev:impr:s:2:perf
-ввийся ввитися verb:rev:impr:s:2:perf
-ввиймось ввитися verb:rev:impr:p:1:perf
-ввиймося ввитися verb:rev:impr:p:1:perf
-ввийтесь ввитися verb:rev:impr:p:2:perf
-ввийтеся ввитися verb:rev:impr:p:2:perf
-ув'юся ввитися verb:rev:futr:s:1:perf
-ув'юсь ввитися verb:rev:futr:s:1:perf
-ув'єшся ввитися verb:rev:futr:s:2:perf
-ув'ється ввитися verb:rev:futr:s:3:perf
-ув'ємся ввитися verb:rev:futr:p:1:perf
-ув'ємося ввитися verb:rev:futr:p:1:perf
-ув'ємось ввитися verb:rev:futr:p:1:perf
-ув'єтеся ввитися verb:rev:futr:p:2:perf
-ув'єтесь ввитися verb:rev:futr:p:2:perf
-ув'ються ввитися verb:rev:futr:p:3:perf
-ввивсь ввитися verb:rev:past:m:perf
-ввився ввитися verb:rev:past:m:perf
-ввилась ввитися verb:rev:past:f:perf
-ввилася ввитися verb:rev:past:f:perf
-ввилось ввитися verb:rev:past:n:perf
-ввилося ввитися verb:rev:past:n:perf
-ввились ввитися verb:rev:past:p:perf
-ввилися ввитися verb:rev:past:p:perf
+ввийсь ввитися verb:rev:impr:g2s:perf
+ввийся ввитися verb:rev:impr:g2s:perf
+ввиймось ввитися verb:rev:impr:g1p:perf
+ввиймося ввитися verb:rev:impr:g1p:perf
+ввийтесь ввитися verb:rev:impr:g2p:perf
+ввийтеся ввитися verb:rev:impr:g2p:perf
+ув'юся ввитися verb:rev:futr:g1s:perf
+ув'юсь ввитися verb:rev:futr:g1s:perf
+ув'єшся ввитися verb:rev:futr:g2s:perf
+ув'ється ввитися verb:rev:futr:g3s:perf
+ув'ємся ввитися verb:rev:futr:g1p:perf
+ув'ємося ввитися verb:rev:futr:g1p:perf
+ув'ємось ввитися verb:rev:futr:g1p:perf
+ув'єтеся ввитися verb:rev:futr:g2p:perf
+ув'єтесь ввитися verb:rev:futr:g2p:perf
+ув'ються ввитися verb:rev:futr:g3p:perf
+ввивсь ввитися verb:rev:past:gms:perf
+ввився ввитися verb:rev:past:gms:perf
+ввилась ввитися verb:rev:past:gfs:perf
+ввилася ввитися verb:rev:past:gfs:perf
+ввилось ввитися verb:rev:past:gns:perf
+ввилося ввитися verb:rev:past:gns:perf
+ввились ввитися verb:rev:past:gop:perf
+ввилися ввитися verb:rev:past:gop:perf
 ввившись ввитися advp:rev:perf
 
 в'ючи вити advp:imperf
@@ -710,93 +710,93 @@
 розіп'ято розіп'ясти verb:perf:impers
 
 
-властен властен adj:m:v_naz/v_zn2:short         # rv_inf
-властного властен adj:m:v_rod
-властному властен adj:m:v_dav
-властного властен adj:m:v_zna:ranim
-властний властен adj:m:v_zna:rinanim
-властним властен adj:m:v_oru
-властнім властен adj:m:v_mis
-властному властен adj:m:v_mis
-властний властен adj:m:v_kly
-властна властен adj:f:v_naz
-властної властен adj:f:v_rod
-властній властен adj:f:v_dav
-властну властен adj:f:v_zna
-властною властен adj:f:v_oru
-властній властен adj:f:v_mis
-властна властен adj:f:v_kly
-властне властен adj:n:v_naz
-властного властен adj:n:v_rod
-властному властен adj:n:v_dav
-властне властен adj:n:v_zna
-властним властен adj:n:v_oru
-властнім властен adj:n:v_mis
-властному властен adj:n:v_mis
-властне властен adj:n:v_kly
-властні властен adj:p:v_naz
-властних властен adj:p:v_rod
-властним властен adj:p:v_dav
-властних властен adj:p:v_zna:ranim
-властні властен adj:p:v_zna:rinanim
-властними властен adj:p:v_oru
-властних властен adj:p:v_mis
-властні властен adj:p:v_kly
+властен властен adj:gms:v_naz/v_zn2:short         # rv_inf
+властного властен adj:gms:v_rod
+властному властен adj:gms:v_dav
+властного властен adj:gms:v_zna:ranim
+властний властен adj:gms:v_zna:rinanim
+властним властен adj:gms:v_oru
+властнім властен adj:gms:v_mis
+властному властен adj:gms:v_mis
+властний властен adj:gms:v_kly
+властна властен adj:gfs:v_naz
+властної властен adj:gfs:v_rod
+властній властен adj:gfs:v_dav
+властну властен adj:gfs:v_zna
+властною властен adj:gfs:v_oru
+властній властен adj:gfs:v_mis
+властна властен adj:gfs:v_kly
+властне властен adj:gns:v_naz
+властного властен adj:gns:v_rod
+властному властен adj:gns:v_dav
+властне властен adj:gns:v_zna
+властним властен adj:gns:v_oru
+властнім властен adj:gns:v_mis
+властному властен adj:gns:v_mis
+властне властен adj:gns:v_kly
+властні властен adj:gop:v_naz
+властних властен adj:gop:v_rod
+властним властен adj:gop:v_dav
+властних властен adj:gop:v_zna:ranim
+властні властен adj:gop:v_zna:rinanim
+властними властен adj:gop:v_oru
+властних властен adj:gop:v_mis
+властні властен adj:gop:v_kly
 
 
 # короткі прикметники
-безвинен безвинний adj:m:v_naz/v_zn2:short
-благословен благословенний adj:m:v_naz/v_zn2:short
-блажен блаженний adj:m:v_naz/v_zn2:short
-варт вартий adj:m:v_naz:short:&predic
-варт вартий adj:m:v_zn2:short
-винен винний adj:m:v_naz/v_zn2:short
-вістен вістний adj:m:v_naz/v_zn2:short:rare
-годен годний adj:m:v_naz/v_zn2:short:coll
-дивен дивний adj:m:v_naz/v_zn2:short
-достоїн достойний adj:m:v_naz/v_zn2:short
-дрібен дрібний adj:m:v_naz/v_zn2:short
-єхиден єхидний adj:m:v_naz/v_zn2:short
-жаден жадний adj:m:v_naz/v_zn2:short:rare:&pron:neg
-жив живий adj:m:v_naz/v_zn2:short
-жоден жодний adj:m:v_naz/v_zn2:short:&pron:neg
-звістен звісний adj:m:v_naz/v_zn2:short
-згоден згодний adj:m:v_naz/v_zn2:short
-здатен здатний adj:m:v_naz/v_zn2:short
-здоров здоровий adj:m:v_naz/v_zn2:short
-зелен зелений adj:m:v_naz/v_zn2:short
-золот золотий adj:m:v_naz/v_zn2:short
-кожен кожний adj:m:v_naz/v_zn2:short:&pron:gen
-кожен кожний noun:anim:m:v_naz:short:&pron:gen
-кожен кожний noun:inanim:m:v_naz/v_zna:short:&pron:gen
-красен красний adj:m:v_naz/v_zn2:short
-ладен ладний adj:m:v_naz/v_zn2:short
-молод молодий adj:m:v_naz/v_zn2:short
-невинен невинний adj:m:v_naz/v_zn2:short
-негоден негідний adj:m:v_naz:short:&predic
-негоден негідний adj:m:v_zn2:short
-незгоден незгодний adj:m:v_naz/v_zn2:short
-неладен неладний adj:m:v_naz/v_zn2:short
-немощен немощний adj:m:v_naz/v_zn2:short
-ненавиден ненавидний adj:m:v_naz/v_zn2:short
-ненавистен ненависний adj:m:v_naz/v_zn2:short
-певен певний adj:m:v_naz/v_zn2:short
-повен повний adj:m:v_naz/v_zn2:short
-повинен повинний adj:m:v_naz/v_zn2:short
-потрібен потрібний adj:m:v_naz/v_zn2:short
-прекрасен прекрасний adj:m:v_naz/v_zn2:short
-привинен привинний adj:m:v_naz/v_zn2:short
-провинен провинний adj:m:v_naz/v_zn2:short
-рад радий adj:m:v_naz/v_zn2:short
-рівен рівний adj:m:v_naz/v_zn2:short
-самітен самітний adj:m:v_naz/v_zn2:short
-свят святий adj:m:v_naz/v_zn2:short
-силен сильний adj:m:v_naz/v_zn2:short
-славен славний adj:m:v_naz/v_zn2:short
-смутен смутний adj:m:v_naz/v_zn2:short
-срібен срібний adj:m:v_naz/v_zn2:short
-чорен чорний adj:m:v_naz/v_zn2:short
-ясен ясний adj:m:v_naz/v_zn2:short
+безвинен безвинний adj:gms:v_naz/v_zn2:short
+благословен благословенний adj:gms:v_naz/v_zn2:short
+блажен блаженний adj:gms:v_naz/v_zn2:short
+варт вартий adj:gms:v_naz:short:&predic
+варт вартий adj:gms:v_zn2:short
+винен винний adj:gms:v_naz/v_zn2:short
+вістен вістний adj:gms:v_naz/v_zn2:short:rare
+годен годний adj:gms:v_naz/v_zn2:short:coll
+дивен дивний adj:gms:v_naz/v_zn2:short
+достоїн достойний adj:gms:v_naz/v_zn2:short
+дрібен дрібний adj:gms:v_naz/v_zn2:short
+єхиден єхидний adj:gms:v_naz/v_zn2:short
+жаден жадний adj:gms:v_naz/v_zn2:short:rare:&pron:neg
+жив живий adj:gms:v_naz/v_zn2:short
+жоден жодний adj:gms:v_naz/v_zn2:short:&pron:neg
+звістен звісний adj:gms:v_naz/v_zn2:short
+згоден згодний adj:gms:v_naz/v_zn2:short
+здатен здатний adj:gms:v_naz/v_zn2:short
+здоров здоровий adj:gms:v_naz/v_zn2:short
+зелен зелений adj:gms:v_naz/v_zn2:short
+золот золотий adj:gms:v_naz/v_zn2:short
+кожен кожний adj:gms:v_naz/v_zn2:short:&pron:gen
+кожен кожний noun:anim:gms:v_naz:short:&pron:gen
+кожен кожний noun:inanim:gms:v_naz/v_zna:short:&pron:gen
+красен красний adj:gms:v_naz/v_zn2:short
+ладен ладний adj:gms:v_naz/v_zn2:short
+молод молодий adj:gms:v_naz/v_zn2:short
+невинен невинний adj:gms:v_naz/v_zn2:short
+негоден негідний adj:gms:v_naz:short:&predic
+негоден негідний adj:gms:v_zn2:short
+незгоден незгодний adj:gms:v_naz/v_zn2:short
+неладен неладний adj:gms:v_naz/v_zn2:short
+немощен немощний adj:gms:v_naz/v_zn2:short
+ненавиден ненавидний adj:gms:v_naz/v_zn2:short
+ненавистен ненависний adj:gms:v_naz/v_zn2:short
+певен певний adj:gms:v_naz/v_zn2:short
+повен повний adj:gms:v_naz/v_zn2:short
+повинен повинний adj:gms:v_naz/v_zn2:short
+потрібен потрібний adj:gms:v_naz/v_zn2:short
+прекрасен прекрасний adj:gms:v_naz/v_zn2:short
+привинен привинний adj:gms:v_naz/v_zn2:short
+провинен провинний adj:gms:v_naz/v_zn2:short
+рад радий adj:gms:v_naz/v_zn2:short
+рівен рівний adj:gms:v_naz/v_zn2:short
+самітен самітний adj:gms:v_naz/v_zn2:short
+свят святий adj:gms:v_naz/v_zn2:short
+силен сильний adj:gms:v_naz/v_zn2:short
+славен славний adj:gms:v_naz/v_zn2:short
+смутен смутний adj:gms:v_naz/v_zn2:short
+срібен срібний adj:gms:v_naz/v_zn2:short
+чорен чорний adj:gms:v_naz/v_zn2:short
+ясен ясний adj:gms:v_naz/v_zn2:short
 
 # дієприслівники
 

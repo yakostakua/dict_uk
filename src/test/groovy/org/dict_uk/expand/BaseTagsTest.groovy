@@ -17,7 +17,7 @@ public class BaseTagsTest extends GroovyTestCase {
 	@Test
 	void test() {
 		assert baseTags.get_base_tags("готувати", "v1", "v1", "") == ":inf"
-		assert baseTags.get_base_tags("цирк", "n20", "n20.p", "") == ":m:v_naz/v_zna"
-		assert baseTags.get_base_tags("баба", "n10", "n10.p", "") == ":f:v_naz"
+		assert baseTags.get_base_tags("цирк", "n20", "n20.p", "") == ":gms:v_naz/v_zna"
+		assert baseTags.get_base_tags("баба", "n10", "n10.p", "") == ":gfs:v_naz"
 	}
 }

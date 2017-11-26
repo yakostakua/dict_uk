@@ -3,6 +3,7 @@
 package org.dict_uk.expand
 
 
+import groovy.transform.CompileStatic
 import groovy.transform.TypeChecked
 import java.util.regex.*
 
@@ -14,8 +15,8 @@ import org.slf4j.LoggerFactory
 class ExpandComps {
 	private static final Logger log = LoggerFactory.getLogger(ExpandComps.class);
 
-	private static final Pattern tags_re = Pattern.compile("(.*:)[mfnp]:v_...(.*)")
-	private static final Pattern gen_vidm_pattern = Pattern.compile(":(.:v_...(:r(in)?anim)?)")
+	private static final Pattern tags_re = Pattern.compile("(.*:g)[mfnodx123][sp]:v_...(.*)")
+	private static final Pattern gen_vidm_pattern = Pattern.compile(":g(..:v_...(:r(in)?anim)?)")
 	final Expand expand
 
 
@@ -23,7 +24,7 @@ class ExpandComps {
 		this.expand = expand
 	}
 
-	@TypeChecked
+	@CompileStatic
 	List<DicEntry> matchComps(List<DicEntry> lefts, List<DicEntry> rights, String vMisCheck) {
 		
 		List<DicEntry> outs = []
@@ -44,12 +45,13 @@ class ExpandComps {
 			}
 
 			def vidm = rrr.group(1)
-			if( "mfn".contains(vidm[0]) ) {
-				if( !left_gen )
-					left_gen = vidm[0]
-				else
-				if( left_gen != vidm[0] )
+			if( vidm =~ /^[mfn]s/ ) {
+				if( ! left_gen ) {
+					left_gen = vidm[0..1]
+				} 
+				else if( left_gen != vidm[0..1] ) {
 					mixed_gen = true
+				}
 			}
 			if( ! (vidm in left_v) )
 				left_v[vidm] = []
@@ -68,9 +70,6 @@ class ExpandComps {
 				new DicEntry(left.word+"-"+rights[0].word, left.lemma+"-"+rights[0].word, left.tagStr) 
 			}
 		}
-
-//		println 'xx ' +  lefts[0].tagStr
-//		println "+ " + vMisCheck + " / " + (vMisCheck as boolean)
 		
 		for(DicEntry rn in rights) {
 			def rrr = gen_vidm_pattern.matcher(rn.tagStr)
@@ -80,8 +79,9 @@ class ExpandComps {
 			}
 
 			def vidm = rrr.group(1)
-			if( left_gen != "" && "mfn".contains(vidm[0]) )
-				vidm = left_gen + vidm[1..-1]
+			if( left_gen != "" && vidm =~ /^[mfn]s/ ) {
+				vidm = left_gen + vidm[2..-1]
+			}
 
 			if( !(vidm in left_v) )
 				continue
@@ -90,7 +90,7 @@ class ExpandComps {
 				String w_infl = left_wi + "-" + rn.word
 				String lemma = left_wn + "-" + rn.lemma
 
-				if( vMisCheck && vidm =~ /[nm]:v_mis/ && ! isMascVMisMatch(left_wi, rn.word, vMisCheck) )
+				if( vMisCheck && vidm =~ /[nm]s:v_mis/ && ! isMascVMisMatch(left_wi, rn.word, vMisCheck) )
 					continue
 	
 				String tagStr = tags_re.matcher(left_tags).replaceAll('$1'+vidm+'$2')

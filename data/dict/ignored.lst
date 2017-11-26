@@ -15,8 +15,8 @@
 біґ-борд /n20.a.p
 буйвол /n20.a.p.<>
 вазонок /n22.a.p
-вебсайта вебсайт noun:m:v_rod
-веб-сайта веб-сайт noun:m:v_rod
+вебсайта вебсайт noun:gms:v_rod
+веб-сайта веб-сайт noun:gms:v_rod
 випроменений /adj :&adjp:pasv:perf    # :past
 випроменити /v1.is0.it1 :perf
 випроменитися /vr1 :perf
@@ -26,7 +26,7 @@
 гатунок /n22.p
 гвалтування /n2n.p1
 голівудський /adj
-гратами грати noun:p:v_oru
+гратами грати noun:gxp:v_oru:ns
 гребінь /n22.a.p
 гречний /adj.adv \
  +cs=гречніший
@@ -47,7 +47,7 @@
 електрон-вольт /n20.a.p
 єврокомісія /n10
 європарламент /n20
-Журавно noun:n:v_naz/v_zna
+Журавно noun:gns:v_naz/v_zna
 заввиграшки adv
 загорання /n2n.p1
 загорати /v2.cf.advp :imperf
@@ -62,16 +62,16 @@
 ізотеричний /adj
 іменно adv
 імплатант /n20.a.p
-інвентаря інвентар noun:inanim:m:v_rod          # р.в. архаїчного значення — список
+інвентаря інвентар noun:inanim:gms:v_rod          # р.в. архаїчного значення — список
 інтересно adv:&predic
-КГБ noun:m:nv:np:prop
-колять колоти verb:imperf:pres:p:3
+КГБ noun:gms:nv:np:prop
+колять колоти verb:imperf:pres:g3p
 конкурентноздатний /adj
 конкурентноспроможний /adj
 конкурентноспроможність /n30
 крон-принц /n20.a.p.<
 крон-принцеса /n10.p1.<
-лабет лабети noun:inanim:p:v_rod:ns
+лабет лабети noun:inanim:gxp:v_rod:ns
 леґінь /n20.a.p.<
 Лєнін /n2adj1.ke.<+
 локоть /n22.p
@@ -90,35 +90,35 @@
 обгрунтування /n2n.p1
 обгрунтувати /v1.is0 :perf
 обгрунтуватися /vr1 :perf
-овоча овоч noun:m:v_rod
+овоча овоч noun:gms:v_rod
 ОМОН /n20 :prop:abbr
-основанья основанья noun:n:v_rod
-очків очко noun:inanim:p:v_rod:xp2
-пампушків пампушка noun:inanim:p:v_rod
+основанья основанья noun:gns:v_rod
+очків очко noun:inanim:gnp:v_rod:xp2
+пампушків пампушка noun:inanim:gfp:v_rod
 підгрунтя /n2n
-пластирем пластир noun:inanim:m:v_oru
-посипляться посипатися verb:rev:perf:futr:p:3:xp2
+пластирем пластир noun:inanim:gms:v_oru
+посипляться посипатися verb:rev:perf:futr:g3p:xp2
 прогавити /v1.it0 :perf
 продезинфікований /adj :&adjp:pasv:perf    # :past
 проплата /n10.p1
 проффесор /n20.a.p.ke.<
 п'яніна /n10
-п'яніно noun:n:nv:np
+п'яніно noun:gns:nv:np
 реггі noun:n:nv
 резигнація /n10
-сайта сайт noun:m:v_rod
+сайта сайт noun:gms:v_rod
 самашедший /adj
 секвойя /n10
 серйоз /n20
-сиплються сипатися verb:rev:imperf:pres:p:3
+сиплються сипатися verb:rev:imperf:pres:g3p
 совєти /np2
 совєцький /adj
 совіти /np2
-трафіка трафік noun:m:v_rod
+трафіка трафік noun:gms:v_rod
 Тріполі noun:n:nv:np
 Фейєноорд /n20 :prop
 фортеп'яна /n10.p1
-хабарем хабар noun:inanim:m:v_oru
+хабарем хабар noun:inanim:gms:v_oru
 Ціцерон /n20.a.<+
 Цюріх /n20.a
 Черчілль /n20.a.<+

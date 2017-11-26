@@ -1,5 +1,5 @@
 # див. також http://lib.npu.edu.ua/full_txt/DSTU_3582_2013.pdf
-авт. noun:m:v_naz               # автор, напр. "Сьогодні (у четвер.  Авт.), вранці."
+авт. noun:gms:v_naz             # автор, напр. "Сьогодні (у четвер.  Авт.), вранці."
 акад. noun:anim:m:nv            # академік
 академ. noun:anim:m:nv|adj:nv   # академік, академічний
 амер. adj:nv                    # американський
@@ -14,7 +14,7 @@
 грец. adj:nv
 грецьк. adj:nv
 давньогрец. adj:nv
-див. verb:rev:imperf:impr:s:2   # дивись
+див. verb:rev:imperf:impr:g2s   # дивись
 дод. noun:m:nv                  # додаток
 дол. noun:m:nv                  # долар
 доп. noun:n:nv|adj:nv           # доповнення, доповнений
@@ -30,7 +30,7 @@
 зб. noun:m:nv                   # збірник
 зв. adj:nv
 зовн. adj:nv                    # зовнішній
-ім. noun:n:v_rod                # імені
+ім. noun:gns:v_rod              # імені
 ін. noun:n:nv                   # інше
 ісп. adj:nv                     # іспанський
 іст. adj:nv                     # історичний

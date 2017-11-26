@@ -11,8 +11,9 @@ import groovy.transform.CompileStatic
 
 class AffixUtil {
 	private static final Pattern re_alts_slash = Pattern.compile("([^/]+:)([^:]+)(:[^/]+)?")
-	private static final Pattern re_alts_dbl_slash = Pattern.compile('^(.+?:)((?:.:(?:nv|v_...)(?:/(?:nv|v_...))*)(?://.:(?:nv|v_...)(?:/(?:nv|v_...))*)+)(:[^/]+)?$')
-
+	private static final Pattern re_alts_nv_dbl_slash = Pattern.compile('^(.+?:)([mfn]:nv(?://[mfn]:nv)+)(:[^/]+)?$')
+	private static final Pattern re_alts_dbl_slash = Pattern.compile('^(.+?:)(g..:v_...(?:/v_...)*(?://g..:v_...(?:/v_...)*)+)(:[^/]+)?$')
+	
 	@CompileStatic
 	public static List<DicEntry> expand_alts(List<DicEntry> entries, String splitter) {
 		ArrayList<DicEntry> out = new ArrayList<>();
@@ -31,7 +32,12 @@ class AffixUtil {
 				matcher = re_alts_slash.matcher(tagStr);
 			}
 			else {
-				matcher = re_alts_dbl_slash.matcher(tagStr);
+				if( ":nv" in tagStr ) {
+					matcher = re_alts_nv_dbl_slash.matcher(tagStr);
+				}
+				else {
+					matcher = re_alts_dbl_slash.matcher(tagStr);
+				}
 			}
 
 			if( ! matcher.matches() )
