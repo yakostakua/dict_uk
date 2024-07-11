@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 RUN apt update
 RUN apt install -y openjdk-8-jdk
